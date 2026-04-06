@@ -1,0 +1,161 @@
+/* Base - suelo de oficina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #e8eaed;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Contenedor principal */
+.oficina {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Grilla isométrica */
+.oficina-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 180px);
+    gap: 40px;
+    transform: rotateX(60deg) rotateZ(45deg);
+    transform-style: preserve-3d;
+}
+
+/* Escritorio isométrico */
+.escritorio {
+    position: relative;
+    width: 180px;
+    height: 140px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+/* Superficie del escritorio (tabla) */
+.escritorio-superficie {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 50%, #e8e8e8 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Frente del escritorio (lado oscuro) */
+.escritorio::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: #c0c0c0;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Lado del escritorio */
+.escritorio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 12px;
+    height: 100%;
+    background: #d0d0d0;
+    transform: rotateY(90deg);
+    transform-origin: left;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Hover efecto */
+.escritorio:hover .escritorio-superficie {
+    transform: translateZ(15px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+
+/* Ícono y texto */
+.escritorio-icono {
+    font-size: 36px;
+    margin-bottom: 6px;
+}
+
+.escritorio-nombre {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.escritorio-agente {
+    font-size: 10px;
+    color: #888;
+    margin-top: 2px;
+}
+
+/* Color de acento por escritorio */
+.escritorio[data-color="blue"] .escritorio-superficie { border-left: 4px solid #3498db; }
+.escritorio[data-color="green"] .escritorio-superficie { border-left: 4px solid #2ecc71; }
+.escritorio[data-color="red"] .escritorio-superficie { border-left: 4px solid #e74c3c; }
+.escritorio[data-color="purple"] .escritorio-superficie { border-left: 4px solid #9b59b6; }
+.escritorio[data-color="dark"] .escritorio-superficie { border-left: 4px solid #34495e; }
+.escritorio[data-color="orange"] .escritorio-superficie { border-left: 4px solid #f39c12; }
+.escritorio[data-color="teal"] .escritorio-superficie { border-left: 4px solid #1abc9c; }
+.escritorio[data-color="yellow"] .escritorio-superficie { border-left: 4px solid #f1c40f; }
+.escritorio[data-color="gray"] .escritorio-superficie { border-left: 4px solid #95a5a6; }
+.escritorio[data-color="emerald"] .escritorio-superficie { border-left: 4px solid #27ae60; }
+
+/* Silla decorativa */
+.silla {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%) translateZ(5px);
+    width: 50px;
+    height: 50px;
+    background: #d4d4d4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+    .oficina-grid {
+        grid-template-columns: repeat(3, 200px);
+    }
+}
+
+@media (max-width: 850px) {
+    .oficina-grid {
+        grid-template-columns: repeat(2, 200px);
+        transform: rotateX(60deg) rotateZ(45deg) scale(0.8);
+    }
+}

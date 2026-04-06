@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Virtual - Mantenimiento Godrej</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            min-height: 100vh;
+            background: #1a1a2e;
+        }
+        .oficina-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .oficina-img {
+            max-width: 100%;
+            max-height: 100vh;
+            object-fit: contain;
+        }
+        /* Hotspot isométrico */
+        .hotspot {
+            position: absolute;
+            width: 3%;
+            height: 5%;
+            background: rgba(231, 76, 60, 0.3);
+            border: 2px solid #e74c3c;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            transform: rotateX(60deg) rotateZ(-45deg);
+        }
+        .hotspot:hover {
+            background: rgba(231, 76, 60, 0.6);
+            box-shadow: 0 0 20px rgba(231, 76, 60, 0.8);
+        }
+        
+        /* Panel desplegable */
+        .panel {
+            position: fixed;
+            top: 0;
+            right: -450px;
+            width: 450px;
+            height: 100vh;
+            background: #f5f7fa;
+            box-shadow: -5px 0 20px rgba(0,0,0,0.3);
+            transition: right 0.4s ease;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        .panel.activo {
+            right: 0;
+        }
+        .panel-header {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+        }
+        .panel-header h2 {
+            font-size: 22px;
+        }
+        .panel-header .subtitulo {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        .panel-cerrar {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .panel-contenido {
+            padding: 20px;
+        }
+        
+        /* KPI Cards */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .kpi-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .kpi-card .valor {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .kpi-card .label {
+            font-size: 11px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+        }
+        .kpi-card .agente-or{
+                font-size: 10px;
+                color: #95a5a6;
+                margin-top: 3px;
+            }
+        .kpi-card.alerta .valor { color: #f39c12; }
+        .kpi-card.malo .valor { color: #e74c3c; }
+        .kpi-card .agente-or {
+            font-size: 10px;
+            color: #95a5a6;
+            margin-top: 3px;
+        }
+        
+        /* Secciones */
+        .seccion {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .seccion h3 {
+            font-size: 14px;
+            color: #34495e;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+        .seccion ul {
+            list-style: none;
+        }
+        .seccion li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+        .seccion li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Página principal -->
+    <div class="oficina-container">
+        <img src="Gemini_Generated_Image_yz5dbnyz5dbnyz5d.png" class="oficina-img">
+        
+        <!-- Hotspots sobre cada escritorio -->
+        <div class="hotspot" style="top: 15%; right: 70%;" onclick="abrirPanel('jefe')"></div>
+    </div>
+    
+    <!-- Panel Jefe de Mantenimiento -->
+    <div class="panel" id="panel-jefe">
+        <button class="panel-cerrar" onclick="cerrarPanel()">&times;</button>
+        <div class="panel-header">
+            <h2>👔 Jefe de Mantenimiento</h2>
+            <div class="subtitulo">Barrito</div>
+        </div>
+        <div class="panel-contenido">
+            
+            <!-- KPIs principales -->
+            <div class="kpi-grid">
+                <div class="kpi-card bueno">
+                    <div class="valor">94.2%</div>
+                    <div class="label">Disponibilidad</div>
+                    <div class="agente-or">📊 Tablero KPIs</div>
+                </div>
+                <div class="kpi-card alerta">
+                    <div class="valor">4.5h</div>
+                    <div class="label">MTTR promedio</div>
+                    <div class="agente-or">📊 Tablero KPIs</div>
+                </div>
+                <div class="kpi-card bueno">
+                    <div class="valor">156h</div>
+                    <div class="label">MTBF</div>
+                    <div class="agente-or">📊 Tablero KPIs</div>
+                </div>
+                <div class="kpi-card malo">
+                    <div class="valor">12</div>
+                    <div class="label">OTs abiertas</div>
+                    <div class="agente-or">🔧 Programador</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">$45,230</div>
+                    <div class="label">Gasto diario</div>
+                    <div class="agente-or">💰 Contador $</div>
+                </div>
+                <div class="kpi-card alerta">
+                    <div class="valor">$892,450</div>
+                    <div class="label">Gasto acumulado</div>
+                    <div class="agente-or">💰 Contador $</div>
+                </div>
+            </div>
+            
+            <!-- Pendientes -->
+            <div class="seccion">
+                <h3>📋 Pendientes de hoy</h3>
+                <ul>
+                    <li>• Revisar OTs críticas pendientes <span style="color:#95a5a6;font-size:11px">(🔧 Programador)</span></li>
+                    <li>• Aprobar pedido de repuestos <span style="color:#95a5a6;font-size:11px">(📦 Pañolero)</span></li>
+                    <li>• Reunión con Producción 14hs <span style="color:#95a5a6;font-size:11px">(👀 Supervisor)</span></li>
+                    <li>• Informe mensual de KPIs <span style="color:#95a5a6;font-size:11px">(📊 Tablero KPIs)</span></li>
+                    <li>• Analizar falla bomba P-102 <span style="color:#95a5a6;font-size:11px">(📋 Analista)</span></li>
+                    <li>• Verificar gasto de energía <span style="color:#95a5a6;font-size:11px">(🔌 Servicios)</span></li>
+                </ul>
+            </div>
+            
+            <!-- OTs críticas -->
+            <div class="seccion">
+                <h3>⚠️ OTs Críticas <span style="color:#95a5a6;font-size:12px;font-weight:normal">(🔧 Programador)</span></h3>
+                <ul>
+                    <li>• OT-2341: Envasadora L2 (en proceso)</li>
+                    <li>• OT-2356: Compresor aire (pendiente)</li>
+                    <li>• OT-2360: Bomba P-102 (pendiente)</li>
+                </ul>
+            </div>
+            
+            <!-- Equipo -->
+            <div class="seccion">
+                <h3>👥 Equipo presente <span style="color:#95a5a6;font-size:12px;font-weight:normal">(👀 Supervisor)</span></h3>
+                <ul>
+                    <li>• Turno mañana: 4 técnicos ✓</li>
+                    <li>• Turno tarde: 2 técnicos ✓</li>
+                    <li>• Turno noche: 1 técnico ✓</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="data.js"></script>
+    <script>
+        function abrirPanel(escritorio) {
+            document.getElementById('panel-' + escritorio).classList.add('activo');
+        }
+        function cerrarPanel() {
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('activo'));
+        }
+    </script>
+</body>
+</html>
