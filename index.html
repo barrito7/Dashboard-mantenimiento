@@ -333,7 +333,7 @@
             <span class="emoji">🏗️</span>
             <span class="nombre">Edilicio</span>
         </div>
-        <div class="asistente-item" style="opacity: 0.5;" title="Próximamente">
+        <div class="asistente-item" onclick="abrirPanel('contador')">
             <span class="emoji">💰</span>
             <span class="nombre">Contador</span>
         </div>
@@ -548,6 +548,112 @@
                     <li>• Rodamiento 6205 x 3 (OT-2341)</li>
                     <li>• Aceite Shell 68 x 20L (Preventivo)</li>
                     <li>• Faja transportadora x 2m (OT-2356)</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Panel Contador -->
+    <div class="panel" id="panel-contador">
+        <button class="panel-cerrar" onclick="cerrarPanel()">&times;</button>
+        <div class="panel-header" style="background: #27ae60;">
+            <h2>💰 Contador</h2>
+            <div class="subtitulo">Control de gastos y presupuesto</div>
+            <button class="btn-agente" onclick="abrirAgente('contador')">🤖 Abrir agente</button>
+        </div>
+        <div class="panel-contenido">
+            
+            <!-- KPIs del Contador -->
+            <div class="kpi-grid">
+                <div class="kpi-card alerta">
+                    <div class="valor">$892,450</div>
+                    <div class="label">Gasto acumulado abril</div>
+                    <div class="agente-or">78% del presupuesto</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">$1,150,000</div>
+                    <div class="label">Presupuesto abril</div>
+                    <div class="agente-or">Mensual</div>
+                </div>
+                <div class="kpi-card bueno">
+                    <div class="valor">$45,230</div>
+                    <div class="label">Gasto día anterior</div>
+                    <div class="agente-or">07/04/2026</div>
+                </div>
+                <div class="kpi-card malo">
+                    <div class="valor">5</div>
+                    <div class="label">OCs pendientes</div>
+                    <div class="agente-or">Por recibir en abril</div>
+                </div>
+            </div>
+            
+            <!-- Proyección de gastos -->
+            <div class="seccion seccion-full">
+                <h3>📊 Proyección de gastos</h3>
+                <ul>
+                    <li><strong>Gasto acumulado:</strong> $892,450</li>
+                    <li><strong>OCs pendientes:</strong> $127,800 (5 órdenes)</li>
+                    <li><strong>OTs proyectadas:</strong> $85,000 (estimado)</li>
+                    <li style="border-top: 2px solid #e74c3c; padding-top: 12px; margin-top: 8px;"><strong style="color: #e74c3c;">Proyección total: $1,105,250</strong> (96% del presupuesto)</li>
+                </ul>
+            </div>
+            
+            <!-- Acciones recomendadas -->
+            <div class="seccion seccion-full">
+                <h3>✅ Acciones recomendadas</h3>
+                <ul>
+                    <li><strong>Revisar:</strong> OC-4521 ($45,000) - Rodamientos importados</li>
+                    <li><strong>Seguimiento:</strong> Pedir actualización de gastos a Supervisión</li>
+                    <li><strong>Alerta:</strong> Presupuesto al 78% - revisar con Jefe</li>
+                </ul>
+            </div>
+            
+            <!-- Chat con el agente -->
+            <div class="seccion seccion-full chat-zone">
+                <h3>💬 Chat con el agente</h3>
+                <div class="chat-messages">
+                    <div class="chat-msg agente">Hola, el presupuesto va al 78%. Hay 5 OCs pendientes por $127,800. ¿Querés ver el desglose por categoría?</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Escribí un mensaje..." disabled>
+                    <button disabled>Enviar</button>
+                </div>
+            </div>
+            
+            <!-- Gastos por categoría -->
+            <div class="seccion">
+                <h3>💵 Gastos por categoría</h3>
+                <ul>
+                    <li>• Repuestos: $425,000 (85% del presup.)</li>
+                    <li>• Mano de obra: $289,450 (97% del presup.)</li>
+                    >li>• Servicios: $142,000 (95% del presup.)</li>
+                    <li>• Varios: $36,000 (72% del presup.)</li>
+                </ul>
+            </div>
+            
+            <!-- OCs pendientes -->
+            <div class="seccion">
+                <h3>📦 Órdenes de compra pendientes</h3>
+                <ul>
+                    <li>• OC-4518: Filtros - $12,500 (3 días)</li>
+                    <li>• OC-4519: Sellos - $8,200 (5 días)</li>
+                    <li>• OC-4520: Lubricantes - $15,300 (7 días)</li>
+                    <li>• OC-4521: Rodamientos - $45,000 (14 días)</li>
+                    <li>• OC-4522: Repuestos varios - $46,800 (21 días)</li>
+                </ul>
+            </div>
+            
+            <!-- Histórico mensual -->
+            <div class="seccion">
+                <h3>📅 Gasto vs Presupuesto (últimos 6 meses)</h3>
+                <ul>
+                    <li>• Nov 2025: $980,000 / $1,000,000 (98%)</li>
+                    <li>• Dic 2025: $1,050,000 / $1,100,000 (95%)</li>
+                    <li>• Ene 2026: $920,000 / $1,100,000 (84%)</li>
+                    <li>• Feb 2026: $1,080,000 / $1,100,000 (98%)</li>
+                    >li>• Mar 2026: $1,150,000 / $1,150,000 (100%)</li>
+                    <li style="background: #fff3cd; padding: 8px; border-radius: 4px;"><strong>• Abr 2026: $892,450 / $1,150,000 (78%)</strong></li>
                 </ul>
             </div>
             
