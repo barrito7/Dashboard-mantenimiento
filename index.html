@@ -91,6 +91,19 @@
             font-size: 24px;
             cursor: pointer;
         }
+        .btn-agente {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.5);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .btn-agente:hover {
+            background: rgba(255,255,255,0.3);
+        }
         .panel-contenido {
             padding: 20px;
         }
@@ -175,6 +188,7 @@
         <div class="panel-header">
             <h2>👔 Jefe de Mantenimiento</h2>
             <div class="subtitulo">Barrito</div>
+            <button class="btn-agente" onclick="abrirAgente('jefe')">🤖 Abrir agente</button>
         </div>
         <div class="panel-contenido">
             
@@ -320,6 +334,10 @@
         }
         function cerrarPanel() {
             document.querySelectorAll('.panel').forEach(p => p.classList.remove('activo'));
+        }
+        function abrirAgente(agente) {
+            // TODO: Abrir chat con el agente en otra ventana
+            alert('Próximamente: Chat con ' + agente);
         }
     </script>
 </body>
