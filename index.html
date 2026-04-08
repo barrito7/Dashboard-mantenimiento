@@ -36,12 +36,12 @@
         .barra-asistentes {
             position: fixed;
             top: 70px;
-            right: 0;
+            left: 0;
             width: 200px;
             height: calc(100vh - 70px);
             background: #2c3e50;
             z-index: 998;
-            box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+            box-shadow: 2px 0 10px rgba(0,0,0,0.3);
             overflow-y: auto;
         }
         .barra-asistentes h3 {
@@ -79,12 +79,18 @@
         .oficina-container {
             position: relative;
             width: calc(100% - 200px);
-            height: 100vh;
+            height: calc(100vh - 70px);
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 70px;
-            padding-right: 200px;
+            margin-left: 200px;
+            margin-top: 70px;
+            overflow: hidden;
+        }
+        .oficina-img {
+            max-width: 100%;
+            max-height: calc(100vh - 70px);
+            object-fit: contain;
         }
         .oficina-img {
             max-width: 100%;
