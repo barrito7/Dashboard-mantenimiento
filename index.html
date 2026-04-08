@@ -106,12 +106,18 @@
         }
         .panel-contenido {
             padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .panel-contenido .seccion-full {
+            grid-column: 1 / -1;
         }
         
         /* KPI Cards */
         .kpi-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 15px;
             margin-bottom: 20px;
         }
