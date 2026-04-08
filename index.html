@@ -44,6 +44,14 @@
             background: rgba(231, 76, 60, 0.6);
             box-shadow: 0 0 20px rgba(231, 76, 60, 0.8);
         }
+        .hotspot.pañolero {
+            background: rgba(52, 152, 219, 0.3);
+            border-color: #3498db;
+        }
+        .hotspot.pañolero:hover {
+            background: rgba(52, 152, 219, 0.6);
+            box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+        }
         
         /* Panel desplegable */
         .panel {
@@ -158,6 +166,7 @@
         
         <!-- Hotspots sobre cada escritorio -->
         <div class="hotspot" style="top: 15%; right: 70%;" onclick="abrirPanel('jefe')"></div>
+        <div class="hotspot" style="top: 15%; right: 62%; background: rgba(52, 152, 219, 0.3); border-color: #3498db;" onclick="abrirPanel('pañolero')"></div>
     </div>
     
     <!-- Panel Jefe de Mantenimiento -->
@@ -233,6 +242,71 @@
                     <li>• Turno mañana: 4 técnicos ✓</li>
                     <li>• Turno tarde: 2 técnicos ✓</li>
                     <li>• Turno noche: 1 técnico ✓</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Panel Pañolero -->
+    <div class="panel" id="panel-pañolero">
+        <button class="panel-cerrar" onclick="cerrarPanel()">&times;</button>
+        <div class="panel-header" style="background: #3498db;">
+            <h2>📦 Pañolero</h2>
+            <div class="subtitulo">Gestión de almacén de repuestos</div>
+        </div>
+        <div class="panel-contenido">
+            
+            <!-- KPIs del Pañolero -->
+            <div class="kpi-grid">
+                <div class="kpi-card bueno">
+                    <div class="valor">2.3%</div>
+                    <div class="label">Stockout rate</div>
+                    <div class="agente-or">Meta: &lt; 5%</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">4.2x</div>
+                    <div class="label">Rotación stock</div>
+                    <div class="agente-or">Último trimestre</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">$127,450</div>
+                    <div class="label">Valor inventario</div>
+                    <div class="agente-or">Repuestos críticos</div>
+                </div>
+                <div class="kpi-card alerta">
+                    <div class="valor">8</div>
+                    <div class="label">Pedidos pendientes</div>
+                    <div class="agente-or">3 críticos</div>
+                </div>
+            </div>
+            
+            <!-- Repuestos críticos -->
+            <div class="seccion">
+                <h3>🔴 Repuestos bajo mínimo</h3>
+                <ul>
+                    <li>• Rodamiento 6205 - Stock: 2 (Min: 5)</li>
+                    <li>• Correa A-68 - Stock: 1 (Min: 3)</li>
+                    <li>• Filtro hidráulico - Stock: 4 (Min: 8)</li>
+                </ul>
+            </div>
+            
+            <!-- Pedidos en curso -->
+            <div class="seccion">
+                <h3>📦 Pedidos en curso</h3>
+                <ul>
+                    <li>• PO-1234: Rodamientos (7 días)</li>
+                    <li>• PO-1235: Filtros (3 días)</li>
+                    <li>• PO-1236: Sellos hidráulicos (14 días)</li>
+                </ul>
+            </div>
+            
+            <!-- Últimos consumos -->
+            <div class="seccion">
+                <h3>📊 Últimos consumos</h3>
+                <ul>
+                    <li>• Rodamiento 6205 x 3 (OT-2341)</li>
+                    <li>• Aceite Shell 68 x 20L (Preventivo)</li>
+                    <li>• Faja transportadora x 2m (OT-2356)</li>
                 </ul>
             </div>
             
