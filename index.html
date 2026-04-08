@@ -348,6 +348,18 @@
         </div>
         <div class="panel-contenido">
             
+            <!-- Link al Pañolero -->
+            <div class="seccion seccion-full" style="background: #3498db; color: white;">
+                <h3 style="color: white; border-bottom-color: white;">🔗 Acceso al Pañol</h3>
+                <ul>
+                    <li style="text-align: center; padding: 15px;">
+                        <a href="https://manteniemientogodrej.github.io/pa-ol-godrej-/" target="_blank" style="color: white; font-size: 16px; font-weight: bold; text-decoration: none; display: block;">
+                            📦 IR AL SISTEMA DEL PAÑOLERO →
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
             <!-- KPIs del Pañolero -->
             <div class="kpi-grid">
                 <div class="kpi-card bueno">
@@ -436,8 +448,11 @@
             document.querySelectorAll('.panel').forEach(p => p.classList.remove('activo'));
         }
         function abrirAgente(agente) {
-            // TODO: Abrir chat con el agente en otra ventana
-            alert('Próximamente: Chat con ' + agente);
+            if (agente === 'pañolero') {
+                window.open('https://manteniemientogodrej.github.io/pa-ol-godrej-/', '_blank');
+            } else {
+                alert('Próximamente: Chat con ' + agente);
+            }
         }
     </script>
 </body>
