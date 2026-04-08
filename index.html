@@ -176,6 +176,55 @@
         .seccion li:last-child {
             border-bottom: none;
         }
+        .chat-zone {
+            background: #f8f9fa;
+        }
+        .chat-messages {
+            height: 150px;
+            overflow-y: auto;
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .chat-msg {
+            padding: 8px 12px;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .chat-msg.agente {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+        .chat-msg.usuario {
+            background: #e8f5e9;
+            color: #2e7d32;
+            text-align: right;
+        }
+        .chat-input {
+            display: flex;
+            gap: 10px;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 13px;
+        }
+        .chat-input button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .chat-input button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body>
@@ -240,6 +289,18 @@
                     <li><strong>Hoy:</strong> Revisar OT-2341 (Envasadora L2) con Supervisor</li>
                     <li><strong>Esta semana:</strong> Analizar tendencia de fallas en bomba P-102</li>
                 </ul>
+            </div>
+            
+            <!-- Chat con el agente -->
+            <div class="seccion seccion-full chat-zone">
+                <h3>💬 Chat con el agente</h3>
+                <div class="chat-messages">
+                    <div class="chat-msg agente">Hola Barrito, hay 3 pedidos pendientes que necesitan aprobación. ¿Querés que te muestre los detalles?</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Escribí un mensaje..." disabled>
+                    <button disabled>Enviar</button>
+                </div>
             </div>
             
             <!-- Pendientes -->
