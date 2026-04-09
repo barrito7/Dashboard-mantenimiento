@@ -1,32 +1,32 @@
 {
   "contador": {
-    "gastoAcumulado": 892450,
-    "presupuesto": 1150000,
-    "gastoDiaAnterior": 45230,
-    "fechaGastoDia": "07/04/2026",
-    "ocsPendientes": 5,
-    "ocsDetalle": [
-      { "id": "OC-4518", "descripcion": "Filtros", "monto": 12500, "dias": 3 },
-      { "id": "OC-4519", "descripcion": "Sellos", "monto": 8200, "dias": 5 },
-      { "id": "OC-4520", "descripcion": "Lubricantes", "monto": 15300, "dias": 7 },
-      { "id": "OC-4521", "descripcion": "Rodamientos", "monto": 45000, "dias": 14 },
-      { "id": "OC-4522", "descripcion": "Repuestos varios", "monto": 46800, "dias": 21 }
-    ],
+    "gastoAcumulado": 31954361,
+    "presupuesto": 65000000,
+    "gastoDiaAnterior": 6113729,
+    "fechaGastoDia": "08/04/2026",
+    "ocsPendientes": 0,
+    "ocsDetalle": [],
     "top5GastosDia": [
-      { "concepto": "Servicio contratado", "monto": 12030 },
-      { "concepto": "Repuestos varios", "monto": 18500 },
-      { "concepto": "Horas extra", "monto": 6500 },
-      { "concepto": "Lubricantes", "monto": 8200 },
-      { "concepto": "Fletes", "monto": 3450 }
+      { "concepto": "Print Module Deck 60UM Spare", "monto": 4341418 },
+      { "concepto": "Solvent Control Module Assembly", "monto": 3298790 },
+      { "concepto": "Valve Module Assembly", "monto": 2930823 },
+      { "concepto": "FILTER BOWL-LF/LFR-F-MIDI", "monto": 353180 },
+      { "concepto": "PISTOLA PRESION LAT-INOX", "monto": 292719 }
     ],
     "proyeccion": {
-      "gastoAcumulado": 892450,
-      "ocsPendientes": 127800,
-      "otsProyectadas": 85000,
-      "total": 1105250,
-      "porcentajePresupuesto": 96
+      "gastoAcumulado": 31954361,
+      "ocsPendientes": 0,
+      "otsProyectadas": 0,
+      "total": 31954361,
+      "porcentajePresupuesto": 49
     },
-    "ultimoUpdate": "2026-04-08T22:23:00"
+    "ultimoUpdate": "2026-04-08T22:46:00",
+    "gastoPorCuenta": [
+      { "cuenta": "80200255", "descripcion": "Servicios Mant. Edificios", "monto": 17380000, "porcentaje": 54.4 },
+      { "cuenta": "75000059", "descripcion": "Consumo Almacenes/Repuestos", "monto": 11691422, "porcentaje": 36.6 },
+      { "cuenta": "80200254", "descripcion": "Servicios Mant. Maquinarias", "monto": 2497234, "porcentaje": 7.8 },
+      { "cuenta": "80100009", "descripcion": "Mantenimiento Edificios", "monto": 385704, "porcentaje": 1.2 }
+    ]
   },
   "pañolero": {
     "stockoutRate": 2.3,
