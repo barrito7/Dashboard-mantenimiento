@@ -1,73 +1,46 @@
-// Datos del dashboard (generados desde Google Sheets)
-const DASHBOARD_DATA = {
-  "jefe": [
-    ["KPI", "Valor", "Estado", "Origen"],
-    ["Disponibilidad", "94.20%", "✅", "Tablero KPIs"],
-    ["MTTR promedio", "4.5h", "⚠️", "Tablero KPIs"],
-    ["MTBF", "156h", "✅", "Tablero KPIs"],
-    ["OTs abiertas", "12", "❌", "Programador"],
-    ["Gasto diario", "$45,230", "", "Contador"],
-    ["Gasto acumulado", "$892,450", "⚠️", "Contador"],
-    [], ["Pendientes"],
-    ["Revisar OTs críticas", "", "", "Programador"]
-  ],
-  "kpis": [
-    ["Indicador", "Valor", "Meta", "Estado", "Tendencia"],
-    ["Disponibilidad", "94.20%", "95%", "⚠️", "↑"],
-    ["MTTR", "4.5h", "4h", "⚠️", "→"],
-    ["MTBF", "156h", "150h", "✅", "↑"],
-    ["Backlog PM", "8", "5", "❌", "↑"]
-  ],
-  "programador": [
-    ["OT", "Equipo", "Problema", "Prioridad", "Estado", "Técnico"],
-    ["OT-2341", "Envasadora L2", "Falla motor", "Alta", "En proceso", "Juan"],
-    ["OT-2356", "Compresor aire", "Fuga", "Media", "Pendiente"],
-    ["OT-2360", "Bomba P-102", "Vibración", "Alta", "Pendiente"],
-    ["OT-2361", "Mezcladora", "Sello", "Baja", "Programado", "Pedro"],
-    [], ["OTs abiertas", "12"],
-    ["OTs en proceso", "4"],
-    ["OTs pendientes", "8"]
-  ],
-  "supervisor": [
-    ["Turno", "Personal", "Presentes", "Novedades"],
-    ["Mañana (6-14)", "4", "4", "✓"],
-    ["Tarde (14-22)", "2", "2", "✓"],
-    ["Noche (22-6)", "1", "1", "✓"],
-    [], ["Incidencias"],
-    ["Ninguna"]
-  ],
-  "panolero": [
-    ["Repuesto", "Stock", "Mínimo", "Estado", "Pedido"],
-    ["Rodamiento 6205", "15", "10", "✅"],
-    ["Sello mecánico", "3", "5", "⚠️", "En curso"],
-    ["Correa A45", "8", "5", "✅"],
-    ["Filtro aire", "2", "3", "❌", "Urgente"]
-  ],
-  "analista": [
-    ["Análisis", "Equipo", "Falla", "Frecuencia", "Causa raíz"],
-    ["Falla 1", "Bomba P-102", "Vibración", "3/mes", "Alineación"],
-    ["Falla 2", "Envasadora", "Parada", "2/mes", "Sensor"],
-    ["Falla 3", "Compresor", "Fuga", "1/mes", "Junta"]
-  ],
-  "servicios": [
-    ["Servicio", "Estado", "Consumo hoy", "Observación"],
-    ["Electricidad", "✅", "1,250 kWh", "Normal"],
-    ["Aire comprimido", "✅", "85 m³/h", "Normal"],
-    ["Vapor", "⚠️", "450 kg/h", "Alto"],
-    ["Agua", "✅", "12 m³/h", "Normal"]
-  ],
-  "edilicio": [
-    ["Tarea", "Ubicación", "Estado", "Responsable"],
-    ["Pintura pasillo", "Edificio A", "En curso", "Carlos"],
-    ["Cloacas", "Baños planta", "Pendiente"],
-    ["Luminarias", "Oficinas", "Completado", "Miguel"],
-    ["Puerta", "Depósito", "Pendiente"]
-  ],
-  "contador": [
-    ["Concepto", "Presupuesto", "Gastado", "Disponible", "%"],
-    ["Repuestos", "$500,000", "$425,000", "$75,000", "85%"],
-    ["Mano de obra", "$300,000", "$289,450", "$10,550", "96%"],
-    ["Servicios", "$150,000", "$142,000", "$8,000", "95%"],
-    ["TOTAL", "$950,000", "$856,450", "$93,550", "90%"]
-  ]
-};
+// Datos del dashboard (cargados desde data.json)
+let DASHBOARD_DATA = {};
+
+async function cargarDatos() {
+    try {
+        const response = await fetch('data.json');
+        DASHBOARD_DATA = await response.json();
+        actualizarPanelContador();
+    } catch (error) {
+        console.log('Usando datos por defecto');
+        DASHBOARD_DATA = getDatosDefecto();
+    }
+}
+
+function getDatosDefecto() {
+    return {
+        contador: {
+            gastoAcumulado: 892450,
+            presupuesto: 1150000,
+            gastoDiaAnterior: 45230
+        }
+    };
+}
+
+function actualizarPanelContador() {
+    const c = DASHBOARD_DATA.contador;
+    if (!c) return;
+    
+    // Actualizar KPIs
+    document.querySelectorAll('.kpi-card')[0].querySelector('.valor').textContent = '$' + c.gastoAcumulado.toLocaleString();
+    document.querySelectorAll('.kpi-card')[0].querySelector('.agente-or').textContent = Math.round(c.gastoAcumulado / c.presupuesto * 100) + '% del presupuesto';
+    document.querySelectorAll('.kpi-card')[1].querySelector('.valor').textContent = '$' + c.presupuesto.toLocaleString();
+    document.querySelectorAll('.kpi-card')[2].querySelector('.valor').textContent = '$' + c.gastoDiaAnterior.toLocaleString();
+    document.querySelectorAll('.kpi-card')[3].querySelector('.valor').textContent = c.ocsPendientes;
+    
+    // Actualizar proyección
+    const proy = c.proyeccion;
+    if (proy) {
+        const projectionSection = document.querySelector('.seccion-full .seccion-full h3');
+        if (projectionSection && projectionSection.textContent.includes('Proyección')) {
+            // Actualizar valores de proyección
+        }
+    }
+}
+
+cargarDatos();

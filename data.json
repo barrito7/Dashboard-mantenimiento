@@ -1,343 +1,56 @@
 {
-  "jefe": [
-    [
-      "KPI",
-      "Valor",
-      "Estado",
-      "Origen"
+  "contador": {
+    "gastoAcumulado": 892450,
+    "presupuesto": 1150000,
+    "gastoDiaAnterior": 45230,
+    "fechaGastoDia": "07/04/2026",
+    "ocsPendientes": 5,
+    "ocsDetalle": [
+      { "id": "OC-4518", "descripcion": "Filtros", "monto": 12500, "dias": 3 },
+      { "id": "OC-4519", "descripcion": "Sellos", "monto": 8200, "dias": 5 },
+      { "id": "OC-4520", "descripcion": "Lubricantes", "monto": 15300, "dias": 7 },
+      { "id": "OC-4521", "descripcion": "Rodamientos", "monto": 45000, "dias": 14 },
+      { "id": "OC-4522", "descripcion": "Repuestos varios", "monto": 46800, "dias": 21 }
     ],
-    [
-      "Disponibilidad",
-      "94.20%",
-      "✅",
-      "Tablero KPIs"
+    "top5GastosDia": [
+      { "concepto": "Servicio contratado", "monto": 12030 },
+      { "concepto": "Repuestos varios", "monto": 18500 },
+      { "concepto": "Horas extra", "monto": 6500 },
+      { "concepto": "Lubricantes", "monto": 8200 },
+      { "concepto": "Fletes", "monto": 3450 }
     ],
-    [
-      "MTTR promedio",
-      "4.5h",
-      "⚠️",
-      "Tablero KPIs"
-    ],
-    [
-      "MTBF",
-      "156h",
-      "✅",
-      "Tablero KPIs"
-    ],
-    [
-      "OTs abiertas",
-      "12",
-      "❌",
-      "Programador"
-    ],
-    [
-      "Gasto diario",
-      "$45,230",
-      "",
-      "Contador"
-    ],
-    [
-      "Gasto acumulado",
-      "$892,450",
-      "⚠️",
-      "Contador"
-    ],
-    [],
-    [
-      "Pendientes"
-    ],
-    [
-      "Revisar OTs críticas",
-      "",
-      "",
-      "Programador"
+    "proyeccion": {
+      "gastoAcumulado": 892450,
+      "ocsPendientes": 127800,
+      "otsProyectadas": 85000,
+      "total": 1105250,
+      "porcentajePresupuesto": 96
+    },
+    "ultimoUpdate": "2026-04-08T22:23:00"
+  },
+  "pañolero": {
+    "stockoutRate": 2.3,
+    "rotacionStock": 4.2,
+    "valorInventario": 127450,
+    "pedidosPendientes": 8,
+    "pedidosCriticos": 3,
+    "repuestosBajoMinimo": [
+      { "item": "Rodamiento 6205", "stock": 2, "minimo": 5 },
+      { "item": "Correa A-68", "stock": 1, "minimo": 3 },
+      { "item": "Filtro hidráulico", "stock": 4, "minimo": 8 }
     ]
-  ],
-  "kpis": [
-    [
-      "Indicador",
-      "Valor",
-      "Meta",
-      "Estado",
-      "Tendencia"
-    ],
-    [
-      "Disponibilidad",
-      "94.20%",
-      "95%",
-      "⚠️",
-      "↑"
-    ],
-    [
-      "MTTR",
-      "4.5h",
-      "4h",
-      "⚠️",
-      "→"
-    ],
-    [
-      "MTBF",
-      "156h",
-      "150h",
-      "✅",
-      "↑"
-    ],
-    [
-      "Backlog PM",
-      "8",
-      "5",
-      "❌",
-      "↑"
+  },
+  "jefe": {
+    "disponibilidad": 94.2,
+    "mttr": 4.5,
+    "mtbf": 156,
+    "otsAbiertas": 12,
+    "gastoDiario": 45230,
+    "gastoAcumulado": 892450,
+    "otsCriticas": [
+      { "id": "OT-2341", "descripcion": "Envasadora L2", "estado": "en proceso" },
+      { "id": "OT-2356", "descripcion": "Compresor aire", "estado": "pendiente" },
+      { "id": "OT-2360", "descripcion": "Bomba P-102", "estado": "pendiente" }
     ]
-  ],
-  "programador": [
-    [
-      "OT",
-      "Equipo",
-      "Problema",
-      "Prioridad",
-      "Estado",
-      "Técnico"
-    ],
-    [
-      "OT-2341",
-      "Envasadora L2",
-      "Falla motor",
-      "Alta",
-      "En proceso",
-      "Juan"
-    ],
-    [
-      "OT-2356",
-      "Compresor aire",
-      "Fuga",
-      "Media",
-      "Pendiente"
-    ],
-    [
-      "OT-2360",
-      "Bomba P-102",
-      "Vibración",
-      "Alta",
-      "Pendiente"
-    ],
-    [
-      "OT-2361",
-      "Mezcladora",
-      "Sello",
-      "Baja",
-      "Programado",
-      "Pedro"
-    ],
-    [],
-    [
-      "OTs abiertas",
-      "12"
-    ],
-    [
-      "OTs en proceso",
-      "4"
-    ],
-    [
-      "OTs pendientes",
-      "8"
-    ]
-  ],
-  "supervisor": [
-    [
-      "Turno",
-      "Personal",
-      "Presentes",
-      "Novedades"
-    ],
-    [
-      "Mañana (6-14)",
-      "4",
-      "4",
-      "✓"
-    ],
-    [
-      "Tarde (14-22)",
-      "2",
-      "2",
-      "✓"
-    ],
-    [
-      "Noche (22-6)",
-      "1",
-      "1",
-      "✓"
-    ],
-    [],
-    [
-      "Incidencias"
-    ],
-    [
-      "Ninguna"
-    ]
-  ],
-  "panolero": [
-    [
-      "Repuesto",
-      "Stock",
-      "Mínimo",
-      "Estado",
-      "Pedido"
-    ],
-    [
-      "Rodamiento 6205",
-      "15",
-      "10",
-      "✅"
-    ],
-    [
-      "Sello mecánico",
-      "3",
-      "5",
-      "⚠️",
-      "En curso"
-    ],
-    [
-      "Correa A45",
-      "8",
-      "5",
-      "✅"
-    ],
-    [
-      "Filtro aire",
-      "2",
-      "3",
-      "❌",
-      "Urgente"
-    ]
-  ],
-  "analista": [
-    [
-      "Análisis",
-      "Equipo",
-      "Falla",
-      "Frecuencia",
-      "Causa raíz"
-    ],
-    [
-      "Falla 1",
-      "Bomba P-102",
-      "Vibración",
-      "3/mes",
-      "Alineación"
-    ],
-    [
-      "Falla 2",
-      "Envasadora",
-      "Parada",
-      "2/mes",
-      "Sensor"
-    ],
-    [
-      "Falla 3",
-      "Compresor",
-      "Fuga",
-      "1/mes",
-      "Junta"
-    ]
-  ],
-  "servicios": [
-    [
-      "Servicio",
-      "Estado",
-      "Consumo hoy",
-      "Observación"
-    ],
-    [
-      "Electricidad",
-      "✅",
-      "1,250 kWh",
-      "Normal"
-    ],
-    [
-      "Aire comprimido",
-      "✅",
-      "85 m³/h",
-      "Normal"
-    ],
-    [
-      "Vapor",
-      "⚠️",
-      "450 kg/h",
-      "Alto"
-    ],
-    [
-      "Agua",
-      "✅",
-      "12 m³/h",
-      "Normal"
-    ]
-  ],
-  "edilicio": [
-    [
-      "Tarea",
-      "Ubicación",
-      "Estado",
-      "Responsable"
-    ],
-    [
-      "Pintura pasillo",
-      "Edificio A",
-      "En curso",
-      "Carlos"
-    ],
-    [
-      "Cloacas",
-      "Baños planta",
-      "Pendiente"
-    ],
-    [
-      "Luminarias",
-      "Oficinas",
-      "Completado",
-      "Miguel"
-    ],
-    [
-      "Puerta",
-      "Depósito",
-      "Pendiente"
-    ]
-  ],
-  "contador": [
-    [
-      "Concepto",
-      "Presupuesto",
-      "Gastado",
-      "Disponible",
-      "%"
-    ],
-    [
-      "Repuestos",
-      "$500,000",
-      "$425,000",
-      "$75,000",
-      "85%"
-    ],
-    [
-      "Mano de obra",
-      "$300,000",
-      "$289,450",
-      "$10,550",
-      "96%"
-    ],
-    [
-      "Servicios",
-      "$150,000",
-      "$142,000",
-      "$8,000",
-      "95%"
-    ],
-    [
-      "TOTAL",
-      "$950,000",
-      "$856,450",
-      "$93,550",
-      "90%"
-    ]
-  ]
+  }
 }
