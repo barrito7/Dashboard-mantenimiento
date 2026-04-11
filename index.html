@@ -98,6 +98,20 @@
             max-height: 100vh;
             object-fit: contain;
         }
+        /* Video de fondo */
+        .oficina-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
         /* Hotspot isométrico */
         .hotspot {
             position: absolute;
@@ -346,7 +360,9 @@
     
     <!-- Página principal -->
     <div class="oficina-container">
-        <img src="Gemini_Generated_Image_yz5dbnyz5dbnyz5d.png" class="oficina-img">
+        <video class="oficina-video" autoplay muted loop playsinline>
+            <source src="Busy_Office_Scene_An_isometric_view_displays_an_of.mp4" type="video/mp4">
+        </video>
         
         <!-- Hotspots sobre cada escritorio -->
         <div class="hotspot" style="top: 15%; right: 70%;" onclick="abrirPanel('jefe')"></div>
