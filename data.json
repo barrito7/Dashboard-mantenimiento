@@ -20,7 +20,7 @@
       "total": 31954361,
       "porcentajePresupuesto": 49
     },
-    "ultimoUpdate": "2026-04-08T22:46:00",
+    "ultimoUpdate": "2026-04-10T18:28:00",
     "gastoPorCuenta": [
       { "cuenta": "80200255", "descripcion": "Servicios Mant. Edificios", "monto": 17380000, "porcentaje": 54.4 },
       { "cuenta": "75000059", "descripcion": "Consumo Almacenes/Repuestos", "monto": 11691422, "porcentaje": 36.6 },
