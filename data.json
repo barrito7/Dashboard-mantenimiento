@@ -7,11 +7,26 @@
     "ocsPendientes": 0,
     "ocsDetalle": [],
     "top5GastosDia": [
-      { "concepto": "Print Module Deck 60UM Spare", "monto": 4341418 },
-      { "concepto": "Solvent Control Module Assembly", "monto": 3298790 },
-      { "concepto": "Valve Module Assembly", "monto": 2930823 },
-      { "concepto": "FILTER BOWL-LF/LFR-F-MIDI", "monto": 353180 },
-      { "concepto": "PISTOLA PRESION LAT-INOX", "monto": 292719 }
+      {
+        "concepto": "Print Module Deck 60UM Spare",
+        "monto": 4341418
+      },
+      {
+        "concepto": "Solvent Control Module Assembly",
+        "monto": 3298790
+      },
+      {
+        "concepto": "Valve Module Assembly",
+        "monto": 2930823
+      },
+      {
+        "concepto": "FILTER BOWL-LF/LFR-F-MIDI",
+        "monto": 353180
+      },
+      {
+        "concepto": "PISTOLA PRESION LAT-INOX",
+        "monto": 292719
+      }
     ],
     "proyeccion": {
       "gastoAcumulado": 31954361,
@@ -20,12 +35,40 @@
       "total": 31954361,
       "porcentajePresupuesto": 49
     },
-    "ultimoUpdate": "2026-04-10T18:28:00",
+    "ultimoUpdate": "2026-04-13T20:45:00",
     "gastoPorCuenta": [
-      { "cuenta": "80200255", "descripcion": "Servicios Mant. Edificios", "monto": 17380000, "porcentaje": 54.4 },
-      { "cuenta": "75000059", "descripcion": "Consumo Almacenes/Repuestos", "monto": 11691422, "porcentaje": 36.6 },
-      { "cuenta": "80200254", "descripcion": "Servicios Mant. Maquinarias", "monto": 2497234, "porcentaje": 7.8 },
-      { "cuenta": "80100009", "descripcion": "Mantenimiento Edificios", "monto": 385704, "porcentaje": 1.2 }
+      {
+        "cuenta": "80200255",
+        "descripcion": "Servicios Mant. Edificios",
+        "monto": 17380000,
+        "porcentaje": 54.4
+      },
+      {
+        "cuenta": "80100009",
+        "descripcion": "Repuestos/Herramientas",
+        "monto": 11691422,
+        "porcentaje": 36.6
+      },
+      {
+        "cuenta": "80200254",
+        "descripcion": "Servicios Mant. Maquinarias",
+        "monto": 2497234,
+        "porcentaje": 7.8
+      },
+      {
+        "cuenta": "80100010",
+        "descripcion": "Repuestos Maquinaria",
+        "monto": 385704,
+        "porcentaje": 1.2
+      }
+    ],
+    "totalOrdenesCompra": 460,
+    "proveedoresTop": [
+      {"nombre": "Oximetal S.A.", "monto": 4500000},
+      {"nombre": "Batiz Norberto", "monto": 3200000},
+      {"nombre": "Rodriguez Federico Ariel", "monto": 2800000},
+      {"nombre": "FAMIQ S.R.L.", "monto": 2100000},
+      {"nombre": "Full tecnica Sociedad Anonima", "monto": 1800000}
     ]
   },
   "pañolero": {
@@ -35,9 +78,21 @@
     "pedidosPendientes": 8,
     "pedidosCriticos": 3,
     "repuestosBajoMinimo": [
-      { "item": "Rodamiento 6205", "stock": 2, "minimo": 5 },
-      { "item": "Correa A-68", "stock": 1, "minimo": 3 },
-      { "item": "Filtro hidráulico", "stock": 4, "minimo": 8 }
+      {
+        "item": "Rodamiento 6205",
+        "stock": 2,
+        "minimo": 5
+      },
+      {
+        "item": "Correa A-68",
+        "stock": 1,
+        "minimo": 3
+      },
+      {
+        "item": "Filtro hidráulico",
+        "stock": 4,
+        "minimo": 8
+      }
     ]
   },
   "jefe": {
@@ -48,9 +103,47 @@
     "gastoDiario": 45230,
     "gastoAcumulado": 892450,
     "otsCriticas": [
-      { "id": "OT-2341", "descripcion": "Envasadora L2", "estado": "en proceso" },
-      { "id": "OT-2356", "descripcion": "Compresor aire", "estado": "pendiente" },
-      { "id": "OT-2360", "descripcion": "Bomba P-102", "estado": "pendiente" }
+      {
+        "id": "OT-2341",
+        "descripcion": "Envasadora L2",
+        "estado": "en proceso"
+      },
+      {
+        "id": "OT-2356",
+        "descripcion": "Compresor aire",
+        "estado": "pendiente"
+      },
+      {
+        "id": "OT-2360",
+        "descripcion": "Bomba P-102",
+        "estado": "pendiente"
+      }
     ]
+  },
+  "panels": {
+    "contador": {
+      "kpis": {
+        "gastoAcumulado": 31954361,
+        "presupuesto": 65000000,
+        "porcentaje": 49,
+        "disponible": 33045639
+      },
+      "resumen": {
+        "porCuenta": {
+          "Repuestos": 12077126,
+          "Servicios": 19877234
+        },
+        "porProveedor": {
+          "Oximetal S.A.": 4500000,
+          "Batiz Norberto": 3200000,
+          "Rodriguez Federico Ariel": 2800000,
+          "FAMIQ S.R.L.": 2100000,
+          "Full tecnica Sociedad Anonima": 1800000
+        },
+        "ultimaActualizacion": "2026-04-13"
+      },
+      "fuente": "Google Sheets - Ordenes-de-compra",
+      "totalRegistros": 460
+    }
   }
 }
