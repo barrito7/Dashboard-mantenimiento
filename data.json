@@ -1,74 +1,102 @@
 {
   "contador": {
-    "gastoAcumulado": 31954361,
+    "gastoAcumulado": 42600706,
     "presupuesto": 65000000,
-    "gastoDiaAnterior": 6113729,
-    "fechaGastoDia": "08/04/2026",
+    "gastoDiaAnterior": 8045969,
+    "fechaGastoDia": "13/04/2026",
     "ocsPendientes": 0,
     "ocsDetalle": [],
     "top5GastosDia": [
       {
-        "concepto": "Print Module Deck 60UM Spare",
+        "concepto": "SERVICIO PINTURA LAVADERO ELABORACION",
+        "monto": 3250000
+      },
+      {
+        "concepto": "Medición y Certificación Puesta a Tierra",
+        "monto": 2760000
+      },
+      {
+        "concepto": "Cambio de grifería en comedor",
+        "monto": 1779650
+      },
+      {
+        "concepto": "Filtro sedimentos PS5-30 + DGD-5005-20",
+        "monto": 114529
+      },
+      {
+        "concepto": "JGO DEST BAHCO 800IEC/5",
+        "monto": 34319
+      }
+    ],
+    "top5GastosMes": [
+      {
+        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
+        "monto": 5985300
+      },
+      {
+        "concepto": "Trabajos extras reparacion R100",
+        "monto": 6884500
+      },
+      {
+        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
+        "monto": 3990200
+      },
+      {
+        "concepto": "PRINT MODULE DECK 60UM SPARE",
         "monto": 4341418
       },
       {
         "concepto": "Solvent Control Module Assembly",
         "monto": 3298790
-      },
-      {
-        "concepto": "Valve Module Assembly",
-        "monto": 2930823
-      },
-      {
-        "concepto": "FILTER BOWL-LF/LFR-F-MIDI",
-        "monto": 353180
-      },
-      {
-        "concepto": "PISTOLA PRESION LAT-INOX",
-        "monto": 292719
       }
     ],
     "proyeccion": {
-      "gastoAcumulado": 31954361,
+      "gastoAcumulado": 42600706,
       "ocsPendientes": 0,
       "otsProyectadas": 0,
-      "total": 31954361,
-      "porcentajePresupuesto": 49
+      "total": 42600706,
+      "porcentajePresupuesto": 65.5
     },
-    "ultimoUpdate": "2026-04-13T20:45:00",
+    "ultimoUpdate": "2026-04-13T21:44:00",
     "gastoPorCuenta": [
+      {
+        "cuenta": "75000059",
+        "descripcion": "Consumo Almacenes y Repuestos",
+        "monto": 12058812,
+        "porcentaje": 28.3
+      },
       {
         "cuenta": "80200255",
         "descripcion": "Servicios Mant. Edificios",
-        "monto": 17380000,
-        "porcentaje": 54.4
-      },
-      {
-        "cuenta": "80100009",
-        "descripcion": "Repuestos/Herramientas",
-        "monto": 11691422,
-        "porcentaje": 36.6
+        "monto": 25169650,
+        "porcentaje": 59.1
       },
       {
         "cuenta": "80200254",
         "descripcion": "Servicios Mant. Maquinarias",
-        "monto": 2497234,
-        "porcentaje": 7.8
+        "monto": 2091254,
+        "porcentaje": 4.9
       },
       {
         "cuenta": "80100010",
-        "descripcion": "Repuestos Maquinaria",
-        "monto": 385704,
-        "porcentaje": 1.2
+        "descripcion": "Mantenimiento Maquinarias",
+        "monto": 1993388,
+        "porcentaje": 4.7
+      },
+      {
+        "cuenta": "80100009",
+        "descripcion": "Mantenimiento Edificios",
+        "monto": 1287603,
+        "porcentaje": 3.0
       }
     ],
-    "totalOrdenesCompra": 460,
+    "totalOrdenesCompra": 0,
     "proveedoresTop": [
-      {"nombre": "Oximetal S.A.", "monto": 4500000},
-      {"nombre": "Batiz Norberto", "monto": 3200000},
-      {"nombre": "Rodriguez Federico Ariel", "monto": 2800000},
-      {"nombre": "FAMIQ S.R.L.", "monto": 2100000},
-      {"nombre": "Full tecnica Sociedad Anonima", "monto": 1800000}
+      {"nombre": "MET-MOD SRL", "monto": 6884500},
+      {"nombre": "Dubini Automatizacion", "monto": 5985300},
+      {"nombre": "Videojet/MARKEM", "monto": 4341418},
+      {"nombre": "TECNICA SILERS S.R.L.", "monto": 3250000},
+      {"nombre": "Laboratorio Cuenca SA (interno)", "monto": 2760000}
     ]
   },
   "pañolero": {
@@ -100,8 +128,8 @@
     "mttr": 4.5,
     "mtbf": 156,
     "otsAbiertas": 12,
-    "gastoDiario": 45230,
-    "gastoAcumulado": 892450,
+    "gastoDiario": 8045969,
+    "gastoAcumulado": 42600706,
     "otsCriticas": [
       {
         "id": "OT-2341",
@@ -123,27 +151,30 @@
   "panels": {
     "contador": {
       "kpis": {
-        "gastoAcumulado": 31954361,
+        "gastoAcumulado": 42600706,
         "presupuesto": 65000000,
-        "porcentaje": 49,
-        "disponible": 33045639
+        "porcentaje": 65.5,
+        "disponible": 22399294
       },
       "resumen": {
         "porCuenta": {
-          "Repuestos": 12077126,
-          "Servicios": 19877234
+          "Consumo Almacenes": 12058812,
+          "Servicios Edificios": 25169650,
+          "Servicios Maquinarias": 2091254,
+          "Mantenimiento Maquinarias": 1993388,
+          "Mantenimiento Edificios": 1287603
         },
         "porProveedor": {
-          "Oximetal S.A.": 4500000,
-          "Batiz Norberto": 3200000,
-          "Rodriguez Federico Ariel": 2800000,
-          "FAMIQ S.R.L.": 2100000,
-          "Full tecnica Sociedad Anonima": 1800000
+          "MET-MOD SRL": 6884500,
+          "Dubini Automatizacion": 5985300,
+          "Videojet/MARKEM": 4341418,
+          "TECNICA SILERS S.R.L.": 3250000,
+          "Laboratorio Cuenca SA": 2760000
         },
         "ultimaActualizacion": "2026-04-13"
       },
-      "fuente": "Google Sheets - Ordenes-de-compra",
-      "totalRegistros": 460
+      "fuente": "SAP - Gasto-Abril-2026.txt",
+      "totalRegistros": 0
     }
   }
 }
