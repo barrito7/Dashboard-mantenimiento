@@ -4,8 +4,14 @@
     "presupuesto": 65000000,
     "gastoDiaAnterior": 8045969,
     "fechaGastoDia": "13/04/2026",
-    "ocsPendientes": 0,
-    "ocsDetalle": [],
+    "ocsPendientes": 13582283,
+    "ocsDetalle": [
+      {"doc": "4600516104", "proveedor": "Venturino/Delbene", "concepto": "Abono mantenimiento HVAC", "monto": 8239252, "moneda": "ARS", "entrega": "2026-04-16"},
+      {"doc": "3500282242", "proveedor": "Batiz Norberto", "concepto": "Estantes+parantes+flete", "monto": 1311400, "moneda": "ARS", "entrega": "2026-04-20"},
+      {"doc": "4600516953", "proveedor": "Dupolbra", "concepto": "Tablet Samsung", "monto": 657000, "moneda": "ARS", "entrega": "2026-04-16"},
+      {"doc": "4600516100", "proveedor": "Técnica Silers", "concepto": "Fabricación cajones", "monto": 650000, "moneda": "ARS", "entrega": "2026-04-13"},
+      {"doc": "4600516641", "proveedor": "HASAR", "concepto": "Asistencia codificadores", "monto": 272000, "moneda": "ARS", "entrega": "2026-04-19"}
+    ],
     "top5GastosDia": [
       {
         "concepto": "SERVICIO PINTURA LAVADERO ELABORACION",
@@ -24,8 +30,8 @@
         "monto": 114529
       },
       {
-        "concepto": "JGO DEST BAHCO 800IEC/5",
-        "monto": 34319
+        "concepto": "Bandas Teflón 25x1290 250mc",
+        "monto": 94667
       }
     ],
     "top5GastosMes": [
@@ -52,12 +58,12 @@
     ],
     "proyeccion": {
       "gastoAcumulado": 42600706,
-      "ocsPendientes": 0,
+      "ocsPendientes": 13582283,
       "otsProyectadas": 0,
-      "total": 42600706,
-      "porcentajePresupuesto": 65.5
+      "total": 56182989,
+      "porcentajePresupuesto": 86.4
     },
-    "ultimoUpdate": "2026-04-13T21:44:00",
+    "ultimoUpdate": "2026-04-16T21:20:00",
     "gastoPorCuenta": [
       {
         "cuenta": "75000059",
@@ -90,13 +96,13 @@
         "porcentaje": 3.0
       }
     ],
-    "totalOrdenesCompra": 0,
+    "totalOrdenesCompra": 14364149,
     "proveedoresTop": [
+      {"nombre": "Venturino/Delbene (HVAC)", "monto": 8239252},
       {"nombre": "MET-MOD SRL", "monto": 6884500},
       {"nombre": "Dubini Automatizacion", "monto": 5985300},
       {"nombre": "Videojet/MARKEM", "monto": 4341418},
-      {"nombre": "TECNICA SILERS S.R.L.", "monto": 3250000},
-      {"nombre": "Laboratorio Cuenca SA (interno)", "monto": 2760000}
+      {"nombre": "Batiz Norberto", "monto": 1311400}
     ]
   },
   "pañolero": {
@@ -171,10 +177,10 @@
           "TECNICA SILERS S.R.L.": 3250000,
           "Laboratorio Cuenca SA": 2760000
         },
-        "ultimaActualizacion": "2026-04-13"
+        "ultimaActualizacion": "2026-04-16"
       },
-      "fuente": "SAP - Gasto-Abril-2026.txt",
-      "totalRegistros": 0
+      "fuente": "SAP - Bajadasbot.xlsx",
+      "totalRegistros": 204
     }
   }
 }
