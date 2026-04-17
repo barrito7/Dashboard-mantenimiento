@@ -1,7 +1,7 @@
 {
   "contador": {
     "gastoAcumulado": 42600706,
-    "presupuesto": 65000000,
+    "presupuesto": 70780000,
     "gastoDiaAnterior": 8045969,
     "fechaGastoDia": "13/04/2026",
     "ocsPendientes": 13582283,
@@ -61,7 +61,7 @@
       "ocsPendientes": 13582283,
       "otsProyectadas": 0,
       "total": 56182989,
-      "porcentajePresupuesto": 86.4
+      "porcentajePresupuesto": 79.4
     },
     "ultimoUpdate": "2026-04-16T21:20:00",
     "gastoPorCuenta": [
@@ -157,10 +157,10 @@
   "panels": {
     "contador": {
       "kpis": {
-        "gastoAcumulado": 42600706,
-        "presupuesto": 65000000,
-        "porcentaje": 65.5,
-        "disponible": 22399294
+        "gastoAcumulado": 237059751,
+        "presupuesto": 70780000,
+        "porcentaje": 60.2,
+        "disponible": 28179294
       },
       "resumen": {
         "porCuenta": {
