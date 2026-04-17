@@ -2,107 +2,61 @@
   "contador": {
     "gastoAcumulado": 42600706,
     "presupuesto": 70780000,
-    "gastoDiaAnterior": 8045969,
+    "gastoDiaAnterior": 8033165,
     "fechaGastoDia": "13/04/2026",
-    "ocsPendientes": 13582283,
+    "ocsPendientes": 27031479,
     "ocsDetalle": [
-      {"doc": "4600516104", "proveedor": "Venturino/Delbene", "concepto": "Abono mantenimiento HVAC", "monto": 8239252, "moneda": "ARS", "entrega": "2026-04-16"},
-      {"doc": "3500282242", "proveedor": "Batiz Norberto", "concepto": "Estantes+parantes+flete", "monto": 1311400, "moneda": "ARS", "entrega": "2026-04-20"},
-      {"doc": "4600516953", "proveedor": "Dupolbra", "concepto": "Tablet Samsung", "monto": 657000, "moneda": "ARS", "entrega": "2026-04-16"},
-      {"doc": "4600516100", "proveedor": "Técnica Silers", "concepto": "Fabricación cajones", "monto": 650000, "moneda": "ARS", "entrega": "2026-04-13"},
-      {"doc": "4600516641", "proveedor": "HASAR", "concepto": "Asistencia codificadores", "monto": 272000, "moneda": "ARS", "entrega": "2026-04-19"}
+      {"doc": "4600516104", "proveedor": "Venturino/Delbene", "concepto": "Abono mantenimiento HVAC", "monto": 8239252, "moneda": "ARS", "entrega": "2026-04-24"},
+      {"doc": "4600517321", "proveedor": "Montajes Esma", "concepto": "Instalación pulmón de aire", "monto": 2930000, "moneda": "ARS", "entrega": "2026-04-24"},
+      {"doc": "4600503726", "proveedor": "Montajes EMSA", "concepto": "Reparación columnas subsuelo", "monto": 2925000, "moneda": "ARS", "entrega": "2025-12-30"},
+      {"doc": "4600505482", "proveedor": "Sergio Bielsa", "concepto": "Calibración", "monto": 2750000, "moneda": "ARS", "entrega": "2025-12-30"},
+      {"doc": "4600517407", "proveedor": "Dupolbra", "concepto": "Modificación 3 software control", "monto": 2734000, "moneda": "ARS", "entrega": "2026-04-30"}
     ],
     "top5GastosDia": [
-      {
-        "concepto": "SERVICIO PINTURA LAVADERO ELABORACION",
-        "monto": 3250000
-      },
-      {
-        "concepto": "Medición y Certificación Puesta a Tierra",
-        "monto": 2760000
-      },
-      {
-        "concepto": "Cambio de grifería en comedor",
-        "monto": 1779650
-      },
-      {
-        "concepto": "Filtro sedimentos PS5-30 + DGD-5005-20",
-        "monto": 114529
-      },
-      {
-        "concepto": "Bandas Teflón 25x1290 250mc",
-        "monto": 94667
-      }
+      {"concepto": "SERVICIO PINTURA LAVADERO ELABORACION", "monto": 3250000},
+      {"concepto": "Medición y Certificación Puesta a Tierra", "monto": 2760000},
+      {"concepto": "Cambio de grifería en comedor", "monto": 1779650},
+      {"concepto": "Filtros sedimentos PS5-30 + DGD-5005-20", "monto": 114530},
+      {"concepto": "Bandas Teflón 25x1290 250mc", "monto": 94667}
     ],
     "top5GastosMes": [
-      {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 5985300
-      },
-      {
-        "concepto": "Trabajos extras reparacion R100",
-        "monto": 6884500
-      },
-      {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 3990200
-      },
-      {
-        "concepto": "PRINT MODULE DECK 60UM SPARE",
-        "monto": 4341418
-      },
-      {
-        "concepto": "Solvent Control Module Assembly",
-        "monto": 3298790
-      }
+      {"concepto": "Trabajos extras reparación R100", "monto": 6884500},
+      {"concepto": "REPARACION SISTEMA DE AGITACION MIXER R-", "monto": 5985300},
+      {"concepto": "PRINT MODULE DECK 60UM SPARE", "monto": 4341418},
+      {"concepto": "REPARACION SISTEMA DE AGITACION MIXER R-", "monto": 3990200},
+      {"concepto": "Solvent Control Module Assembly", "monto": 3298790}
     ],
     "proyeccion": {
       "gastoAcumulado": 42600706,
-      "ocsPendientes": 13582283,
+      "ocsPendientes": 27031479,
       "otsProyectadas": 0,
-      "total": 56182989,
-      "porcentajePresupuesto": 79.4
+      "total": 69632185,
+      "porcentajePresupuesto": 98.4
     },
-    "ultimoUpdate": "2026-04-16T21:20:00",
+    "ultimoUpdate": "2026-04-16T22:30:00",
     "gastoPorCuenta": [
-      {
-        "cuenta": "75000059",
-        "descripcion": "Consumo Almacenes y Repuestos",
-        "monto": 12058812,
-        "porcentaje": 28.3
-      },
-      {
-        "cuenta": "80200255",
-        "descripcion": "Servicios Mant. Edificios",
-        "monto": 25169650,
-        "porcentaje": 59.1
-      },
-      {
-        "cuenta": "80200254",
-        "descripcion": "Servicios Mant. Maquinarias",
-        "monto": 2091254,
-        "porcentaje": 4.9
-      },
-      {
-        "cuenta": "80100010",
-        "descripcion": "Mantenimiento Maquinarias",
-        "monto": 1993388,
-        "porcentaje": 4.7
-      },
-      {
-        "cuenta": "80100009",
-        "descripcion": "Mantenimiento Edificios",
-        "monto": 1287603,
-        "porcentaje": 3.0
-      }
+      {"cuenta": "75000059", "descripcion": "Consumo Almacenes y Repuestos", "monto": 12058812, "porcentaje": 28.3},
+      {"cuenta": "80200255", "descripcion": "Servicios Mant. Edificios", "monto": 25169650, "porcentaje": 59.1},
+      {"cuenta": "80200254", "descripcion": "Servicios Mant. Maquinarias", "monto": 2091254, "porcentaje": 4.9},
+      {"cuenta": "80100010", "descripcion": "Mantenimiento Maquinarias", "monto": 1993388, "porcentaje": 4.7},
+      {"cuenta": "80100009", "descripcion": "Mantenimiento Edificios", "monto": 1287603, "porcentaje": 3.0}
     ],
-    "totalOrdenesCompra": 14364149,
+    "totalOrdenesCompra": 68380301,
+    "ocsPorMes": {
+      "2025-12": {"ARS": 5675000, "USD": 0, "EUR": 0},
+      "2026-01": {"ARS": 256790, "USD": 0, "EUR": 0},
+      "2026-02": {"ARS": 5413778, "USD": 1890, "EUR": 0},
+      "2026-03": {"ARS": 3028696, "USD": 10906, "EUR": 0},
+      "2026-04": {"ARS": 18321251, "USD": 6428, "EUR": 0},
+      "2026-05": {"ARS": 0, "USD": 3836, "EUR": 0},
+      "2026-06": {"ARS": 0, "USD": 0, "EUR": 534}
+    },
     "proveedoresTop": [
       {"nombre": "Venturino/Delbene (HVAC)", "monto": 8239252},
-      {"nombre": "MET-MOD SRL", "monto": 6884500},
-      {"nombre": "Dubini Automatizacion", "monto": 5985300},
-      {"nombre": "Videojet/MARKEM", "monto": 4341418},
-      {"nombre": "Batiz Norberto", "monto": 1311400}
+      {"nombre": "Montajes Esma (pulmón aire)", "monto": 2930000},
+      {"nombre": "Montajes EMSA (columnas)", "monto": 2925000},
+      {"nombre": "Sergio Bielsa (calibración)", "monto": 2750000},
+      {"nombre": "Dupolbra (software)", "monto": 2734000}
     ]
   },
   "pañolero": {
@@ -112,21 +66,9 @@
     "pedidosPendientes": 8,
     "pedidosCriticos": 3,
     "repuestosBajoMinimo": [
-      {
-        "item": "Rodamiento 6205",
-        "stock": 2,
-        "minimo": 5
-      },
-      {
-        "item": "Correa A-68",
-        "stock": 1,
-        "minimo": 3
-      },
-      {
-        "item": "Filtro hidráulico",
-        "stock": 4,
-        "minimo": 8
-      }
+      {"item": "Rodamiento 6205", "stock": 2, "minimo": 5},
+      {"item": "Correa A-68", "stock": 1, "minimo": 3},
+      {"item": "Filtro hidráulico", "stock": 4, "minimo": 8}
     ]
   },
   "jefe": {
@@ -134,24 +76,12 @@
     "mttr": 4.5,
     "mtbf": 156,
     "otsAbiertas": 12,
-    "gastoDiario": 8045969,
+    "gastoDiario": 8033165,
     "gastoAcumulado": 42600706,
     "otsCriticas": [
-      {
-        "id": "OT-2341",
-        "descripcion": "Envasadora L2",
-        "estado": "en proceso"
-      },
-      {
-        "id": "OT-2356",
-        "descripcion": "Compresor aire",
-        "estado": "pendiente"
-      },
-      {
-        "id": "OT-2360",
-        "descripcion": "Bomba P-102",
-        "estado": "pendiente"
-      }
+      {"id": "OT-2341", "descripcion": "Envasadora L2", "estado": "en proceso"},
+      {"id": "OT-2356", "descripcion": "Compresor aire", "estado": "pendiente"},
+      {"id": "OT-2360", "descripcion": "Bomba P-102", "estado": "pendiente"}
     ]
   },
   "panels": {
