@@ -1,116 +1,78 @@
 {
   "contador": {
-    "gastoAcumulado": 42600706,
-    "presupuesto": 70780000,
-    "gastoDiaAnterior": 8033165,
-    "fechaGastoDia": "13/04/2026",
-    "ocsPendientes": 27031479,
-    "ocsDetalle": [
-      {"doc": "4600516104", "proveedor": "Venturino/Delbene", "concepto": "Abono mantenimiento HVAC", "monto": 8239252, "moneda": "ARS", "entrega": "2026-04-24"},
-      {"doc": "4600517321", "proveedor": "Montajes Esma", "concepto": "Instalación pulmón de aire", "monto": 2930000, "moneda": "ARS", "entrega": "2026-04-24"},
-      {"doc": "4600503726", "proveedor": "Montajes EMSA", "concepto": "Reparación columnas subsuelo", "monto": 2925000, "moneda": "ARS", "entrega": "2025-12-30"},
-      {"doc": "4600505482", "proveedor": "Sergio Bielsa", "concepto": "Calibración", "monto": 2750000, "moneda": "ARS", "entrega": "2025-12-30"},
-      {"doc": "4600517407", "proveedor": "Dupolbra", "concepto": "Modificación 3 software control", "monto": 2734000, "moneda": "ARS", "entrega": "2026-04-30"}
-    ],
-    "top5GastosDia": [
-      {"concepto": "SERVICIO PINTURA LAVADERO ELABORACION", "monto": 3250000},
-      {"concepto": "Medición y Certificación Puesta a Tierra", "monto": 2760000},
-      {"concepto": "Cambio de grifería en comedor", "monto": 1779650},
-      {"concepto": "Filtros sedimentos PS5-30 + DGD-5005-20", "monto": 114530},
-      {"concepto": "Bandas Teflón 25x1290 250mc", "monto": 94667}
-    ],
-    "top5GastosMes": [
+    "gastoAbril": 48214149,
+    "presupuestoAbril": 70780000,
+    "porcentajeGastado": 68.1,
+    "disponible": 22565851,
+    "porcentajeDisponible": 31.9,
+    "gastoAcumulado2026": 242673194,
+    "presupuestoAcumulado2026": 252771000,
+    "porcentajeAcumulado": 95.9,
+    "presupuestoAnual": 252771000,
+    "ocsPendientesAbril": 26971344,
+    "porcentajeOCs": 38.1,
+    "proyeccionTotal": 75185493,
+    "proyeccionPorcentaje": 106.2,
+    "excedente": -4435493,
+    "top5Dia": {
+      "fecha": "16/04",
+      "items": [
+        {"concepto": "Reparación De Puertas DE URGENCIA", "monto": 1800000},
+        {"concepto": "Estantes 42x90 x 50 Kg.", "monto": 958000},
+        {"concepto": "Servicio de Ascensor", "monto": 726628},
+        {"concepto": "Chapa plegad 90° 1Mt 15x15 cm 1.6", "monto": 633000},
+        {"concepto": "Parantes x 2.40 metros", "monto": 335400}
+      ]
+    },
+    "top10Mes": [
       {"concepto": "Trabajos extras reparación R100", "monto": 6884500},
-      {"concepto": "REPARACION SISTEMA DE AGITACION MIXER R-", "monto": 5985300},
-      {"concepto": "PRINT MODULE DECK 60UM SPARE", "monto": 4341418},
-      {"concepto": "REPARACION SISTEMA DE AGITACION MIXER R-", "monto": 3990200},
-      {"concepto": "Solvent Control Module Assembly", "monto": 3298790}
+      {"concepto": "Reparación sistema agitación Mixer R-", "monto": 5985300},
+      {"concepto": "Print Module Deck 60UM", "monto": 4341418},
+      {"concepto": "Reparación sistema agitación Mixer R-", "monto": 3990200},
+      {"concepto": "Solvent Control Module Assembly", "monto": 3298790},
+      {"concepto": "Servicio pintura lavadero elaboración", "monto": 3250000},
+      {"concepto": "Valve Module Assembly", "monto": 2930823},
+      {"concepto": "Medición y Certificación Puesta a Tierra", "monto": 2760000},
+      {"concepto": "Spare Display Door", "monto": 1993388},
+      {"concepto": "Reparación De Puertas DE URGENCIA", "monto": 1800000}
     ],
-    "proyeccion": {
-      "gastoAcumulado": 42600706,
-      "ocsPendientes": 27031479,
-      "otsProyectadas": 0,
-      "total": 69632185,
-      "porcentajePresupuesto": 98.4
-    },
-    "ultimoUpdate": "2026-04-16T22:30:00",
-    "gastoPorCuenta": [
-      {"cuenta": "75000059", "descripcion": "Consumo Almacenes y Repuestos", "monto": 12058812, "porcentaje": 28.3},
-      {"cuenta": "80200255", "descripcion": "Servicios Mant. Edificios", "monto": 25169650, "porcentaje": 59.1},
-      {"cuenta": "80200254", "descripcion": "Servicios Mant. Maquinarias", "monto": 2091254, "porcentaje": 4.9},
-      {"cuenta": "80100010", "descripcion": "Mantenimiento Maquinarias", "monto": 1993388, "porcentaje": 4.7},
-      {"cuenta": "80100009", "descripcion": "Mantenimiento Edificios", "monto": 1287603, "porcentaje": 3.0}
+    "top5OCs": [
+      {"concepto": "Abono mantenimiento HVAC", "proveedor": "", "moneda": "ARS", "monto": 8239252, "montoARS": 8239252},
+      {"concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF", "proveedor": "", "moneda": "USD", "monto": 3255.99, "montoARS": 4411866},
+      {"concepto": "Instalación de Bombas en Sala de Máquina", "proveedor": "", "moneda": "USD", "monto": 2750, "montoARS": 3726250},
+      {"concepto": "Servicio bimestral compresores", "proveedor": "", "moneda": "USD", "monto": 2520, "montoARS": 3414600},
+      {"concepto": "COTIZACIÓN N°26905375", "proveedor": "", "moneda": "USD", "monto": 2460.96, "montoARS": 3334601}
     ],
-    "totalOrdenesCompra": 68380301,
-    "ocsPorMes": {
-      "2025-12": {"ARS": 5675000, "USD": 0, "EUR": 0},
-      "2026-01": {"ARS": 256790, "USD": 0, "EUR": 0},
-      "2026-02": {"ARS": 5413778, "USD": 1890, "EUR": 0},
-      "2026-03": {"ARS": 3028696, "USD": 10906, "EUR": 0},
-      "2026-04": {"ARS": 18321251, "USD": 6428, "EUR": 0},
-      "2026-05": {"ARS": 0, "USD": 3836, "EUR": 0},
-      "2026-06": {"ARS": 0, "USD": 0, "EUR": 534}
-    },
-    "proveedoresTop": [
-      {"nombre": "Venturino/Delbene (HVAC)", "monto": 8239252},
-      {"nombre": "Montajes Esma (pulmón aire)", "monto": 2930000},
-      {"nombre": "Montajes EMSA (columnas)", "monto": 2925000},
-      {"nombre": "Sergio Bielsa (calibración)", "monto": 2750000},
-      {"nombre": "Dupolbra (software)", "monto": 2734000}
-    ]
-  },
-  "pañolero": {
-    "stockoutRate": 2.3,
-    "rotacionStock": 4.2,
-    "valorInventario": 127450,
-    "pedidosPendientes": 8,
-    "pedidosCriticos": 3,
-    "repuestosBajoMinimo": [
-      {"item": "Rodamiento 6205", "stock": 2, "minimo": 5},
-      {"item": "Correa A-68", "stock": 1, "minimo": 3},
-      {"item": "Filtro hidráulico", "stock": 4, "minimo": 8}
-    ]
-  },
-  "jefe": {
-    "disponibilidad": 94.2,
-    "mttr": 4.5,
-    "mtbf": 156,
-    "otsAbiertas": 12,
-    "gastoDiario": 8033165,
-    "gastoAcumulado": 42600706,
-    "otsCriticas": [
-      {"id": "OT-2341", "descripcion": "Envasadora L2", "estado": "en proceso"},
-      {"id": "OT-2356", "descripcion": "Compresor aire", "estado": "pendiente"},
-      {"id": "OT-2360", "descripcion": "Bomba P-102", "estado": "pendiente"}
-    ]
-  },
-  "panels": {
-    "contador": {
-      "kpis": {
-        "gastoAcumulado": 237059751,
-        "presupuesto": 70780000,
-        "porcentaje": 60.2,
-        "disponible": 28179294
-      },
-      "resumen": {
-        "porCuenta": {
-          "Consumo Almacenes": 12058812,
-          "Servicios Edificios": 25169650,
-          "Servicios Maquinarias": 2091254,
-          "Mantenimiento Maquinarias": 1993388,
-          "Mantenimiento Edificios": 1287603
-        },
-        "porProveedor": {
-          "MET-MOD SRL": 6884500,
-          "Dubini Automatizacion": 5985300,
-          "Videojet/MARKEM": 4341418,
-          "TECNICA SILERS S.R.L.": 3250000,
-          "Laboratorio Cuenca SA": 2760000
-        },
-        "ultimaActualizacion": "2026-04-16"
-      },
-      "fuente": "SAP - Bajadasbot.xlsx",
-      "totalRegistros": 204
-    }
+    "cuentas": [
+      {"codigo": "80200255", "nombre": "Servicios Mant. Edificios", "total": 27521678, "porcentaje": 57.1},
+      {"codigo": "75000059", "nombre": "Consumo Almacenes/Repuestos", "total": 12058812, "porcentaje": 25.0},
+      {"codigo": "80100009", "nombre": "Mantenimiento Edificios", "total": 4269764, "porcentaje": 8.9},
+      {"codigo": "80100010", "nombre": "Mantenimiento Maquinarias", "total": 2277091, "porcentaje": 4.7},
+      {"codigo": "80200254", "nombre": "Servicios Mant. Maquinarias", "total": 2086804, "porcentaje": 4.3}
+    ],
+    "ocsPorMes": [
+      {"mes": "Nov 2025", "total": 3420020, "pendiente": true},
+      {"mes": "Dic 2025", "total": 5675000, "pendiente": true},
+      {"mes": "Enero", "total": 256790, "pendiente": false},
+      {"mes": "Febrero", "total": 6673450, "pendiente": false},
+      {"mes": "Marzo", "total": 16504984, "pendiente": false},
+      {"mes": "Abril", "total": 26971344, "pendiente": true},
+      {"mes": "Mayo", "total": 5907766, "pendiente": false},
+      {"mes": "Junio", "total": 724166, "pendiente": false}
+    ],
+    "totalOCs": 60906664,
+    "meses": [
+      {"mes": "Enero", "gasto": 70194413, "presupuesto": 57791000, "porcentaje": 121.6, "alerta": "rojo"},
+      {"mes": "Febrero", "gasto": 68318527, "presupuesto": 59200000, "porcentaje": 115.4, "alerta": "rojo"},
+      {"mes": "Marzo", "gasto": 55946105, "presupuesto": 65000000, "porcentaje": 86.1, "alerta": "verde"},
+      {"mes": "Abril", "gasto": 48214149, "presupuesto": 70780000, "porcentaje": 68.1, "alerta": "amarillo"}
+    ],
+    "chatMensaje": "Hola, el presupuesto va al 68.1% con $48.2M gastados de $70.8M. Pero las OCs pendientes de abril suman $27M, lo que lleva la proyección al 106.2% - excede el presupuesto por $4.4M. Servicios edilicios representa $27.5M (57.1% del gasto). ¿Querés ver el detalle por cuenta o las OCs pendientes?",
+    "accionesRecomendadas": [
+      "Revisar: Gastos de servicios edilicios ($27.5M en abril - 57.1%)",
+      "🔴 Alerta: Proyección al 106.2% - excede presupuesto por $4.4M",
+      "Pendiente mayo: OCs por $5.9M (Bomba Mespack USD $7K + servicios)"
+    ],
+    "ultimaActualizacion": "18/04/2026"
   }
 }
