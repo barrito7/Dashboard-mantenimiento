@@ -9,11 +9,11 @@
     "presupuestoAcumulado2026": 252771000,
     "porcentajeAcumulado": 95.9,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 26971344,
-    "porcentajeOCs": 38.1,
-    "proyeccionTotal": 75185493,
-    "proyeccionPorcentaje": 106.2,
-    "excedente": -4435493,
+    "ocsPendientesAbril": 19371978,
+    "porcentajeOCs": 27.4,
+    "proyeccionTotal": 67586127,
+    "proyeccionPorcentaje": 95.5,
+    "excedente": 3193873,
     "top5Dia": {
       "fecha": "16/04",
       "items": [
@@ -37,11 +37,11 @@
       {"concepto": "Reparación De Puertas DE URGENCIA", "monto": 1800000}
     ],
     "top5OCs": [
-      {"concepto": "Abono mantenimiento HVAC", "proveedor": "", "moneda": "ARS", "monto": 8239252, "montoARS": 8239252},
-      {"concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF", "proveedor": "", "moneda": "USD", "monto": 3255.99, "montoARS": 4411866},
-      {"concepto": "Instalación de Bombas en Sala de Máquina", "proveedor": "", "moneda": "USD", "monto": 2750, "montoARS": 3726250},
-      {"concepto": "Servicio bimestral compresores", "proveedor": "", "moneda": "USD", "monto": 2520, "montoARS": 3414600},
-      {"concepto": "COTIZACIÓN N°26905375", "proveedor": "", "moneda": "USD", "monto": 2460.96, "montoARS": 3334601}
+      {"concepto": "Abono mantenimiento HVAC", "proveedor": "Venturino/Delbene", "moneda": "ARS", "monto": 8239252, "montoARS": 8239252},
+      {"concepto": "Instalación de pulmón de aire", "proveedor": "Montajes Esma SA", "moneda": "ARS", "monto": 2930000, "montoARS": 2930000},
+      {"concepto": "Reparación columnas subsuelo", "proveedor": "Montajes Esma SA", "moneda": "ARS", "monto": 2925000, "montoARS": 2925000},
+      {"concepto": "Calibración", "proveedor": "Sergio Omar Bianchi", "moneda": "ARS", "monto": 2750000, "montoARS": 2750000},
+      {"concepto": "Modificación 3 software control", "proveedor": "Dupolbra Ingenieria SA", "moneda": "ARS", "monto": 2734000, "montoARS": 2734000}
     ],
     "cuentas": [
       {"codigo": "80200255", "nombre": "Servicios Mant. Edificios", "total": 27521678, "porcentaje": 57.1},
@@ -51,28 +51,27 @@
       {"codigo": "80200254", "nombre": "Servicios Mant. Maquinarias", "total": 2086804, "porcentaje": 4.3}
     ],
     "ocsPorMes": [
-      {"mes": "Nov 2025", "total": 3420020, "pendiente": true},
-      {"mes": "Dic 2025", "total": 5675000, "pendiente": true},
-      {"mes": "Enero", "total": 256790, "pendiente": false},
-      {"mes": "Febrero", "total": 6673450, "pendiente": false},
-      {"mes": "Marzo", "total": 16504984, "pendiente": false},
-      {"mes": "Abril", "total": 26971344, "pendiente": true},
-      {"mes": "Mayo", "total": 5907766, "pendiente": false},
-      {"mes": "Junio", "total": 724166, "pendiente": false}
+      {"mes": "Nov 2025", "total": 2524, "pendiente": false},
+      {"mes": "Dic 2025", "total": 5675000, "pendiente": false},
+      {"mes": "Feb", "total": 4114390, "pendiente": false},
+      {"mes": "Mar", "total": 3038641, "pendiente": false},
+      {"mes": "Abr", "total": 19371978, "pendiente": true},
+      {"mes": "May", "total": 523976, "pendiente": true},
+      {"mes": "Jun", "total": 534, "pendiente": true}
     ],
-    "totalOCs": 60906664,
+    "totalOCs": 32727043,
     "meses": [
       {"mes": "Enero", "gasto": 70194413, "presupuesto": 57791000, "porcentaje": 121.6, "alerta": "rojo"},
       {"mes": "Febrero", "gasto": 68318527, "presupuesto": 59200000, "porcentaje": 115.4, "alerta": "rojo"},
       {"mes": "Marzo", "gasto": 55946105, "presupuesto": 65000000, "porcentaje": 86.1, "alerta": "verde"},
       {"mes": "Abril", "gasto": 48214149, "presupuesto": 70780000, "porcentaje": 68.1, "alerta": "amarillo"}
     ],
-    "chatMensaje": "Hola, el presupuesto va al 68.1% con $48.2M gastados de $70.8M. Pero las OCs pendientes de abril suman $27M, lo que lleva la proyección al 106.2% - excede el presupuesto por $4.4M. Servicios edilicios representa $27.5M (57.1% del gasto). ¿Querés ver el detalle por cuenta o las OCs pendientes?",
+    "chatMensaje": "OCs corregidas. Total pendientes: $32.7M. Abril: $19.4M. Proyección: 95.5% - dentro del presupuesto con $3.2M de margen. Top OC: Abono HVAC $8.2M.",
     "accionesRecomendadas": [
-      "Revisar: Gastos de servicios edilicios ($27.5M en abril - 57.1%)",
-      "🔴 Alerta: Proyección al 106.2% - excede presupuesto por $4.4M",
-      "Pendiente mayo: OCs por $5.9M (Bomba Mespack USD $7K + servicios)"
+      "Proyección abril: 95.5% del presupuesto - margen $3.2M",
+      "Top OC pendiente: Abono HVAC Venturino/Delbene ($8.2M)",
+      "OCs mayo pendientes: $524K (Tecni Total, Full Técnica)"
     ],
-    "ultimaActualizacion": "18/04/2026"
+    "ultimaActualizacion": "20/04/2026"
   }
 }
