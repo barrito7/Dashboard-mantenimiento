@@ -134,7 +134,7 @@ function actualizarPanelContador() {
                 }
             });
             // Total row
-            const totalRow = table.querySelector('tr[style*="background: rgba(39, 174"]');
+            const totalRow = document.getElementById('total-acumulado');
             if (totalRow) {
                 const tds = totalRow.querySelectorAll('td');
                 tds[1].textContent = fmt(c.gastoAcumulado2026);
