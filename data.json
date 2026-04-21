@@ -1,31 +1,31 @@
 {
   "contador": {
-    "gastoAbril": 48214149,
+    "gastoAbril": 56424992,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 68.1,
-    "disponible": 22565851,
-    "porcentajeDisponible": 31.9,
-    "gastoAcumulado2026": 242673194,
+    "porcentajeGastado": 79.7,
+    "disponible": 14355008,
+    "porcentajeDisponible": 20.3,
+    "gastoAcumulado2026": 237059751,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 95.9,
+    "porcentajeAcumulado": 93.7,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 19371978,
-    "porcentajeOCs": 27.4,
-    "proyeccionTotal": 67586127,
-    "proyeccionPorcentaje": 95.5,
-    "excedente": 3193873,
+    "ocsPendientesAbril": 24728431,
+    "porcentajeOCs": 34.9,
+    "proyeccionTotal": 81153423,
+    "proyeccionPorcentaje": 114.6,
+    "excedente": -10373423,
     "top5Dia": {
-      "fecha": "16/04",
+      "fecha": "20/04",
       "items": [
-        {"concepto": "Reparación De Puertas DE URGENCIA", "monto": 1800000},
-        {"concepto": "Estantes 42x90 x 50 Kg.", "monto": 958000},
-        {"concepto": "Servicio de Ascensor", "monto": 726628},
-        {"concepto": "Chapa plegad 90° 1Mt 15x15 cm 1.6", "monto": 633000},
-        {"concepto": "Parantes x 2.40 metros", "monto": 335400}
+        {"concepto": "Abono mantenimiento HVAC", "monto": 2059813},
+        {"concepto": "Servicio de mantenimiento preventivo", "monto": 528200},
+        {"concepto": "Prueba Bombas FEB26 S/NFPA25", "monto": 520000},
+        {"concepto": "T-tape 5ak x 1000 mm", "monto": 386454},
+        {"concepto": "MANGUERA CRISTAL 32x38x25Mt", "monto": 256000}
       ]
     },
     "top10Mes": [
-      {"concepto": "Trabajos extras reparación R100", "monto": 6884500},
+      {"concepto": "Trabajos extras reparacion R100", "monto": 6884500},
       {"concepto": "Reparación sistema agitación Mixer R-", "monto": 5985300},
       {"concepto": "Print Module Deck 60UM", "monto": 4341418},
       {"concepto": "Reparación sistema agitación Mixer R-", "monto": 3990200},
@@ -33,45 +33,46 @@
       {"concepto": "Servicio pintura lavadero elaboración", "monto": 3250000},
       {"concepto": "Valve Module Assembly", "monto": 2930823},
       {"concepto": "Medición y Certificación Puesta a Tierra", "monto": 2760000},
-      {"concepto": "Spare Display Door", "monto": 1993388},
-      {"concepto": "Reparación De Puertas DE URGENCIA", "monto": 1800000}
+      {"concepto": "Abono mantenimiento HVAC", "monto": 2059813},
+      {"concepto": "Spare Display Door", "monto": 1993388}
     ],
     "top5OCs": [
-      {"concepto": "Abono mantenimiento HVAC", "proveedor": "Venturino/Delbene", "moneda": "ARS", "monto": 8239252, "montoARS": 8239252},
-      {"concepto": "Instalación de pulmón de aire", "proveedor": "Montajes Esma SA", "moneda": "ARS", "monto": 2930000, "montoARS": 2930000},
-      {"concepto": "Reparación columnas subsuelo", "proveedor": "Montajes Esma SA", "moneda": "ARS", "monto": 2925000, "montoARS": 2925000},
-      {"concepto": "Calibración", "proveedor": "Sergio Omar Bianchi", "moneda": "ARS", "monto": 2750000, "montoARS": 2750000},
-      {"concepto": "Modificación 3 software control", "proveedor": "Dupolbra Ingenieria SA", "moneda": "ARS", "monto": 2734000, "montoARS": 2734000}
+      {"concepto": "Abono mantenimiento HVAC", "moneda": "ARS", "monto": 6179439, "montoARS": 6179439},
+      {"concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF", "moneda": "USD", "monto": 3255.99, "montoARS": 4411866},
+      {"concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES", "moneda": "ARS", "monto": 4320000, "montoARS": 4320000},
+      {"concepto": "Instalación de Bombas en Sala de Máquina", "moneda": "USD", "monto": 2750, "montoARS": 3726250},
+      {"concepto": "Servicio bimestral compresores", "moneda": "USD", "monto": 2520, "montoARS": 3414600}
     ],
     "cuentas": [
-      {"codigo": "80200255", "nombre": "Servicios Mant. Edificios", "total": 27521678, "porcentaje": 57.1},
-      {"codigo": "75000059", "nombre": "Consumo Almacenes/Repuestos", "total": 12058812, "porcentaje": 25.0},
-      {"codigo": "80100009", "nombre": "Mantenimiento Edificios", "total": 4269764, "porcentaje": 8.9},
-      {"codigo": "80100010", "nombre": "Mantenimiento Maquinarias", "total": 2277091, "porcentaje": 4.7},
-      {"codigo": "80200254", "nombre": "Servicios Mant. Maquinarias", "total": 2086804, "porcentaje": 4.3}
+      {"codigo": "80200255", "nombre": "Servicios Mant. Edificios", "total": 31201491, "porcentaje": 55.3},
+      {"codigo": "75000059", "nombre": "Consumo Almacenes/Repuestos", "total": 12173341, "porcentaje": 21.6},
+      {"codigo": "80100010", "nombre": "Mantenimiento Maquinarias", "total": 5305517, "porcentaje": 9.4},
+      {"codigo": "80100009", "nombre": "Mantenimiento Edificios", "total": 4528161, "porcentaje": 8.0},
+      {"codigo": "80200254", "nombre": "Servicios Mant. Maquinarias", "total": 3216482, "porcentaje": 5.7}
     ],
     "ocsPorMes": [
-      {"mes": "Nov 2025", "total": 2524, "pendiente": false},
+      {"mes": "Nov 2025", "total": 3420020, "pendiente": false},
       {"mes": "Dic 2025", "total": 5675000, "pendiente": false},
-      {"mes": "Feb", "total": 4114390, "pendiente": false},
-      {"mes": "Mar", "total": 3038641, "pendiente": false},
-      {"mes": "Abr", "total": 19371978, "pendiente": true},
-      {"mes": "May", "total": 523976, "pendiente": true},
-      {"mes": "Jun", "total": 534, "pendiente": true}
+      {"mes": "Feb", "total": 6673450, "pendiente": false},
+      {"mes": "Mar", "total": 16118530, "pendiente": false},
+      {"mes": "Abr", "total": 24728431, "pendiente": true},
+      {"mes": "May", "total": 9829145, "pendiente": true},
+      {"mes": "Jun", "total": 724166, "pendiente": true}
     ],
-    "totalOCs": 32727043,
+    "totalOCs": 67168742,
     "meses": [
       {"mes": "Enero", "gasto": 70194413, "presupuesto": 57791000, "porcentaje": 121.6, "alerta": "rojo"},
       {"mes": "Febrero", "gasto": 68318527, "presupuesto": 59200000, "porcentaje": 115.4, "alerta": "rojo"},
       {"mes": "Marzo", "gasto": 55946105, "presupuesto": 65000000, "porcentaje": 86.1, "alerta": "verde"},
-      {"mes": "Abril", "gasto": 48214149, "presupuesto": 70780000, "porcentaje": 68.1, "alerta": "amarillo"}
+      {"mes": "Abril", "gasto": 56424992, "presupuesto": 70780000, "porcentaje": 79.7, "alerta": "amarillo"}
     ],
-    "chatMensaje": "OCs corregidas. Total pendientes: $32.7M. Abril: $19.4M. Proyección: 95.5% - dentro del presupuesto con $3.2M de margen. Top OC: Abono HVAC $8.2M.",
+    "chatMensaje": "⚠️ Proyección abril: 114.6% del presupuesto - EXCEDE por $10.4M. Gasto acumulado: $56.4M (79.7%). OCs pendientes abril: $24.7M (28 OCs). Top OC: Abono HVAC $6.2M.",
     "accionesRecomendadas": [
-      "Proyección abril: 95.5% del presupuesto - margen $3.2M",
-      "Top OC pendiente: Abono HVAC Venturino/Delbene ($8.2M)",
-      "OCs mayo pendientes: $524K (Tecni Total, Full Técnica)"
+      "⚠️ Proyección abril EXCEDE presupuesto por $10.4M (114.6%)",
+      "OCs pendientes abril: $24.7M en 28 órdenes - revisar urgente",
+      "Top OC: Abono HVAC $6.2M + Bomba completa $4.4M USD",
+      "Gasto diario 20/04: $4.2M - muy alto"
     ],
-    "ultimaActualizacion": "20/04/2026"
+    "ultimaActualizacion": "21/04/2026"
   }
 }
