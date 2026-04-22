@@ -14,31 +14,6 @@
     "proyeccionTotal": 85104550,
     "proyeccionPorcentaje": 120.2,
     "excedente": -14324550,
-    "top5Dia": {
-      "fecha": "21/04",
-      "items": [
-        {
-          "concepto": "SERVICIO CERRAJERIA MARZO/ABRIL",
-          "monto": 721100
-        },
-        {
-          "concepto": "Servicio de Alquiler equipo Mod.9028",
-          "monto": 698124
-        },
-        {
-          "concepto": "Aros de Pistón Teflonados (CNC++)",
-          "monto": 411781
-        },
-        {
-          "concepto": "Aros de Pistón Teflonados (CNC++)",
-          "monto": 411781
-        },
-        {
-          "concepto": "VENTOSA U-15 SILICONA ROJA",
-          "monto": 348054
-        }
-      ]
-    },
     "top10Mes": [
       {
         "concepto": "Trabajos extras reparacion R100",
@@ -223,6 +198,51 @@
       "Servicios Mant. Edificios lidera con 31.9M (53%)",
       "Gasto acumulado subió de 48.2M a 60.2M en la última semana"
     ],
-    "ultimaActualizacion": "22/04/2026"
+    "ultimaActualizacion": "22/04/2026",
+    "top10Dia": {
+      "fecha": "21/04",
+      "items": [
+        {
+          "concepto": "SERVICIO CERRAJERIA MARZO/ABRIL",
+          "monto": 721100
+        },
+        {
+          "concepto": "Servicio de Alquiler equipo Mod.9028",
+          "monto": 698124
+        },
+        {
+          "concepto": "Aros de Pistón Teflonados (CNC++)",
+          "monto": 411781
+        },
+        {
+          "concepto": "Aros de Pistón Teflonados (CNC++)",
+          "monto": 411781
+        },
+        {
+          "concepto": "VENTOSA U-15 SILICONA ROJA",
+          "monto": 348054
+        },
+        {
+          "concepto": "VENTOSA U-15 SILICONA ROJA",
+          "monto": 348054
+        },
+        {
+          "concepto": "CHAPITA CON 3 AGUJEROS POLVO",
+          "monto": 305999
+        },
+        {
+          "concepto": "VENTOSA U-15 SILICONA ROJA",
+          "monto": 261041
+        },
+        {
+          "concepto": "VENTOSA D20X18 (B20 PIAB)",
+          "monto": 210129
+        },
+        {
+          "concepto": "RETEN GUPP 14x22x5 TRANSP POLICAPROLACTO",
+          "monto": 84896
+        }
+      ]
+    }
   }
 }

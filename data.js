@@ -88,11 +88,11 @@ function actualizarPanelContador() {
     if (chatMsg) chatMsg.textContent = c.chatMensaje;
 
     // Top 5 gastos del día
-    const top5title = document.querySelector('[id="cnt-top5-dia-title"]');
-    if (top5title) top5title.textContent = '💸 Top 5 gastos del día (' + c.top5Dia.fecha + ')';
-    const top5list = document.querySelector('[id="cnt-top5-dia"]');
-    if (top5list) {
-        top5list.innerHTML = c.top5Dia.items.map((item, i) =>
+    const top10title = document.querySelector('[id="cnt-top10-dia-title"]');
+    if (top10title) top10title.textContent = '💸 Top 10 gastos del día (' + c.top10Dia.fecha + ')';
+    const top10list = document.querySelector('[id="cnt-top10-dia"]');
+    if (top10list) {
+        top10list.innerHTML = c.top10Dia.items.map((item, i) =>
             '<li><strong>' + (i+1) + '.</strong> ' + item.concepto + ': ' + fmt(item.monto) + '</li>'
         ).join('');
     }
