@@ -10,7 +10,7 @@
     "porcentajeAcumulado": 100.7,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 24943094,
-    "porcentajeOCs": 34.9,
+    "porcentajeOCs": 35.2,
     "proyeccionTotal": 85104550,
     "proyeccionPorcentaje": 120.2,
     "excedente": -14324550,
@@ -216,12 +216,12 @@
         "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 120.2% del presupuesto - EXCEDE por $14.3M. Gasto: $60.2M (85%). OCs pendientes: .9M.",
+    "chatMensaje": "⚠️ Proyección abril: 120.2% del presupuesto - EXCEDE por $14.3M. Gasto: $60.2M (85%). OCs pendientes: $24.9M.",
     "accionesRecomendadas": [
-      "⚠️ Proyección abril EXCEDE presupuesto por $14.3M (120.2%)",
-      "OCs pendientes abril: .9M en 32 órdenes",
-      "Servicios Mant. Edificios lidera con .9M (53%)",
-      "Gasto acumulado subió de .2M a .2M en 2 días"
+      "Proyección abril EXCEDE presupuesto por 14.3M (120.2%)",
+      "OCs pendientes abril: 24.9M en 32 órdenes",
+      "Servicios Mant. Edificios lidera con 31.9M (53%)",
+      "Gasto acumulado subió de 48.2M a 60.2M en la última semana"
     ],
     "ultimaActualizacion": "22/04/2026"
   }
