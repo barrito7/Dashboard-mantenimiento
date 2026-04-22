@@ -6,7 +6,7 @@ function pct(n) { return n.toFixed(1) + '%'; }
 
 async function cargarDatos() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json?t=' + Date.now());
         DASHBOARD_DATA = await response.json();
         actualizarPanelContador();
     } catch (error) {
