@@ -103,31 +103,31 @@
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
         "total": 31922591,
-        "porcentaje": 0.5
+        "porcentaje": 46.1
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
         "total": 14832162.16,
-        "porcentaje": 0.2
+        "porcentaje": 21.4
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
         "total": 10786350.77,
-        "porcentaje": 0.2
+        "porcentaje": 15.6
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
         "total": 6604565.37,
-        "porcentaje": 0.1
+        "porcentaje": 9.5
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
         "total": 5136809.63,
-        "porcentaje": 0.1
+        "porcentaje": 7.4
       }
     ],
     "ocsPorMes": [
@@ -195,7 +195,7 @@
     "accionesRecomendadas": [
       "Proyección abril EXCEDE presupuesto por 21.1M (129.8%)",
       "OCs pendientes abril: 22.6M en 19 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (0.5%)"
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (46.1%)"
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10DiaAnterior": {
