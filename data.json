@@ -2,7 +2,7 @@
   "contador": {
     "gastoAbril": 60161456,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 1,
+    "porcentajeGastado": 85,
     "disponible": 10618544,
     "porcentajeDisponible": 15,
     "gastoAcumulado2026": 254620501,
@@ -187,11 +187,11 @@
         "mes": "Abril",
         "gasto": 60161456,
         "presupuesto": 70780000,
-        "porcentaje": 1,
-        "alerta": "verde"
+        "porcentaje": 85,
+        "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 0.8% del presupuesto. Gasto: $60.2M (1%).",
+    "chatMensaje": "✅ Proyección abril: 0.8% del presupuesto. Gasto: $60.2M (85%).",
     "accionesRecomendadas": [
       "Proyección abril: 0.8% del presupuesto",
       "OCs pendientes abril: 0M en 32 órdenes",
