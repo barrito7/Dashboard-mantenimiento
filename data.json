@@ -9,11 +9,11 @@
     "presupuestoAcumulado2026": 252771000,
     "porcentajeAcumulado": 100.7,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 0,
-    "porcentajeOCs": 0,
-    "proyeccionTotal": 60161456,
-    "proyeccionPorcentaje": 85,
-    "excedente": 10618544,
+    "ocsPendientesAbril": 24943094,
+    "porcentajeOCs": 3.5,
+    "proyeccionTotal": 85104550,
+    "proyeccionPorcentaje": 120.2,
+    "excedente": -14324550,
     "top10Mes": [
       {
         "concepto": "01.04.2026",
@@ -68,34 +68,34 @@
     ],
     "top5OCs": [
       {
-        "concepto": "",
+        "concepto": "Abono mantenimiento HVAC",
         "moneda": "ARS",
-        "monto": 0,
-        "montoARS": 0
+        "monto": 6179439,
+        "montoARS": 6179439
       },
       {
-        "concepto": "",
-        "moneda": "ARS",
-        "monto": 0,
-        "montoARS": 0
+        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF",
+        "moneda": "USD",
+        "monto": 3255.99,
+        "montoARS": 4411866
       },
       {
-        "concepto": "",
+        "concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES",
         "moneda": "ARS",
-        "monto": 0,
-        "montoARS": 0
+        "monto": 4320000,
+        "montoARS": 4320000
       },
       {
-        "concepto": "",
-        "moneda": "ARS",
-        "monto": 0,
-        "montoARS": 0
+        "concepto": "Instalación de Bombas en Sala de Máquina",
+        "moneda": "USD",
+        "monto": 2750,
+        "montoARS": 3726250
       },
       {
-        "concepto": "",
-        "moneda": "ARS",
-        "monto": 0,
-        "montoARS": 0
+        "concepto": "servicio bimestral compresores",
+        "moneda": "USD",
+        "monto": 2520,
+        "montoARS": 3414600
       }
     ],
     "cuentas": [
@@ -133,34 +133,34 @@
     "ocsPorMes": [
       {
         "mes": "Nov 2025",
-        "total": 0
+        "total": 3420020
       },
       {
         "mes": "Dic 2025",
-        "total": 0
+        "total": 5675000
       },
       {
         "mes": "Feb",
-        "total": 0
+        "total": 6673450
       },
       {
         "mes": "Mar",
-        "total": 0
+        "total": 16118530
       },
       {
         "mes": "Abr",
-        "total": 0
+        "total": 24943094
       },
       {
         "mes": "May",
-        "total": 0
+        "total": 10052720
       },
       {
         "mes": "Jun",
-        "total": 0
+        "total": 724166
       }
     ],
-    "totalOCs": 0,
+    "totalOCs": 67606980,
     "meses": [
       {
         "mes": "Enero",
@@ -191,10 +191,10 @@
         "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 85% del presupuesto. Gasto: $60.2M (85%).",
+    "chatMensaje": "⚠️ Proyección abril: 120.2% del presupuesto - EXCEDE por 14.3M. Gasto: $60.2M (85%). OCs pendientes: $24.9M.",
     "accionesRecomendadas": [
-      "Proyección abril: 85% del presupuesto",
-      "OCs pendientes abril: 0M en 32 órdenes",
+      "Proyección abril EXCEDE presupuesto por 14.3M (120.2%)",
+      "OCs pendientes abril: 24.9M en 32 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (0.5%)"
     ],
     "ultimaActualizacion": "23/04/2026",
