@@ -328,7 +328,7 @@
             <span class="emoji">📦</span>
             <span class="nombre">Pañolero</span>
         </div>
-        <div class="asistente-item" style="opacity: 0.5;" title="Próximamente">
+        <div class="asistente-item" onclick="abrirPanel('programador')">
             <span class="emoji">🔧</span>
             <span class="nombre">Programador</span>
         </div>
@@ -1468,6 +1468,272 @@
                     <li><strong>2025:</strong> 703 avisos | <strong>2026:</strong> 291 avisos</li>
                 </ul>
                 <p style="font-size: 11px; color: #666; margin-top: 8px;">📌 Los datos se cargan desde SAP. Actualizar Excel para ver datos actuales.</p>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Panel Programador -->
+    <div class="panel" id="panel-programador">
+        <button class="panel-cerrar" onclick="cerrarPanel()">&times;</button>
+        <div class="panel-header" style="background: #e67e22;">
+            <h2>🔧 Programador de Mantenimiento</h2>
+            <div class="subtitulo">Gestión de OTs y programación diaria</div>
+            <button class="btn-agente" onclick="abrirAgente('programador')">🤖 Abrir agente</button>
+        </div>
+        <div class="panel-contenido">
+            
+            <!-- KPIs del Programador -->
+            <div class="kpi-grid">
+                <div class="kpi-card malo">
+                    <div class="valor">12</div>
+                    <div class="label">OTs abiertas</div>
+                    <div class="agente-or">Pendientes hoy</div>
+                </div>
+                <div class="kpi-card alerta">
+                    <div class="valor">5</div>
+                    <div class="label">OTs críticas</div>
+                    <div class="agente-or">Prioridad alta</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">3</div>
+                    <div class="label">En proceso</div>
+                    <div class="agente-or">En ejecución</div>
+                </div>
+                <div class="kpi-card bueno">
+                    <div class="valor">28</div>
+                    <div class="label">OTs cerradas abril</div>
+                    <div class="agente-or">Este mes</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor">4.2h</div>
+                    <div class="label">Tiempo promedio</div>
+                    <div class="agente-or">Por OT</div>
+                </div>
+                <div class="kpi-card alerta">
+                    <div class="valor">2</div>
+                    <div class="label">Técnicos disponibles</div>
+                    <div class="agente-or">Turno actual</div>
+                </div>
+            </div>
+            
+            <!-- OTs del día -->
+            <div class="seccion seccion-full">
+                <h3>📋 OTs del día (22/04/2026)</h3>
+                <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                    <thead>
+                        <tr style="border-bottom: 2px solid #e67e22; background: rgba(230,126,34,0.1);">
+                            <th style="text-align: left; padding: 8px;">OT</th>
+                            <th style="text-align: left; padding: 8px;">Equipo</th>
+                            <th style="text-align: left; padding: 8px;">Descripción</th>
+                            <th style="text-align: center; padding: 8px;">Prioridad</th>
+                            <th style="text-align: center; padding: 8px;">Estado</th>
+                            <th style="text-align: left; padding: 8px;">Técnico</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: rgba(231,76,60,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2341</td>
+                            <td style="padding: 8px;">Envasadora L2</td>
+                            <td style="padding: 8px;">Falla en sistema de sellado</td>
+                            <td style="text-align: center;"><span style="background:#e74c3c;color:white;padding:2px 8px;border-radius:10px;">CRÍTICA</span></td>
+                            <td style="text-align: center;"><span style="background:#f39c12;color:white;padding:2px 8px;border-radius:10px;">En proceso</span></td>
+                            <td style="padding: 8px;">Martín G.</td>
+                        </tr>
+                        <tr style="background: rgba(231,76,60,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2356</td>
+                            <td style="padding: 8px;">Compresor aire</td>
+                            <td style="padding: 8px;">Vibración anormal</td>
+                            <td style="text-align: center;"><span style="background:#e74c3c;color:white;padding:2px 8px;border-radius:10px;">CRÍTICA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(231,76,60,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2360</td>
+                            <td style="padding: 8px;">Bomba P-102</td>
+                            <td style="padding: 8px;">Fuga de aceite</td>
+                            <td style="text-align: center;"><span style="background:#e74c3c;color:white;padding:2px 8px;border-radius:10px;">CRÍTICA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(243,156,18,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2345</td>
+                            <td style="padding: 8px;">Línea TGM</td>
+                            <td style="padding: 8px;">Ajuste de sensores</td>
+                            <td style="text-align: center;"><span style="background:#f39c12;color:white;padding:2px 8px;border-radius:10px;">ALTA</span></td>
+                            <td style="text-align: center;"><span style="background:#f39c12;color:white;padding:2px 8px;border-radius:10px;">En proceso</span></td>
+                            <td style="padding: 8px;">Carlos R.</td>
+                        </tr>
+                        <tr style="background: rgba(243,156,18,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2358</td>
+                            <td style="padding: 8px;">Mespack cuád.</td>
+                            <td style="padding: 8px;">Cambio de cuchillas</td>
+                            <td style="text-align: center;"><span style="background:#f39c12;color:white;padding:2px 8px;border-radius:10px;">ALTA</span></td>
+                            <td style="text-align: center;"><span style="background:#f39c12;color:white;padding:2px 8px;border-radius:10px;">En proceso</span></td>
+                            <td style="padding: 8px;">Juan M.</td>
+                        </tr>
+                        <tr style="background: rgba(231,76,60,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2362</td>
+                            <td style="padding: 8px;">Bossar 2</td>
+                            <td style="padding: 8px;">Falla electrónica</td>
+                            <td style="text-align: center;"><span style="background:#e74c3c;color:white;padding:2px 8px;border-radius:10px;">CRÍTICA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(231,76,60,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2363</td>
+                            <td style="padding: 8px;">Reactor R100</td>
+                            <td style="padding: 8px;">Reparación agitador</td>
+                            <td style="text-align: center;"><span style="background:#e74c3c;color:white;padding:2px 8px;border-radius:10px;">CRÍTICA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">OT-2370</td>
+                            <td style="padding: 8px;">Flowpack</td>
+                            <td style="padding: 8px;">Mantenimiento preventivo</td>
+                            <td style="text-align: center;"><span style="background:#3498db;color:white;padding:2px 8px;border-radius:10px;">MEDIA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">OT-2371</td>
+                            <td style="padding: 8px;">Tecmar shampoo</td>
+                            <td style="padding: 8px;">Calibración</td>
+                            <td style="text-align: center;"><span style="background:#3498db;color:white;padding:2px 8px;border-radius:10px;">MEDIA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(39,174,96,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2380</td>
+                            <td style="padding: 8px;">Línea Bergami</td>
+                            <td style="padding: 8px;">Limpieza general</td>
+                            <td style="text-align: center;"><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;">BAJA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(39,174,96,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2381</td>
+                            <td style="padding: 8px;">Sala fraccionam.</td>
+                            <td style="padding: 8px;">Reparación menor</td>
+                            <td style="text-align: center;"><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;">BAJA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                        <tr style="background: rgba(39,174,96,0.1);">
+                            <td style="padding: 8px; font-weight: bold;">OT-2382</td>
+                            <td style="padding: 8px;">Depósito graneles</td>
+                            <td style="padding: 8px;">Inspección visual</td>
+                            <td style="text-align: center;"><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;">BAJA</span></td>
+                            <td style="text-align: center;"><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;">Pendiente</span></td>
+                            <td style="padding: 8px;">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 11px; color: #666; margin-top: 8px;">📌 Total: 12 OTs | 5 críticas | 2 alta | 3 media | 2 baja | 3 en proceso</p>
+            </div>
+            
+            <!-- Acciones recomendadas -->
+            <div class="seccion seccion-full" style="background: linear-gradient(135deg, #e67e22, #d35400); color: white;">
+                <h3 style="color: white; border-bottom-color: white;">⚠️ Acciones urgentes</h3>
+                <ul style="list-style: none;">
+                    <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.3);">🔴 <strong>OT-2356:</strong> Asignar técnico para Compresor aire (vibración anormal)</li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.3);">🔴 <strong>OT-2360:</strong> Verificar stock de repuestos para Bomba P-102</li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.3);">🔴 <strong>OT-2362:</strong> Bossar 2 requiere técnico electricista</li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.3);">🔴 <strong>OT-2363:</strong> Coordinar con Producción para Reactor R100</li>
+                    <li style="padding: 8px 0;">🟡 <strong>Turno noche:</strong> Solo 1 técnico disponible - verificar cobertura</li>
+                </ul>
+            </div>
+            
+            <!-- Chat con el agente -->
+            <div class="seccion seccion-full chat-zone">
+                <h3>💬 Chat con el agente</h3>
+                <div class="chat-messages">
+                    <div class="chat-msg agente">¡Hola Barrito! Hay 5 OTs críticas pendientes hoy. ¿Querés que priorice o asigno técnicos?</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Escribí un mensaje..." disabled>
+                    <button disabled>Enviar</button>
+                </div>
+            </div>
+            
+            <!-- Técnicos por turno -->
+            <div class="seccion">
+                <h3>👥 Técnicos por turno</h3>
+                <ul>
+                    <li><strong>Turno mañana (6:00-14:00)</strong>
+                        <ul style="margin-left: 15px; margin-top: 5px;">
+                            <li>✅ Martín G. - Envasadora L2</li>
+                            <li>✅ Carlos R. - Línea TGM</li>
+                            <li>✅ Juan M. - Mespack cuád.</li>
+                            <li>✅ Roberto S. - Preventivos</li>
+                        </ul>
+                    </li>
+                    <li style="margin-top: 10px;"><strong>Turno intermedio (8:00-17:00)</strong>
+                        <ul style="margin-left: 15px; margin-top: 5px;">
+                            <li>✅ Electricista: Pablo A.</li>
+                        </ul>
+                    </li>
+                    <li style="margin-top: 10px;"><strong>Turno tarde (14:00-22:00)</strong>
+                        <ul style="margin-left: 15px; margin-top: 5px;">
+                            <li>✅ Mecánico: Diego L.</li>
+                            <li>✅ Mecánico: Fernando T.</li>
+                        </ul>
+                    </li>
+                    <li style="margin-top: 10px;"><strong>Turno noche (22:00-06:00)</strong>
+                        <ul style="margin-left: 15px; margin-top: 5px;">
+                            <li>⚠️ Mecánico: Horacio V.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p style="font-size: 11px; color: #f39c12; margin-top: 8px;">⚠️ Turno noche con solo 1 técnico. Considerar refuerzo para OTs críticas.</p>
+            </div>
+            
+            <!-- Resumen del día -->
+            <div class="seccion">
+                <h3>📊 Resumen del día</h3>
+                <ul>
+                    <li><strong>OTs críticas:</strong> 5 pendientes de asignación</li>
+                    <li><strong>OTs en proceso:</strong> 3 en ejecución</li>
+                    <li><strong>OTs completadas hoy:</strong> 0</li>
+                    <li><strong>Preventivos programados:</strong> 4 para hoy</li>
+                    <li><strong>Correctivos:</strong> 8 activos</li>
+                </ul>
+                <div style="margin-top: 15px; padding: 10px; background: rgba(230,126,34,0.1); border-radius: 6px;">
+                    <strong style="color: #e67e22;">📊 Eficiencia semanal:</strong>
+                    <div style="display: flex; align-items: center; gap: 10px; margin-top: 8px;">
+                        <div style="flex: 1; background: #ecf0f1; border-radius: 8px; height: 20px; overflow: hidden;">
+                            <div style="background: linear-gradient(90deg, #27ae60, #2ecc71); height: 100%; width: 78%; border-radius: 8px;"></div>
+                        </div>
+                        <span style="font-weight: bold; color: #27ae60;">78%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Preventivos próximos -->
+            <div class="seccion">
+                <h3>📅 Preventivos próximos 7 días</h3>
+                <ul>
+                    <li><strong>Mañana (23/04):</strong> Línea Bergami - Lubricación</li>
+                    <li><strong>Mañana (23/04):</strong> Bossar 1 - Calibración</li>
+                    <li><strong>Jueves (24/04):</strong> Reactor R5 - Inspección</li>
+                    <li><strong>Viernes (25/04):</strong> Tecmar 1 - Mantenimiento mayor</li>
+                    <li><strong>Sábado (26/04):</strong> Compresor aire - Cambio filtros</li>
+                    <li><strong>Lunes (28/04):</strong> Flowpack - Limpieza profunda</li>
+                </ul>
+            </div>
+            
+            <!-- Backlog -->
+            <div class="seccion" style="background: rgba(231,76,60,0.1); border-left: 4px solid #e74c3c;">
+                <h3 style="color: #c0392b;">⚠️ Backlog de OTs</h3>
+                <ul>
+                    <li><strong>OTs pendientes &gt;7 días:</strong> 8</li>
+                    <li><strong>OTs pendientes &gt;30 días:</strong> 3</li>
+                    <li><strong>Más antigua:</strong> OT-2189 (45 días) - Lab. Cuenca</li>
+                    <li><strong>Segunda más antigua:</strong> OT-2210 (38 días) - Tecmar shampoo</li>
+                    <li><strong>Tercera más antigua:</strong> OT-2245 (32 días) - Depósito graneles</li>
+                </ul>
+                <p style="font-size: 11px; color: #666; margin-top: 8px;">📌 Revisar backlog semanalmente para evitar OTs estancadas</p>
             </div>
             
         </div>
