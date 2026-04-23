@@ -1,20 +1,71 @@
 {
   "contador": {
-    "gastoAbril": 0,
+    "gastoAbril": 44751,
     "presupuestoAbril": 70780000,
     "porcentajeGastado": 0,
-    "disponible": 70780000,
+    "disponible": 70735249,
     "porcentajeDisponible": 100,
-    "gastoAcumulado2026": 194459045,
+    "gastoAcumulado2026": 194503796,
     "presupuestoAcumulado2026": 252771000,
     "porcentajeAcumulado": 0.8,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 0,
     "porcentajeOCs": 0,
-    "proyeccionTotal": 0,
+    "proyeccionTotal": 44751,
     "proyeccionPorcentaje": 0,
-    "excedente": 70780000,
-    "top10Mes": [],
+    "excedente": 70735249,
+    "top10Mes": [
+      {
+        "concepto": "01.04.2026",
+        "monto": 6884500,
+        "fecha": "20260401"
+      },
+      {
+        "concepto": "01.04.2026",
+        "monto": 5985300,
+        "fecha": "20260401"
+      },
+      {
+        "concepto": "08.04.2026",
+        "monto": 4341418.1,
+        "fecha": "20260408"
+      },
+      {
+        "concepto": "01.04.2026",
+        "monto": 3990200,
+        "fecha": "20260401"
+      },
+      {
+        "concepto": "08.04.2026",
+        "monto": 3298789.5,
+        "fecha": "20260408"
+      },
+      {
+        "concepto": "13.04.2026",
+        "monto": 3250000,
+        "fecha": "20260413"
+      },
+      {
+        "concepto": "08.04.2026",
+        "monto": 2930823.47,
+        "fecha": "20260408"
+      },
+      {
+        "concepto": "13.04.2026",
+        "monto": 2760000,
+        "fecha": "20260413"
+      },
+      {
+        "concepto": "20.04.2026",
+        "monto": 2059813,
+        "fecha": "20260420"
+      },
+      {
+        "concepto": "09.04.2026",
+        "monto": 1993387.5,
+        "fecha": "20260409"
+      }
+    ],
     "top5OCs": [
       {
         "concepto": "",
@@ -49,34 +100,34 @@
     ],
     "cuentas": [
       {
-        "codigo": "75000059",
-        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 0,
-        "porcentaje": null
+        "codigo": "80200255",
+        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
+        "total": 31922591,
+        "porcentaje": 713.3
       },
       {
-        "codigo": "80100009",
-        "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 0,
-        "porcentaje": null
+        "codigo": "75000059",
+        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
+        "total": 14832162.16,
+        "porcentaje": 331.4
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 0,
-        "porcentaje": null
+        "total": 5305516.77,
+        "porcentaje": 118.6
+      },
+      {
+        "codigo": "80100009",
+        "nombre": "MANTENIMIENTO EDIFICIOS",
+        "total": 4528160.93,
+        "porcentaje": 101.2
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 0,
-        "porcentaje": null
-      },
-      {
-        "codigo": "80200255",
-        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 0,
-        "porcentaje": null
+        "total": 3573025.37,
+        "porcentaje": 79.8
       }
     ],
     "ocsPorMes": [
@@ -134,7 +185,7 @@
       },
       {
         "mes": "Abril",
-        "gasto": 0,
+        "gasto": 44751,
         "presupuesto": 70780000,
         "porcentaje": 0,
         "alerta": "verde"
@@ -144,12 +195,33 @@
     "accionesRecomendadas": [
       "Proyección abril: 0% del presupuesto",
       "OCs pendientes abril: 0M en 32 órdenes",
-      "CONSUMO ALMACENES Y REPUESTOS lidera con 0M (NaN%)"
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (713.3%)"
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10Dia": {
-      "fecha": "",
-      "items": []
+      "fecha": "21/04",
+      "items": [
+        {
+          "concepto": "21.04.2026",
+          "monto": 721100
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 698124
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 411780.94
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 411780.94
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 348054.05
+        }
+      ]
     }
   }
 }
