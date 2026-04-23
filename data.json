@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 60161456,
+    "gastoAbril": 69282479,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 85,
-    "disponible": 10618544,
-    "porcentajeDisponible": 15,
-    "gastoAcumulado2026": 254620501,
+    "porcentajeGastado": 98,
+    "disponible": 1497521,
+    "porcentajeDisponible": 2,
+    "gastoAcumulado2026": 263741524,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 100.7,
+    "porcentajeAcumulado": 104.3,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 24943094,
-    "porcentajeOCs": 3.5,
-    "proyeccionTotal": 85104550,
-    "proyeccionPorcentaje": 120.2,
-    "excedente": -14324550,
+    "ocsPendientesAbril": 22584774,
+    "porcentajeOCs": 3.2,
+    "proyeccionTotal": 91867253,
+    "proyeccionPorcentaje": 129.8,
+    "excedente": -21087253,
     "top10Mes": [
       {
         "concepto": "01.04.2026",
@@ -24,6 +24,11 @@
         "concepto": "01.04.2026",
         "monto": 5985300,
         "fecha": "20260401"
+      },
+      {
+        "concepto": "22.04.2026",
+        "monto": 4558386,
+        "fecha": "20260422"
       },
       {
         "concepto": "08.04.2026",
@@ -59,11 +64,6 @@
         "concepto": "20.04.2026",
         "monto": 2059813,
         "fecha": "20260420"
-      },
-      {
-        "concepto": "09.04.2026",
-        "monto": 1993387.5,
-        "fecha": "20260409"
       }
     ],
     "top5OCs": [
@@ -72,12 +72,6 @@
         "moneda": "ARS",
         "monto": 6179439,
         "montoARS": 6179439
-      },
-      {
-        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF",
-        "moneda": "USD",
-        "monto": 3255.99,
-        "montoARS": 4411866
       },
       {
         "concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES",
@@ -96,6 +90,12 @@
         "moneda": "USD",
         "monto": 2520,
         "montoARS": 3414600
+      },
+      {
+        "concepto": "COTIZACION N°26905375",
+        "moneda": "USD",
+        "monto": 2460.96,
+        "montoARS": 3334601
       }
     ],
     "cuentas": [
@@ -114,19 +114,19 @@
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 5305516.77,
+        "total": 10786350.77,
+        "porcentaje": 0.2
+      },
+      {
+        "codigo": "80200254",
+        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
+        "total": 6604565.37,
         "porcentaje": 0.1
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 4528160.93,
-        "porcentaje": 0.1
-      },
-      {
-        "codigo": "80200254",
-        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 3573025.37,
+        "total": 5136809.63,
         "porcentaje": 0.1
       }
     ],
@@ -149,18 +149,18 @@
       },
       {
         "mes": "Abr",
-        "total": 24943094
+        "total": 22584774
       },
       {
         "mes": "May",
-        "total": 10052720
+        "total": 10721622
       },
       {
         "mes": "Jun",
         "total": 724166
       }
     ],
-    "totalOCs": 67606980,
+    "totalOCs": 65917561,
     "meses": [
       {
         "mes": "Enero",
@@ -185,61 +185,61 @@
       },
       {
         "mes": "Abril",
-        "gasto": 60161456,
+        "gasto": 69282479,
         "presupuesto": 70780000,
-        "porcentaje": 85,
+        "porcentaje": 98,
         "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 120.2% del presupuesto - EXCEDE por 14.3M. Gasto: $60.2M (85%). OCs pendientes: $24.9M.",
+    "chatMensaje": "⚠️ Proyección abril: 129.8% del presupuesto - EXCEDE por 21.1M. Gasto: $69.3M (98%). OCs pendientes: $22.6M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 14.3M (120.2%)",
-      "OCs pendientes abril: 24.9M en 32 órdenes",
+      "Proyección abril EXCEDE presupuesto por 21.1M (129.8%)",
+      "OCs pendientes abril: 22.6M en 19 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (0.5%)"
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10DiaAnterior": {
-      "fecha": "21/04",
+      "fecha": "22/04",
       "items": [
         {
-          "concepto": "21.04.2026",
-          "monto": 721100
+          "concepto": "22.04.2026",
+          "monto": 4558386
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 698124
+          "concepto": "22.04.2026",
+          "monto": 1100120
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 411780.94
+          "concepto": "22.04.2026",
+          "monto": 1100120
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 411780.94
+          "concepto": "22.04.2026",
+          "monto": 559300
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 348054.05
+          "concepto": "22.04.2026",
+          "monto": 519800
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 348054.05
+          "concepto": "22.04.2026",
+          "monto": 402648
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 305998.85
+          "concepto": "22.04.2026",
+          "monto": 347900
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 261040.53
+          "concepto": "22.04.2026",
+          "monto": 272000
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 210129.21
+          "concepto": "22.04.2026",
+          "monto": 89100
         },
         {
-          "concepto": "21.04.2026",
-          "monto": 84895.56
+          "concepto": "22.04.2026",
+          "monto": 53200
         }
       ]
     }
