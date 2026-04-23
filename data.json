@@ -199,8 +199,49 @@
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10DiaAnterior": {
-      "fecha": "22/04",
-      "items": []
+      "fecha": "21/04",
+      "items": [
+        {
+          "concepto": "21.04.2026",
+          "monto": 721100
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 698124
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 411780.94
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 411780.94
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 348054.05
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 348054.05
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 305998.85
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 261040.53
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 210129.21
+        },
+        {
+          "concepto": "21.04.2026",
+          "monto": 84895.56
+        }
+      ]
     }
   }
 }
