@@ -87,20 +87,20 @@ function actualizarPanelContador() {
     const chatMsg = document.querySelector('#panel-contador .chat-msg.agente');
     if (chatMsg) chatMsg.textContent = c.chatMensaje;
 
-    // Top 5 gastos del día
+    // Top 10 gastos del día anterior
     const top10title = document.querySelector('[id="cnt-top10-dia-title"]');
-    if (top10title) top10title.textContent = '💸 Top 10 gastos del día (' + c.top10Dia.fecha + ')';
+    if (top10title) top10title.textContent = '💸 Top 10 gastos del día anterior (' + c.top10DiaAnterior.fecha + ')';
     const top10list = document.querySelector('[id="cnt-top10-dia"]');
     if (top10list) {
-        top10list.innerHTML = c.top10Dia.items.map((item, i) =>
+        top10list.innerHTML = c.top10DiaAnterior.items.map((item, i) =>
             '<li><strong>' + (i+1) + '.</strong> ' + item.concepto + ': ' + fmt(item.monto) + '</li>'
         ).join('');
     }
 
     // Top 10 gastos del mes
-    const top10list = document.querySelector('[id="cnt-top10-mes"]');
-    if (top10list) {
-        top10list.innerHTML = c.top10Mes.map((item, i) =>
+    const top10listMes = document.querySelector('[id="cnt-top10-mes"]');
+    if (top10listMes) {
+        top10listMes.innerHTML = c.top10Mes.map((item, i) =>
             '<li><strong>' + (i+1) + '.</strong> ' + item.concepto + ': ' + fmt(item.monto) + '</li>'
         ).join('');
     }
