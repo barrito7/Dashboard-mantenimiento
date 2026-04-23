@@ -7,12 +7,12 @@
     "porcentajeDisponible": 15,
     "gastoAcumulado2026": 254620501,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 1,
+    "porcentajeAcumulado": 100.7,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 0,
     "porcentajeOCs": 0,
     "proyeccionTotal": 60161456,
-    "proyeccionPorcentaje": 0.8,
+    "proyeccionPorcentaje": 85,
     "excedente": 10618544,
     "top10Mes": [
       {
@@ -191,9 +191,9 @@
         "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 0.8% del presupuesto. Gasto: $60.2M (85%).",
+    "chatMensaje": "✅ Proyección abril: 85% del presupuesto. Gasto: $60.2M (85%).",
     "accionesRecomendadas": [
-      "Proyección abril: 0.8% del presupuesto",
+      "Proyección abril: 85% del presupuesto",
       "OCs pendientes abril: 0M en 32 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (0.5%)"
     ],
