@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 44751,
+    "gastoAbril": 60161456,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 0,
-    "disponible": 70735249,
-    "porcentajeDisponible": 100,
-    "gastoAcumulado2026": 194503796,
+    "porcentajeGastado": 1,
+    "disponible": 10618544,
+    "porcentajeDisponible": 15,
+    "gastoAcumulado2026": 254620501,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 0.8,
+    "porcentajeAcumulado": 1,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 0,
     "porcentajeOCs": 0,
-    "proyeccionTotal": 44751,
-    "proyeccionPorcentaje": 0,
-    "excedente": 70735249,
+    "proyeccionTotal": 60161456,
+    "proyeccionPorcentaje": 0.8,
+    "excedente": 10618544,
     "top10Mes": [
       {
         "concepto": "01.04.2026",
@@ -103,31 +103,31 @@
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
         "total": 31922591,
-        "porcentaje": 713.3
+        "porcentaje": 0.5
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
         "total": 14832162.16,
-        "porcentaje": 331.4
+        "porcentaje": 0.2
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
         "total": 5305516.77,
-        "porcentaje": 118.6
+        "porcentaje": 0.1
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
         "total": 4528160.93,
-        "porcentaje": 101.2
+        "porcentaje": 0.1
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
         "total": 3573025.37,
-        "porcentaje": 79.8
+        "porcentaje": 0.1
       }
     ],
     "ocsPorMes": [
@@ -185,17 +185,17 @@
       },
       {
         "mes": "Abril",
-        "gasto": 44751,
+        "gasto": 60161456,
         "presupuesto": 70780000,
-        "porcentaje": 0,
+        "porcentaje": 1,
         "alerta": "verde"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 0% del presupuesto. Gasto: $0M (0%).",
+    "chatMensaje": "✅ Proyección abril: 0.8% del presupuesto. Gasto: $60.2M (1%).",
     "accionesRecomendadas": [
-      "Proyección abril: 0% del presupuesto",
+      "Proyección abril: 0.8% del presupuesto",
       "OCs pendientes abril: 0M en 32 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (713.3%)"
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (0.5%)"
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10Dia": {
