@@ -1,166 +1,115 @@
 {
   "contador": {
-    "gastoAbril": 60161456,
+    "gastoAbril": 0,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 85,
-    "disponible": 10618544,
-    "porcentajeDisponible": 15,
-    "gastoAcumulado2026": 254620501,
+    "porcentajeGastado": 0,
+    "disponible": 70780000,
+    "porcentajeDisponible": 100,
+    "gastoAcumulado2026": 194459045,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 100.7,
+    "porcentajeAcumulado": 0.8,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 24943094,
-    "porcentajeOCs": 35.2,
-    "proyeccionTotal": 85104550,
-    "proyeccionPorcentaje": 120.2,
-    "excedente": -14324550,
-    "top10Mes": [
-      {
-        "concepto": "Trabajos extras reparacion R100",
-        "monto": 6884500,
-        "fecha": "20260401"
-      },
-      {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 5985300,
-        "fecha": "20260401"
-      },
-      {
-        "concepto": "PRINT MODULE DECK 60UM SPARE 399422",
-        "monto": 4341418,
-        "fecha": "20260408"
-      },
-      {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 3990200,
-        "fecha": "20260401"
-      },
-      {
-        "concepto": "613598 Solvent Control Module Assembly",
-        "monto": 3298790,
-        "fecha": "20260408"
-      },
-      {
-        "concepto": "SERVICIO PINTURA LAVADERO ELABORACION",
-        "monto": 3250000,
-        "fecha": "20260413"
-      },
-      {
-        "concepto": "399181 Valve Module Assembly",
-        "monto": 2930823,
-        "fecha": "20260408"
-      },
-      {
-        "concepto": "Medición y Certificación Puesta a Tierra",
-        "monto": 2760000,
-        "fecha": "20260413"
-      },
-      {
-        "concepto": "Abono mantenimiento HVAC",
-        "monto": 2059813,
-        "fecha": "20260420"
-      },
-      {
-        "concepto": "613615 SPARE, DISPLAY DOOR",
-        "monto": 1993388,
-        "fecha": "20260409"
-      }
-    ],
+    "ocsPendientesAbril": 0,
+    "porcentajeOCs": 0,
+    "proyeccionTotal": 0,
+    "proyeccionPorcentaje": 0,
+    "excedente": 70780000,
+    "top10Mes": [],
     "top5OCs": [
       {
-        "concepto": "Abono mantenimiento HVAC",
+        "concepto": "",
         "moneda": "ARS",
-        "monto": 6179439,
-        "montoARS": 6179439
+        "monto": 0,
+        "montoARS": 0
       },
       {
-        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF",
-        "moneda": "USD",
-        "monto": 3255.99,
-        "montoARS": 4411866
-      },
-      {
-        "concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES",
+        "concepto": "",
         "moneda": "ARS",
-        "monto": 4320000,
-        "montoARS": 4320000
+        "monto": 0,
+        "montoARS": 0
       },
       {
-        "concepto": "Instalación de Bombas en Sala de Máquina",
-        "moneda": "USD",
-        "monto": 2750,
-        "montoARS": 3726250
+        "concepto": "",
+        "moneda": "ARS",
+        "monto": 0,
+        "montoARS": 0
       },
       {
-        "concepto": "servicio bimestral compresores",
-        "moneda": "USD",
-        "monto": 2520,
-        "montoARS": 3414600
+        "concepto": "",
+        "moneda": "ARS",
+        "monto": 0,
+        "montoARS": 0
+      },
+      {
+        "concepto": "",
+        "moneda": "ARS",
+        "monto": 0,
+        "montoARS": 0
       }
     ],
     "cuentas": [
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 14832162,
-        "porcentaje": 24.7
+        "total": 0,
+        "porcentaje": null
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 4528161,
-        "porcentaje": 7.5
+        "total": 0,
+        "porcentaje": null
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 5305517,
-        "porcentaje": 8.8
+        "total": 0,
+        "porcentaje": null
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 3573025,
-        "porcentaje": 5.9
+        "total": 0,
+        "porcentaje": null
       },
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 31922591,
-        "porcentaje": 53.1
+        "total": 0,
+        "porcentaje": null
       }
     ],
     "ocsPorMes": [
       {
         "mes": "Nov 2025",
-        "total": 3420020
+        "total": 0
       },
       {
         "mes": "Dic 2025",
-        "total": 5675000
+        "total": 0
       },
       {
         "mes": "Feb",
-        "total": 6673450
+        "total": 0
       },
       {
         "mes": "Mar",
-        "total": 16118530
+        "total": 0
       },
       {
         "mes": "Abr",
-        "total": 24943094
+        "total": 0
       },
       {
         "mes": "May",
-        "total": 10052720
+        "total": 0
       },
       {
         "mes": "Jun",
-        "total": 724166
+        "total": 0
       }
     ],
-    "totalOCs": 67606980,
+    "totalOCs": 0,
     "meses": [
       {
         "mes": "Enero",
@@ -185,64 +134,22 @@
       },
       {
         "mes": "Abril",
-        "gasto": 60161456,
+        "gasto": 0,
         "presupuesto": 70780000,
-        "porcentaje": 85,
-        "alerta": "amarillo"
+        "porcentaje": 0,
+        "alerta": "verde"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 120.2% del presupuesto - EXCEDE por $14.3M. Gasto: $60.2M (85%). OCs pendientes: $24.9M.",
+    "chatMensaje": "✅ Proyección abril: 0% del presupuesto. Gasto: $0M (0%).",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 14.3M (120.2%)",
-      "OCs pendientes abril: 24.9M en 32 órdenes",
-      "Servicios Mant. Edificios lidera con 31.9M (53%)",
-      "Gasto acumulado subió de 48.2M a 60.2M en la última semana"
+      "Proyección abril: 0% del presupuesto",
+      "OCs pendientes abril: 0M en 32 órdenes",
+      "CONSUMO ALMACENES Y REPUESTOS lidera con 0M (NaN%)"
     ],
     "ultimaActualizacion": "23/04/2026",
     "top10Dia": {
-      "fecha": "21/04",
-      "items": [
-        {
-          "concepto": "SERVICIO CERRAJERIA MARZO/ABRIL",
-          "monto": 721100
-        },
-        {
-          "concepto": "Servicio de Alquiler equipo Mod.9028",
-          "monto": 698124
-        },
-        {
-          "concepto": "Aros de Pistón Teflonados (CNC++)",
-          "monto": 411781
-        },
-        {
-          "concepto": "Aros de Pistón Teflonados (CNC++)",
-          "monto": 411781
-        },
-        {
-          "concepto": "VENTOSA U-15 SILICONA ROJA",
-          "monto": 348054
-        },
-        {
-          "concepto": "VENTOSA U-15 SILICONA ROJA",
-          "monto": 348054
-        },
-        {
-          "concepto": "CHAPITA CON 3 AGUJEROS POLVO",
-          "monto": 305999
-        },
-        {
-          "concepto": "VENTOSA U-15 SILICONA ROJA",
-          "monto": 261041
-        },
-        {
-          "concepto": "VENTOSA D20X18 (B20 PIAB)",
-          "monto": 210129
-        },
-        {
-          "concepto": "RETEN GUPP 14x22x5 TRANSP POLICAPROLACTO",
-          "monto": 84896
-        }
-      ]
+      "fecha": "",
+      "items": []
     }
   }
 }
