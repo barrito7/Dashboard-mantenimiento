@@ -133,31 +133,73 @@
     "ocsPorMes": [
       {
         "mes": "Nov 2025",
-        "total": 2566370
+        "total": 2566370,
+        "count": 4
       },
       {
         "mes": "Dic 2025",
-        "total": 5675000
+        "total": 5675000,
+        "count": 2
+      },
+      {
+        "mes": "Ene",
+        "total": 0,
+        "count": 0
       },
       {
         "mes": "Feb",
-        "total": 6673450
+        "total": 6673450,
+        "count": 5
       },
       {
         "mes": "Mar",
-        "total": 16118530
+        "total": 16118530,
+        "count": 9
       },
       {
         "mes": "Abr",
-        "total": 22584774
+        "total": 22584774,
+        "count": 19
       },
       {
         "mes": "May",
-        "total": 11538985
+        "total": 11538985,
+        "count": 18
       },
       {
         "mes": "Jun",
-        "total": 724166
+        "total": 724166,
+        "count": 4
+      },
+      {
+        "mes": "Jul",
+        "total": 0,
+        "count": 0
+      },
+      {
+        "mes": "Ago",
+        "total": 0,
+        "count": 0
+      },
+      {
+        "mes": "Sep",
+        "total": 0,
+        "count": 0
+      },
+      {
+        "mes": "Oct",
+        "total": 0,
+        "count": 0
+      },
+      {
+        "mes": "Nov",
+        "total": 0,
+        "count": 0
+      },
+      {
+        "mes": "Dic",
+        "total": 0,
+        "count": 0
       }
     ],
     "totalOCs": 65881275,
