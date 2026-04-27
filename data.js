@@ -89,7 +89,7 @@ function actualizarPanelContador() {
 
     // Top 10 gastos del día anterior
     const top10title = document.querySelector('[id="cnt-top10-dia-title"]');
-    if (top10title) top10title.textContent = '💸 Top 10 gastos del día anterior (' + c.top10DiaAnterior.fecha + ')';
+    if (top10title) top10title.textContent = '💸 Top 10 gastos del período (' + c.top10DiaAnterior.fecha + ')';
     const top10list = document.querySelector('[id="cnt-top10-dia"]');
     if (top10list) {
         top10list.innerHTML = c.top10DiaAnterior.items.map((item, i) =>
