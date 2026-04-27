@@ -241,19 +241,47 @@
     ],
     "ultimaActualizacion": "27/04/2026",
     "top10DiaAnterior": {
-      "fecha": "27/04",
+      "fecha": "24/04-27/04",
       "items": [
         {
           "concepto": "ESTATOR ET 236.4 #4643, EPDM+AISI 304 01",
           "monto": 2022750
         },
         {
+          "concepto": "servicio de alquiler mensual autoelevado",
+          "monto": 1698000
+        },
+        {
           "concepto": "ESTATOR FLUX POS 22 F550 S 50/21 381602-",
           "monto": 951875.4
         },
         {
+          "concepto": "Reparacion Rodillo cinta salida Tecmar",
+          "monto": 820700
+        },
+        {
+          "concepto": "SERVICIO CAMBIO DE VIDRIO REACTOR",
+          "monto": 680000
+        },
+        {
+          "concepto": "Cinta antideslizante negra 3M ancho 50mm",
+          "monto": 414521.8
+        },
+        {
           "concepto": "CORREA DENTADA T10X1880 A:16mm",
           "monto": 119942.4
+        },
+        {
+          "concepto": "Cinta autoadhesiva negra/amaril 3M 50mm",
+          "monto": 108034.7
+        },
+        {
+          "concepto": "VITROLUX AMAR.MEDIANO x 1 l.",
+          "monto": 39561.98
+        },
+        {
+          "concepto": "ENVIO A PLANTA",
+          "monto": 18000
         }
       ]
     }
