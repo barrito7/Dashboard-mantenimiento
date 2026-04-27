@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 70164479,
+    "gastoAbril": 77048556,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 99,
-    "disponible": 615521,
-    "porcentajeDisponible": 1,
-    "gastoAcumulado2026": 264623524,
+    "porcentajeGastado": 109,
+    "disponible": -6268556,
+    "porcentajeDisponible": -9,
+    "gastoAcumulado2026": 271507601,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 104.7,
+    "porcentajeAcumulado": 107.4,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 22584774,
-    "porcentajeOCs": 3.2,
-    "proyeccionTotal": 92749253,
-    "proyeccionPorcentaje": 131,
-    "excedente": -21969253,
+    "ocsPendientesAbril": 19725407,
+    "porcentajeOCs": 2.8,
+    "proyeccionTotal": 96773963,
+    "proyeccionPorcentaje": 136.7,
+    "excedente": -25993963,
     "top10Mes": [
       {
         "concepto": "Trabajos extras reparacion R100",
@@ -102,32 +102,32 @@
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 31922591,
-        "porcentaje": 45.5
+        "total": 32602591,
+        "porcentaje": 42.3
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 14832162.16,
-        "porcentaje": 21.1
+        "total": 17926729.96,
+        "porcentaje": 23.3
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 10786350.77,
-        "porcentaje": 15.4
+        "total": 10804350.77,
+        "porcentaje": 14
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 7486565.37,
-        "porcentaje": 10.7
+        "total": 10005265.37,
+        "porcentaje": 13
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 5136809.63,
-        "porcentaje": 7.3
+        "total": 5709618.91,
+        "porcentaje": 7.4
       }
     ],
     "ocsPorMes": [
@@ -158,12 +158,12 @@
       },
       {
         "mes": "Abr",
-        "total": 22584774,
-        "count": 19
+        "total": 19725407,
+        "count": 13
       },
       {
         "mes": "May",
-        "total": 11538985,
+        "total": 10890537,
         "count": 18
       },
       {
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 65881275,
+    "totalOCs": 62373460,
     "meses": [
       {
         "mes": "Enero",
@@ -227,25 +227,33 @@
       },
       {
         "mes": "Abril",
-        "gasto": 70164479,
+        "gasto": 77048556,
         "presupuesto": 70780000,
-        "porcentaje": 99,
-        "alerta": "amarillo"
+        "porcentaje": 109,
+        "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 131% del presupuesto - EXCEDE por 22M. Gasto: $70.2M (99%). OCs pendientes: $22.6M.",
+    "chatMensaje": "⚠️ Proyección abril: 136.7% del presupuesto - EXCEDE por 26M. Gasto: $77M (109%). OCs pendientes: $19.7M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 22M (131%)",
-      "OCs pendientes abril: 22.6M en 19 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.9M (45.5%)"
+      "Proyección abril EXCEDE presupuesto por 26M (136.7%)",
+      "OCs pendientes abril: 19.7M en 13 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (42.3%)"
     ],
-    "ultimaActualizacion": "24/04/2026",
+    "ultimaActualizacion": "27/04/2026",
     "top10DiaAnterior": {
-      "fecha": "23/04",
+      "fecha": "27/04",
       "items": [
         {
-          "concepto": "servicio bimestral compresores",
-          "monto": 882000
+          "concepto": "ESTATOR ET 236.4 #4643, EPDM+AISI 304 01",
+          "monto": 2022750
+        },
+        {
+          "concepto": "ESTATOR FLUX POS 22 F550 S 50/21 381602-",
+          "monto": 951875.4
+        },
+        {
+          "concepto": "CORREA DENTADA T10X1880 A:16mm",
+          "monto": 119942.4
         }
       ]
     }
