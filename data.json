@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 77048556,
+    "gastoAbril": 77163085,
     "presupuestoAbril": 70780000,
     "porcentajeGastado": 109,
-    "disponible": -6268556,
+    "disponible": -6383085,
     "porcentajeDisponible": -9,
-    "gastoAcumulado2026": 271507601,
+    "gastoAcumulado2026": 271622130,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 107.4,
+    "porcentajeAcumulado": 107.5,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 19725407,
     "porcentajeOCs": 2.8,
-    "proyeccionTotal": 96773963,
-    "proyeccionPorcentaje": 136.7,
-    "excedente": -25993963,
+    "proyeccionTotal": 96888492,
+    "proyeccionPorcentaje": 136.9,
+    "excedente": -26108492,
     "top10Mes": [
       {
         "concepto": "Trabajos extras reparacion R100",
@@ -68,6 +68,12 @@
     ],
     "top5OCs": [
       {
+        "concepto": "Alquiler de Chiller",
+        "moneda": "USD",
+        "monto": 4866.3,
+        "montoARS": 6593837
+      },
+      {
         "concepto": "Abono mantenimiento HVAC",
         "moneda": "ARS",
         "monto": 6179439,
@@ -90,12 +96,6 @@
         "moneda": "USD",
         "monto": 2460.96,
         "montoARS": 3334601
-      },
-      {
-        "concepto": "Instalación de pulmón de aire.",
-        "moneda": "ARS",
-        "monto": 2930000,
-        "montoARS": 2930000
       }
     ],
     "cuentas": [
@@ -108,8 +108,8 @@
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 17926729.96,
-        "porcentaje": 23.3
+        "total": 18041259.35,
+        "porcentaje": 23.4
       },
       {
         "codigo": "80100010",
@@ -163,8 +163,8 @@
       },
       {
         "mes": "May",
-        "total": 10890537,
-        "count": 18
+        "total": 17484374,
+        "count": 19
       },
       {
         "mes": "Jun",
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 62373460,
+    "totalOCs": 68967297,
     "meses": [
       {
         "mes": "Enero",
@@ -227,61 +227,41 @@
       },
       {
         "mes": "Abril",
-        "gasto": 77048556,
+        "gasto": 77163085,
         "presupuesto": 70780000,
         "porcentaje": 109,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 136.7% del presupuesto - EXCEDE por 26M. Gasto: $77M (109%). OCs pendientes: $19.7M.",
+    "chatMensaje": "⚠️ Proyección abril: 136.9% del presupuesto - EXCEDE por 26.1M. Gasto: $77.2M (109%). OCs pendientes: $19.7M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 26M (136.7%)",
+      "Proyección abril EXCEDE presupuesto por 26.1M (136.9%)",
       "OCs pendientes abril: 19.7M en 13 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (42.3%)"
     ],
-    "ultimaActualizacion": "27/04/2026",
+    "ultimaActualizacion": "28/04/2026",
     "top10DiaAnterior": {
-      "fecha": "24/04-27/04",
+      "fecha": "27/04",
       "items": [
         {
           "concepto": "ESTATOR ET 236.4 #4643, EPDM+AISI 304 01",
           "monto": 2022750
         },
         {
-          "concepto": "servicio de alquiler mensual autoelevado",
-          "monto": 1698000
-        },
-        {
           "concepto": "ESTATOR FLUX POS 22 F550 S 50/21 381602-",
           "monto": 951875.4
-        },
-        {
-          "concepto": "Reparacion Rodillo cinta salida Tecmar",
-          "monto": 820700
-        },
-        {
-          "concepto": "SERVICIO CAMBIO DE VIDRIO REACTOR",
-          "monto": 680000
-        },
-        {
-          "concepto": "Cinta antideslizante negra 3M ancho 50mm",
-          "monto": 414521.8
         },
         {
           "concepto": "CORREA DENTADA T10X1880 A:16mm",
           "monto": 119942.4
         },
         {
-          "concepto": "Cinta autoadhesiva negra/amaril 3M 50mm",
-          "monto": 108034.7
+          "concepto": "Filtro sedimentos PS5-30",
+          "monto": 71541.64
         },
         {
-          "concepto": "VITROLUX AMAR.MEDIANO x 1 l.",
-          "monto": 39561.98
-        },
-        {
-          "concepto": "ENVIO A PLANTA",
-          "monto": 18000
+          "concepto": "Filtro Sedimentos DGD-5005-20",
+          "monto": 42987.75
         }
       ]
     }
