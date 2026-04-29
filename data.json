@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 77163085,
+    "gastoAbril": 77114935,
     "presupuestoAbril": 70780000,
     "porcentajeGastado": 109,
-    "disponible": -6383085,
+    "disponible": -6334935,
     "porcentajeDisponible": -9,
-    "gastoAcumulado2026": 271622130,
+    "gastoAcumulado2026": 271573980,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 107.5,
+    "porcentajeAcumulado": 107.4,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 19725407,
     "porcentajeOCs": 2.8,
-    "proyeccionTotal": 96888492,
-    "proyeccionPorcentaje": 136.9,
-    "excedente": -26108492,
+    "proyeccionTotal": 96840342,
+    "proyeccionPorcentaje": 136.8,
+    "excedente": -26060342,
     "top10Mes": [
       {
         "concepto": "Trabajos extras reparacion R100",
@@ -102,7 +102,7 @@
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 32602591,
+        "total": 32586370,
         "porcentaje": 42.3
       },
       {
@@ -120,8 +120,8 @@
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 10005265.37,
-        "porcentaje": 13
+        "total": 9973335.72,
+        "porcentaje": 12.9
       },
       {
         "codigo": "80100009",
@@ -227,41 +227,25 @@
       },
       {
         "mes": "Abril",
-        "gasto": 77163085,
+        "gasto": 77114935,
         "presupuesto": 70780000,
         "porcentaje": 109,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 136.9% del presupuesto - EXCEDE por 26.1M. Gasto: $77.2M (109%). OCs pendientes: $19.7M.",
+    "chatMensaje": "⚠️ Proyección abril: 136.8% del presupuesto - EXCEDE por 26.1M. Gasto: $77.1M (109%). OCs pendientes: $19.7M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 26.1M (136.9%)",
+      "Proyección abril EXCEDE presupuesto por 26.1M (136.8%)",
       "OCs pendientes abril: 19.7M en 13 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (42.3%)"
     ],
-    "ultimaActualizacion": "28/04/2026",
+    "ultimaActualizacion": "29/04/2026",
     "top10DiaAnterior": {
-      "fecha": "27/04",
+      "fecha": "28/04",
       "items": [
         {
-          "concepto": "ESTATOR ET 236.4 #4643, EPDM+AISI 304 01",
-          "monto": 2022750
-        },
-        {
-          "concepto": "ESTATOR FLUX POS 22 F550 S 50/21 381602-",
-          "monto": 951875.4
-        },
-        {
-          "concepto": "CORREA DENTADA T10X1880 A:16mm",
-          "monto": 119942.4
-        },
-        {
-          "concepto": "Filtro sedimentos PS5-30",
-          "monto": 71541.64
-        },
-        {
-          "concepto": "Filtro Sedimentos DGD-5005-20",
-          "monto": 42987.75
+          "concepto": "Baja por antiguedad OC 4600494971",
+          "monto": 24000
         }
       ]
     }
