@@ -1,69 +1,69 @@
 {
   "contador": {
-    "gastoAbril": 74453321,
+    "gastoAbril": 21883896,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 105,
-    "disponible": -3673321,
-    "porcentajeDisponible": -5,
-    "gastoAcumulado2026": 268912366,
+    "porcentajeGastado": 31,
+    "disponible": 48896104,
+    "porcentajeDisponible": 69,
+    "gastoAcumulado2026": 216342941,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 106.4,
+    "porcentajeAcumulado": 85.6,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 19725407,
     "porcentajeOCs": 2.8,
-    "proyeccionTotal": 94178728,
-    "proyeccionPorcentaje": 133.1,
-    "excedente": -23398728,
+    "proyeccionTotal": 41609303,
+    "proyeccionPorcentaje": 58.8,
+    "excedente": 29170697,
     "top10Mes": [
       {
-        "concepto": "Trabajos extras reparacion R100",
-        "monto": 6884500,
-        "fecha": "20260401"
+        "concepto": "CAMBIO DE EJE PRINCIPAL",
+        "monto": 5518500,
+        "fecha": "20260504"
       },
       {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 5985300,
-        "fecha": "20260401"
+        "concepto": "Instalación de pulmón de aire.",
+        "monto": 2930000,
+        "fecha": "20260504"
       },
       {
-        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS/WF/PWF",
-        "monto": 4558386,
-        "fecha": "20260422"
+        "concepto": "Instalación de seca manos",
+        "monto": 2400000,
+        "fecha": "20260504"
       },
       {
-        "concepto": "PRINT MODULE DECK 60UM SPARE 399422",
-        "monto": 4341418.1,
-        "fecha": "20260408"
+        "concepto": "Alquiler de Chiller",
+        "monto": 1147635.75,
+        "fecha": "20260504"
       },
       {
-        "concepto": "REPARACION SISTEMA DE AGITACION MIXER R-",
-        "monto": 3990200,
-        "fecha": "20260401"
+        "concepto": "Alquiler de Chiller",
+        "monto": 1147635.75,
+        "fecha": "20260504"
       },
       {
-        "concepto": "613598 Solvent Control Module Assembly",
-        "monto": 3298789.5,
-        "fecha": "20260408"
+        "concepto": "embudo cambio de formato tecmar kit",
+        "monto": 1054175,
+        "fecha": "20260504"
       },
       {
-        "concepto": "SERVICIO PINTURA LAVADERO ELABORACION",
-        "monto": 3250000,
-        "fecha": "20260413"
+        "concepto": "REPAIR KIT6AM K208",
+        "monto": 983277.6,
+        "fecha": "20260503"
       },
       {
-        "concepto": "399181 Valve Module Assembly",
-        "monto": 2930823.47,
-        "fecha": "20260408"
+        "concepto": "VENTOSA SFERICA D55X19 100.200.025",
+        "monto": 655643.67,
+        "fecha": "20260503"
       },
       {
-        "concepto": "Medición y Certificación Puesta a Tierra",
-        "monto": 2760000,
-        "fecha": "20260413"
+        "concepto": "CARTUCHO CARBON BLOCK PENTAIR EP-10",
+        "monto": 619271.3,
+        "fecha": "20260503"
       },
       {
-        "concepto": "Abono mantenimiento HVAC",
-        "monto": 2059813,
-        "fecha": "20260420"
+        "concepto": "CARTUCHO CARBON BLOCK PENTAIR EP-10",
+        "monto": 557344.18,
+        "fecha": "20260503"
       }
     ],
     "top5OCs": [
@@ -102,32 +102,32 @@
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 32586370,
-        "porcentaje": 43.8
+        "total": 11263771.5,
+        "porcentaje": 51.5
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 15382438.31,
-        "porcentaje": 20.7
-      },
-      {
-        "codigo": "80100010",
-        "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 10809010.33,
-        "porcentaje": 14.5
-      },
-      {
-        "codigo": "80200254",
-        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 9973335.72,
-        "porcentaje": 13.4
+        "total": 6911249.46,
+        "porcentaje": 31.6
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 5702166.32,
-        "porcentaje": 7.7
+        "total": 2400000,
+        "porcentaje": 11
+      },
+      {
+        "codigo": "80100010",
+        "nombre": "MANTENIMIENTO MAQUINARIAS",
+        "total": 1054175,
+        "porcentaje": 4.8
+      },
+      {
+        "codigo": "80200254",
+        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
+        "total": 254700,
+        "porcentaje": 1.2
       }
     ],
     "ocsPorMes": [
@@ -227,61 +227,61 @@
       },
       {
         "mes": "Abril",
-        "gasto": 74453321,
+        "gasto": 21883896,
         "presupuesto": 70780000,
-        "porcentaje": 105,
-        "alerta": "rojo"
+        "porcentaje": 31,
+        "alerta": "verde"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 133.1% del presupuesto - EXCEDE por 23.4M. Gasto: $74.5M (105%). OCs pendientes: $19.7M.",
+    "chatMensaje": "✅ Proyección abril: 58.8% del presupuesto. Gasto: $21.9M (31%).",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 23.4M (133.1%)",
+      "Proyección abril: 58.8% del presupuesto",
       "OCs pendientes abril: 19.7M en 13 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (43.8%)"
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 11.3M (51.5%)"
     ],
-    "ultimaActualizacion": "04/05/2026",
+    "ultimaActualizacion": "05/05/2026",
     "top10DiaAnterior": {
-      "fecha": "30/04",
+      "fecha": "04/05",
       "items": [
         {
-          "concepto": "REDUC EXCEN P/SOLDAR 76.2a38.1 317317",
-          "monto": 895.48
+          "concepto": "CAMBIO DE EJE PRINCIPAL",
+          "monto": 5518500
         },
         {
-          "concepto": "VALV ESFERICA 3C 1\" SOCKET WELD 346349",
-          "monto": 509.58
+          "concepto": "Instalación de pulmón de aire.",
+          "monto": 2930000
         },
         {
-          "concepto": "SER VERSATIL P/ACTU DE VALV MAR 339350",
-          "monto": 458.12
+          "concepto": "Instalación de seca manos",
+          "monto": 2400000
         },
         {
-          "concepto": "VALVULA ESFERICA 1-1/4\" 316 323078",
-          "monto": 439.5
+          "concepto": "Alquiler de Chiller",
+          "monto": 1147635.75
         },
         {
-          "concepto": "MANGUITO CLAMP P/SOLDAR 1-1/4\" 302552",
-          "monto": 264.14
+          "concepto": "Alquiler de Chiller",
+          "monto": 1147635.75
         },
         {
-          "concepto": "ADAPTADOR HEMB LNH-316 1\" 300015",
-          "monto": 214.62
+          "concepto": "embudo cambio de formato tecmar kit",
+          "monto": 1054175
         },
         {
-          "concepto": "VALVULA ESF 1\" 316 323079",
-          "monto": 148.15
+          "concepto": "Servicio de volquete",
+          "monto": 520000
         },
         {
-          "concepto": "ALLEN CABEZA CILINDR M6x30 300470",
-          "monto": 112.48
+          "concepto": "VENTOSA VASB-30-1/8-PUR 1395690 FESTO",
+          "monto": 409613.94
         },
         {
-          "concepto": "JUNTA CLAMP EPDM 50.8 (2\") 312992",
-          "monto": 101.23
+          "concepto": "CILINDRO DSNU-25-80-PPV-A 19247 BOSSAR",
+          "monto": 178869.53
         },
         {
-          "concepto": "OLIVA P/SOLDAR 316L 31.7x2.0mm 314972",
-          "monto": 89.39
+          "concepto": "CILINDRO DSNU-25-80-PPV-A 19247 BOSSAR",
+          "monto": 178869.53
         }
       ]
     }
