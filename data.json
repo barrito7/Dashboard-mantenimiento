@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 77114935,
+    "gastoAbril": 74453321,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 109,
-    "disponible": -6334935,
-    "porcentajeDisponible": -9,
-    "gastoAcumulado2026": 271573980,
+    "porcentajeGastado": 105,
+    "disponible": -3673321,
+    "porcentajeDisponible": -5,
+    "gastoAcumulado2026": 268912366,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 107.4,
+    "porcentajeAcumulado": 106.4,
     "presupuestoAnual": 252771000,
     "ocsPendientesAbril": 19725407,
     "porcentajeOCs": 2.8,
-    "proyeccionTotal": 96840342,
-    "proyeccionPorcentaje": 136.8,
-    "excedente": -26060342,
+    "proyeccionTotal": 94178728,
+    "proyeccionPorcentaje": 133.1,
+    "excedente": -23398728,
     "top10Mes": [
       {
         "concepto": "Trabajos extras reparacion R100",
@@ -80,6 +80,12 @@
         "montoARS": 6179439
       },
       {
+        "concepto": "CAMBIO DE EJE PRINCIPAL",
+        "moneda": "USD",
+        "monto": 3900,
+        "montoARS": 5284500
+      },
+      {
         "concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES",
         "moneda": "ARS",
         "monto": 4320000,
@@ -90,12 +96,6 @@
         "moneda": "USD",
         "monto": 2750,
         "montoARS": 3726250
-      },
-      {
-        "concepto": "COTIZACION N°26905375",
-        "moneda": "USD",
-        "monto": 2460.96,
-        "montoARS": 3334601
       }
     ],
     "cuentas": [
@@ -103,31 +103,31 @@
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
         "total": 32586370,
-        "porcentaje": 42.3
+        "porcentaje": 43.8
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 18041259.35,
-        "porcentaje": 23.4
+        "total": 15382438.31,
+        "porcentaje": 20.7
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 10804350.77,
-        "porcentaje": 14
+        "total": 10809010.33,
+        "porcentaje": 14.5
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
         "total": 9973335.72,
-        "porcentaje": 12.9
+        "porcentaje": 13.4
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 5709618.91,
-        "porcentaje": 7.4
+        "total": 5702166.32,
+        "porcentaje": 7.7
       }
     ],
     "ocsPorMes": [
@@ -163,8 +163,8 @@
       },
       {
         "mes": "May",
-        "total": 17484374,
-        "count": 19
+        "total": 26583033,
+        "count": 25
       },
       {
         "mes": "Jun",
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 68967297,
+    "totalOCs": 78065956,
     "meses": [
       {
         "mes": "Enero",
@@ -227,25 +227,61 @@
       },
       {
         "mes": "Abril",
-        "gasto": 77114935,
+        "gasto": 74453321,
         "presupuesto": 70780000,
-        "porcentaje": 109,
+        "porcentaje": 105,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 136.8% del presupuesto - EXCEDE por 26.1M. Gasto: $77.1M (109%). OCs pendientes: $19.7M.",
+    "chatMensaje": "⚠️ Proyección abril: 133.1% del presupuesto - EXCEDE por 23.4M. Gasto: $74.5M (105%). OCs pendientes: $19.7M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 26.1M (136.8%)",
+      "Proyección abril EXCEDE presupuesto por 23.4M (133.1%)",
       "OCs pendientes abril: 19.7M en 13 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (42.3%)"
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 32.6M (43.8%)"
     ],
-    "ultimaActualizacion": "29/04/2026",
+    "ultimaActualizacion": "04/05/2026",
     "top10DiaAnterior": {
-      "fecha": "28/04",
+      "fecha": "30/04",
       "items": [
         {
-          "concepto": "Baja por antiguedad OC 4600494971",
-          "monto": 24000
+          "concepto": "REDUC EXCEN P/SOLDAR 76.2a38.1 317317",
+          "monto": 895.48
+        },
+        {
+          "concepto": "VALV ESFERICA 3C 1\" SOCKET WELD 346349",
+          "monto": 509.58
+        },
+        {
+          "concepto": "SER VERSATIL P/ACTU DE VALV MAR 339350",
+          "monto": 458.12
+        },
+        {
+          "concepto": "VALVULA ESFERICA 1-1/4\" 316 323078",
+          "monto": 439.5
+        },
+        {
+          "concepto": "MANGUITO CLAMP P/SOLDAR 1-1/4\" 302552",
+          "monto": 264.14
+        },
+        {
+          "concepto": "ADAPTADOR HEMB LNH-316 1\" 300015",
+          "monto": 214.62
+        },
+        {
+          "concepto": "VALVULA ESF 1\" 316 323079",
+          "monto": 148.15
+        },
+        {
+          "concepto": "ALLEN CABEZA CILINDR M6x30 300470",
+          "monto": 112.48
+        },
+        {
+          "concepto": "JUNTA CLAMP EPDM 50.8 (2\") 312992",
+          "monto": 101.23
+        },
+        {
+          "concepto": "OLIVA P/SOLDAR 316L 31.7x2.0mm 314972",
+          "monto": 89.39
         }
       ]
     }
