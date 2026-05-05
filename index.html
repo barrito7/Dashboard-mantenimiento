@@ -494,78 +494,67 @@
             
             <!-- KPIs del Pañolero -->
             <div class="kpi-grid">
-                <div class="kpi-card bueno">
-                    <div class="valor">2.3%</div>
-                    <div class="label">Stockout rate</div>
-                    <div class="agente-or">Meta: &lt; 5%</div>
+                <div class="kpi-card">
+                    <div class="valor" style="font-size: 20px;">$389.5M</div>
+                    <div class="label">Valor total inventario</div>
+                    <div class="agente-or">1,534 items con valor</div>
                 </div>
                 <div class="kpi-card">
-                    <div class="valor">4.2x</div>
-                    <div class="label">Rotación stock</div>
-                    <div class="agente-or">Último trimestre</div>
-                </div>
-                <div class="kpi-card">
-                    <div class="valor">$127,450</div>
-                    <div class="label">Valor inventario</div>
-                    <div class="agente-or">Repuestos críticos</div>
+                    <div class="valor" style="font-size: 20px;">1,735</div>
+                    <div class="label">Items con stock</div>
+                    <div class="agente-or">3,381 total en SAP</div>
                 </div>
                 <div class="kpi-card alerta">
-                    <div class="valor">8</div>
-                    <div class="label">Pedidos pendientes</div>
-                    <div class="agente-or">3 críticos</div>
+                    <div class="valor" style="font-size: 20px;">88</div>
+                    <div class="label">Items ≥ $1M</div>
+                    <div class="agente-or">$220.1M acumulado</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="valor" style="font-size: 20px;">16.2%</div>
+                    <div class="label">Top 10 concentran</div>
+                    <div class="agente-or">$63.0M en 10 items</div>
                 </div>
             </div>
             
-            <!-- Acciones recomendadas -->
+            <!-- Top 10 por valor -->
             <div class="seccion seccion-full">
-                <h3>✅ Acciones recomendadas</h3>
-                <ul>
-                    <li><strong>Urgente:</strong> Pedir rodamientos 6205 (stock: 2)</li>
-                    <li><strong>Urgente:</strong> Pedir correas A-68 (stock: 1)</li>
-                    <li><strong>Seguimiento:</strong> Verificar estado de PO-1234 (rodamientos)</li>
-                </ul>
+                <h3>🏆 Top 10 por valor de stock</h3>
+                <table style="width:100%; border-collapse: collapse; font-size: 12px;">
+                    <thead>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.3);">
+                            <th style="padding: 4px; text-align: left;">#</th>
+                            <th style="padding: 4px; text-align: left;">Material</th>
+                            <th style="padding: 4px; text-align: left;">Descripción</th>
+                            <th style="padding: 4px; text-align: right;">Stock</th>
+                            <th style="padding: 4px; text-align: right;">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>50030786</td><td>VENTOSA U-15 SILICONA ROJA</td><td style="text-align:right;">371</td><td style="text-align:right;">$8,070,503</td></tr>
+                        <tr><td>2</td><td>20042191</td><td>CARTUCHO TINTA NEGRA P/ IMP. B1040</td><td style="text-align:right;">30</td><td style="text-align:right;">$7,366,773</td></tr>
+                        <tr><td>3</td><td>50085126</td><td>EJE ACCIONADO EGC-70-500-TB-KF-OH-GK</td><td style="text-align:right;">2</td><td style="text-align:right;">$7,136,741</td></tr>
+                        <tr><td>4</td><td>50071384</td><td>TINTA NEGRA VJ V4262-D por 750ml</td><td style="text-align:right;">12</td><td style="text-align:right;">$7,100,198</td></tr>
+                        <tr><td>5</td><td>50035634</td><td>CILIN ADN-32-20-APA-S20-R3-CS</td><td style="text-align:right;">8</td><td style="text-align:right;">$6,532,998</td></tr>
+                        <tr><td>6</td><td>50091925</td><td>399181 Valve Module Assembly</td><td style="text-align:right;">2</td><td style="text-align:right;">$5,734,265</td></tr>
+                        <tr><td>7</td><td>50035806</td><td>ESTATOR FLUX POS 22 F550 S 50/21</td><td style="text-align:right;">6</td><td style="text-align:right;">$5,711,252</td></tr>
+                        <tr><td>8</td><td>50085226</td><td>MANIFOLD MODULE ASSY N° 399181</td><td style="text-align:right;">2</td><td style="text-align:right;">$5,213,289</td></tr>
+                        <tr><td>9</td><td>50030804</td><td>Aros de Pistón Teflonados (CNC++)</td><td style="text-align:right;">148</td><td style="text-align:right;">$5,078,632</td></tr>
+                        <tr><td>10</td><td>50035995</td><td>CORREA TRANSP PROD 15 TACOS</td><td style="text-align:right;">6</td><td style="text-align:right;">$4,993,754</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 8px; font-size: 11px; color: #95a5a6; text-align: right;">Fuente: SAP - Stock actual</div>
             </div>
             
             <!-- Chat con el agente -->
             <div class="seccion seccion-full chat-zone">
                 <h3>💬 Chat con el agente</h3>
                 <div class="chat-messages">
-                    <div class="chat-msg agente">Hola, hay 3 repuestos bajo stock mínimo. ¿Querés que genere los pedidos?</div>
+                    <div class="chat-msg agente">Hola Barrito! El inventario total es de $389.5M con 88 items que superan el millón de pesos. El Top 10 concentra el 16.2% del valor total. ¿Querés que profundice en algún material en particular?</div>
                 </div>
                 <div class="chat-input">
                     <input type="text" placeholder="Escribí un mensaje..." disabled>
                     <button disabled>Enviar</button>
                 </div>
-            </div>
-            
-            <!-- Repuestos críticos -->
-            <div class="seccion">
-                <h3>🔴 Repuestos bajo mínimo</h3>
-                <ul>
-                    <li>• Rodamiento 6205 - Stock: 2 (Min: 5)</li>
-                    <li>• Correa A-68 - Stock: 1 (Min: 3)</li>
-                    <li>• Filtro hidráulico - Stock: 4 (Min: 8)</li>
-                </ul>
-            </div>
-            
-            <!-- Pedidos en curso -->
-            <div class="seccion">
-                <h3>📦 Pedidos en curso</h3>
-                <ul>
-                    <li>• PO-1234: Rodamientos (7 días)</li>
-                    <li>• PO-1235: Filtros (3 días)</li>
-                    <li>• PO-1236: Sellos hidráulicos (14 días)</li>
-                </ul>
-            </div>
-            
-            <!-- Últimos consumos -->
-            <div class="seccion">
-                <h3>📊 Últimos consumos</h3>
-                <ul>
-                    <li>• Rodamiento 6205 x 3 (OT-2341)</li>
-                    <li>• Aceite Shell 68 x 20L (Preventivo)</li>
-                    <li>• Faja transportadora x 2m (OT-2356)</li>
-                </ul>
             </div>
             
         </div>
