@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 21883896,
+    "gastoAbril": 27616885,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 31,
-    "disponible": 48896104,
-    "porcentajeDisponible": 69,
-    "gastoAcumulado2026": 216342941,
-    "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 85.6,
-    "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 19725407,
-    "porcentajeOCs": 2.8,
-    "proyeccionTotal": 41609303,
-    "proyeccionPorcentaje": 58.8,
-    "excedente": 29170697,
+    "porcentajeGastado": 39,
+    "disponible": 43163115,
+    "porcentajeDisponible": 61,
+    "gastoAcumulado2026": 296529251,
+    "presupuestoAcumulado2026": 323551000,
+    "porcentajeAcumulado": 91.6,
+    "presupuestoAnual": 323551000,
+    "ocsPendientesAbril": 52572465,
+    "porcentajeOCs": 74.3,
+    "proyeccionTotal": 80189350,
+    "proyeccionPorcentaje": 113.3,
+    "excedente": -9409350,
     "top10Mes": [
       {
         "concepto": "CAMBIO DE EJE PRINCIPAL",
@@ -102,32 +102,32 @@
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 11263771.5,
-        "porcentaje": 51.5
+        "total": 12268772,
+        "porcentaje": 44.4
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 6911249.46,
-        "porcentaje": 31.6
+        "total": 7025779,
+        "porcentaje": 25.4
+      },
+      {
+        "codigo": "80200254",
+        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
+        "total": 4868159,
+        "porcentaje": 17.6
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
         "total": 2400000,
-        "porcentaje": 11
+        "porcentaje": 8.7
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
         "total": 1054175,
-        "porcentaje": 4.8
-      },
-      {
-        "codigo": "80200254",
-        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 254700,
-        "porcentaje": 1.2
+        "porcentaje": 3.8
       }
     ],
     "ocsPorMes": [
@@ -284,6 +284,9 @@
           "monto": 178869.53
         }
       ]
-    }
+    },
+    "gastoAbrilLabel": "Gasto Mayo",
+    "presupuestoAnualLabel": "Ene-May 2026",
+    "ocsPendientesAbrilLabel": "OCs pendientes mayo"
   }
 }

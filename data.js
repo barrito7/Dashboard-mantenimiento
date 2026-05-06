@@ -28,7 +28,7 @@ function actualizarPanelContador() {
         kpis[2].querySelector('.valor').textContent = fmt(c.gastoAcumulado2026);
         kpis[2].querySelector('.agente-or').textContent = pct(c.porcentajeAcumulado) + ' del presupuesto';
         kpis[3].querySelector('.valor').textContent = fmt(c.presupuestoAnual);
-        kpis[3].querySelector('.agente-or').textContent = 'Ene-Abr 2026';
+        kpis[3].querySelector('.agente-or').textContent = 'Ene-May 2026';
     }
 
     // Presupuesto bars
@@ -42,7 +42,7 @@ function actualizarPanelContador() {
 
     const ocsLabel = document.querySelector('[id="cnt-ocs-label"]');
     if (ocsLabel) {
-        ocsLabel.querySelector('span:first-child').textContent = '🟡 Pendiente OCs entrega abril (' + pct(c.porcentajeOCs) + ')';
+        ocsLabel.querySelector('span:first-child').textContent = '🟡 Pendiente OCs entrega mayo (' + pct(c.porcentajeOCs) + ')';
         ocsLabel.querySelector('span:last-child').textContent = fmt(c.ocsPendientesAbril);
     }
     const ocsBar = document.querySelector('[id="cnt-ocs-bar"]');
@@ -62,8 +62,8 @@ function actualizarPanelContador() {
     const proyDetalle = document.querySelector('[id="cnt-proyeccion-detalle"]');
     if (proyDetalle) {
         const excede = c.excedente < 0;
-        proyDetalle.innerHTML = 'Gasto actual ' + (c.gastoAbril/1000000).toFixed(1) + 'M + OCs pendientes abril ' + (c.ocsPendientesAbril/1000000).toFixed(1) + 'M = <strong>' + (c.proyeccionTotal/1000000).toFixed(1) + 'M</strong><br>' +
-            '<span style="color: #e74c3c;">🔴 ' + (excede ? 'Excede presupuesto de $70.8M por ' + fmt(Math.abs(c.excedente)) : 'Solo ' + fmt(c.disponible) + ' de margen') + '</span>';
+        proyDetalle.innerHTML = 'Gasto actual ' + (c.gastoAbril/1000000).toFixed(1) + 'M + OCs pendientes mayo ' + (c.ocsPendientesAbril/1000000).toFixed(1) + 'M = <strong>' + (c.proyeccionTotal/1000000).toFixed(1) + 'M</strong><br>' +
+            '<span style="color: #e74c3c;">🔴 ' + (excede ? 'EXCEDE presupuesto por ' + fmt(Math.abs(c.excedente)) + ' (' + pct(c.proyeccionPorcentaje) + ')' : 'Solo ' + fmt(c.disponible) + ' de margen') + '</span>';
     }
 
     // Top 5 OCs
