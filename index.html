@@ -624,6 +624,87 @@
                 <div style="margin-top:8px;font-size:11px;color:#95a5a6;text-align:right;">Fuente: SAP - Movimientos | Total: 2,231 unidades consumidas</div>
             </div>
             
+
+            <!-- ABC POR VALOR -->
+            <div class="seccion seccion-full">
+                <h3>ABC por valor de stock</h3>
+                <p style="margin:0 0 6px 0; font-size:11px; color:#95a5a6;">Clasificacion de Pareto sobre $389.5M de inventario</p>
+                <div class="kpi-grid" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="kpi-card alerta">
+                        <div class="valor" style="font-size:22px;">A</div>
+                        <div class="label">227 items - $311.3M</div>
+                        <div class="agente-or" style="color:#e74c3c">79.9% del valor</div>
+                    </div>
+                    <div class="kpi-card" style="border-color: #f39c12;">
+                        <div class="valor" style="font-size:22px; color:#f39c12;">B</div>
+                        <div class="label">250 items - $58.6M</div>
+                        <div class="agente-or" style="color:#f39c12;">15.1% del valor</div>
+                    </div>
+                    <div class="kpi-card bueno">
+                        <div class="valor" style="font-size:22px;">C</div>
+                        <div class="label">1,057 items - $19.6M</div>
+                        <div class="agente-or" style="color:#2ecc71;">5.0% del valor</div>
+                    </div>
+                </div>
+                <ul style="font-size:11px; margin-top:6px;">
+                    <li><strong style="color:#e74c3c;">A (Alto valor):</strong> 227 items que concentran el 80% del inventario. Control estricto, conteo ciclico frecuente.</li>
+                    <li><strong style="color:#f39c12;">B (Medio):</strong> 250 items, 15% del valor. Control estandar.</li>
+                    <li><strong style="color:#2ecc71;">C (Bajo):</strong> 1,057 items, solo 5% del valor. Control simplificado.</li>
+                </ul>
+            </div>
+
+            <!-- CONSUMO POR MES -->
+            <div class="seccion seccion-full">
+                <h3>Consumo mensual 2026</h3>
+                <p style="margin:0 0 6px 0; font-size:11px; color:#95a5a6;">Total acumulado: $124.7M | Promedio mensual: $24.9M</p>
+                <table style="width:100%; border-collapse: collapse; font-size: 11px;">
+                    <thead>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.3);">
+                            <th style="padding:3px; text-align:left;">Mes</th>
+                            <th style="padding:3px; text-align:right;">Consumo</th>
+                            <th style="padding:3px; text-align:right;">Ingreso</th>
+                            <th style="padding:3px; text-align:right;">Saldo</th>
+                            <th style="padding:3px; text-align:center;">Barra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Enero</td><td style="text-align:right;">$26,895,134</td><td style="text-align:right;">$43,861,028</td><td style="text-align:right; color:#2ecc71;">+$16,965,894</td><td style="text-align:center;"><span style="display:inline-block; height:12px; width:55%; background:#3498db; border-radius:3px;"></span></td></tr>
+                        <tr><td>Febrero</td><td style="text-align:right;">$38,141,512</td><td style="text-align:right;">$44,206,408</td><td style="text-align:right; color:#2ecc71;">+$6,064,896</td><td style="text-align:center;"><span style="display:inline-block; height:12px; width:78%; background:#3498db; border-radius:3px;"></span></td></tr>
+                        <tr><td>Marzo</td><td style="text-align:right;">$25,708,418</td><td style="text-align:right;">$67,879,440</td><td style="text-align:right; color:#2ecc71;">+$42,171,022</td><td style="text-align:center;"><span style="display:inline-block; height:12px; width:53%; background:#3498db; border-radius:3px;"></span></td></tr>
+                        <tr><td>Abril</td><td style="text-align:right;">$27,049,014</td><td style="text-align:right;">$48,736,363</td><td style="text-align:right; color:#2ecc71;">+$21,687,349</td><td style="text-align:center;"><span style="display:inline-block; height:12px; width:55%; background:#3498db; border-radius:3px;"></span></td></tr>
+                        <tr><td>Mayo*</td><td style="text-align:right;">$6,911,249</td><td style="text-align:right;">$7,005,498</td><td style="text-align:right; color:#2ecc71;">+$94,249</td><td style="text-align:center;"><span style="display:inline-block; height:12px; width:14%; background:#f39c12; border-radius:3px;"></span></td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top:8px; font-size:11px; color:#95a5a6; text-align:right;">Fuente: SAP - Movimientos de almacen | *Mayo: datos parciales</div>
+            </div>
+
+            <!-- STOCKOUT MATERIALES CRITICOS (PLACEHOLDER) -->
+            <div class="seccion seccion-full">
+                <h3>Stockout materiales criticos</h3>
+                <p style="margin:0 0 6px 0; font-size:11px; color:#95a5a6;">Requiere definicion de materiales criticos</p>
+                <div class="kpi-grid" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="kpi-card">
+                        <div class="valor" style="font-size:20px; color:#95a5a6;">--%</div>
+                        <div class="label">Stockout rate</div>
+                        <div class="agente-or">Criticos</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="valor" style="font-size:20px; color:#95a5a6;">--</div>
+                        <div class="label">Items criticos</div>
+                        <div class="agente-or">Sin definir</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="valor" style="font-size:20px; color:#95a5a6;">--</div>
+                        <div class="label">Criticos sin stock</div>
+                        <div class="agente-or">Requiere lista</div>
+                    </div>
+                </div>
+                <ul style="font-size:11px; margin-top:6px;">
+                    <li><strong>Stockout rate general:</strong> 0% (todos los items con valor tienen stock > 0)</li>
+                    <li><strong>Pendiente:</strong> Definir que materiales se consideran criticos para calcular el indicador real</li>
+                </ul>
+            </div>
+
 <!-- Chat con el agente -->
             <div class="seccion seccion-full chat-zone">
                 <h3>💬 Chat con el agente</h3>
