@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoAbril": 27616885,
+    "gastoAbril": 30787627,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 39,
-    "disponible": 43163115,
-    "porcentajeDisponible": 61,
-    "gastoAcumulado2026": 296529251,
-    "presupuestoAcumulado2026": 323551000,
-    "porcentajeAcumulado": 91.6,
-    "presupuestoAnual": 323551000,
-    "ocsPendientesAbril": 52572465,
-    "porcentajeOCs": 74.3,
-    "proyeccionTotal": 80189350,
-    "proyeccionPorcentaje": 113.3,
-    "excedente": -9409350,
+    "porcentajeGastado": 44,
+    "disponible": 39992373,
+    "porcentajeDisponible": 57,
+    "gastoAcumulado2026": 225246672,
+    "presupuestoAcumulado2026": 252771000,
+    "porcentajeAcumulado": 89.1,
+    "presupuestoAnual": 252771000,
+    "ocsPendientesAbril": 12116982,
+    "porcentajeOCs": 1.7,
+    "proyeccionTotal": 42904609,
+    "proyeccionPorcentaje": 60.6,
+    "excedente": 27875391,
     "top10Mes": [
       {
         "concepto": "CAMBIO DE EJE PRINCIPAL",
@@ -26,11 +26,21 @@
         "fecha": "20260504"
       },
       {
+        "concepto": "Modificación de 3 software de control",
+        "monto": 2734000,
+        "fecha": "20260505"
+      },
+      {
         "concepto": "Instalación de seca manos",
         "monto": 2400000,
         "fecha": "20260504"
       },
       {
+        "concepto": "CALIBRACION",
+        "monto": 1375000,
+        "fecha": "20260505"
+      },
+      {
         "concepto": "Alquiler de Chiller",
         "monto": 1147635.75,
         "fecha": "20260504"
@@ -39,6 +49,11 @@
         "concepto": "Alquiler de Chiller",
         "monto": 1147635.75,
         "fecha": "20260504"
+      },
+      {
+        "concepto": "PICO INYECTOR CON RETENCION",
+        "monto": 1141160,
+        "fecha": "20260506"
       },
       {
         "concepto": "embudo cambio de formato tecmar kit",
@@ -49,29 +64,20 @@
         "concepto": "REPAIR KIT6AM K208",
         "monto": 983277.6,
         "fecha": "20260503"
-      },
-      {
-        "concepto": "VENTOSA SFERICA D55X19 100.200.025",
-        "monto": 655643.67,
-        "fecha": "20260503"
-      },
-      {
-        "concepto": "CARTUCHO CARBON BLOCK PENTAIR EP-10",
-        "monto": 619271.3,
-        "fecha": "20260503"
-      },
-      {
-        "concepto": "CARTUCHO CARBON BLOCK PENTAIR EP-10",
-        "monto": 557344.18,
-        "fecha": "20260503"
       }
     ],
     "top5OCs": [
       {
-        "concepto": "Alquiler de Chiller",
+        "concepto": "Servicio de Mantenimiento de Máquinas",
         "moneda": "USD",
-        "monto": 4866.3,
-        "montoARS": 6593837
+        "monto": 9429.6,
+        "montoARS": 12777108
+      },
+      {
+        "concepto": "IMPERMEABILIZACION FRIPACK",
+        "moneda": "ARS",
+        "monto": 7800000,
+        "montoARS": 7800000
       },
       {
         "concepto": "Abono mantenimiento HVAC",
@@ -80,54 +86,48 @@
         "montoARS": 6179439
       },
       {
-        "concepto": "CAMBIO DE EJE PRINCIPAL",
+        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS 02-10576",
         "moneda": "USD",
-        "monto": 3900,
-        "montoARS": 5284500
+        "monto": 3255.99,
+        "montoARS": 4411866
       },
       {
-        "concepto": "SERVICIO DE MANTENIMIENTO DE ASCENSORES",
-        "moneda": "ARS",
-        "monto": 4320000,
-        "montoARS": 4320000
-      },
-      {
-        "concepto": "Instalación de Bombas en Sala de Máquina",
+        "concepto": "Alquiler de Chiller",
         "moneda": "USD",
-        "monto": 2750,
-        "montoARS": 3726250
+        "monto": 3244.2,
+        "montoARS": 4395891
       }
     ],
     "cuentas": [
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 12268772,
-        "porcentaje": 44.4
+        "total": 12268771.5,
+        "porcentaje": 39.8
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 7025779,
-        "porcentaje": 25.4
+        "total": 8264550.89,
+        "porcentaje": 26.8
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 4868159,
-        "porcentaje": 17.6
+        "total": 5717159.3,
+        "porcentaje": 18.6
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 2400000,
-        "porcentaje": 8.7
+        "total": 3131700,
+        "porcentaje": 10.2
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 1054175,
-        "porcentaje": 3.8
+        "total": 1405445,
+        "porcentaje": 4.6
       }
     ],
     "ocsPorMes": [
@@ -138,7 +138,7 @@
       },
       {
         "mes": "Dic 2025",
-        "total": 5675000,
+        "total": 4300000,
         "count": 2
       },
       {
@@ -148,28 +148,28 @@
       },
       {
         "mes": "Feb",
-        "total": 6673450,
+        "total": 6153450,
         "count": 5
       },
       {
         "mes": "Mar",
-        "total": 16118530,
-        "count": 9
+        "total": 13210405,
+        "count": 8
       },
       {
         "mes": "Abr",
-        "total": 19725407,
-        "count": 13
+        "total": 12116982,
+        "count": 8
       },
       {
         "mes": "May",
-        "total": 26583033,
-        "count": 25
+        "total": 53699495,
+        "count": 40
       },
       {
         "mes": "Jun",
-        "total": 724166,
-        "count": 4
+        "total": 809166,
+        "count": 5
       },
       {
         "mes": "Jul",
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 78065956,
+    "totalOCs": 92855869,
     "meses": [
       {
         "mes": "Enero",
@@ -227,66 +227,55 @@
       },
       {
         "mes": "Abril",
-        "gasto": 21883896,
+        "gasto": 30787627,
         "presupuesto": 70780000,
-        "porcentaje": 31,
+        "porcentaje": 44,
         "alerta": "verde"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 58.8% del presupuesto. Gasto: $21.9M (31%).",
+    "chatMensaje": "✅ Proyección abril: 60.6% del presupuesto. Gasto: $30.8M (44%).",
     "accionesRecomendadas": [
-      "Proyección abril: 58.8% del presupuesto",
-      "OCs pendientes abril: 19.7M en 13 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 11.3M (51.5%)"
+      "Proyección abril: 60.6% del presupuesto",
+      "OCs pendientes abril: 12.1M en 8 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 12.3M (39.8%)"
     ],
-    "ultimaActualizacion": "05/05/2026",
+    "ultimaActualizacion": "07/05/2026",
     "top10DiaAnterior": {
-      "fecha": "04/05",
+      "fecha": "06/05",
       "items": [
         {
-          "concepto": "CAMBIO DE EJE PRINCIPAL",
-          "monto": 5518500
+          "concepto": "PICO INYECTOR CON RETENCION",
+          "monto": 1141160
         },
         {
-          "concepto": "Instalación de pulmón de aire.",
-          "monto": 2930000
+          "concepto": "CONJUNTO EJE TRIANGULO MORDAZA",
+          "monto": 601375
         },
         {
-          "concepto": "Instalación de seca manos",
-          "monto": 2400000
+          "concepto": "PACK GAVETA FB4 TRANSPARENTE x 40Unid",
+          "monto": 566750
         },
         {
-          "concepto": "Alquiler de Chiller",
-          "monto": 1147635.75
+          "concepto": "MANGUERA DE CRISTAL 32X38X25Mts",
+          "monto": 256000
         },
         {
-          "concepto": "Alquiler de Chiller",
-          "monto": 1147635.75
+          "concepto": "CONJUNTO EJE TRIANGULO MORDAZA",
+          "monto": 247625
         },
         {
-          "concepto": "embudo cambio de formato tecmar kit",
-          "monto": 1054175
+          "concepto": "PACK DIVISORES P/ GAVETA FB4 COLOR NEGRO",
+          "monto": 164950
         },
         {
-          "concepto": "Servicio de volquete",
-          "monto": 520000
+          "concepto": "SENSOR APROXI SME-8-S-LED-24 150857",
+          "monto": 97612.03
         },
         {
-          "concepto": "VENTOSA VASB-30-1/8-PUR 1395690 FESTO",
-          "monto": 409613.94
-        },
-        {
-          "concepto": "CILINDRO DSNU-25-80-PPV-A 19247 BOSSAR",
-          "monto": 178869.53
-        },
-        {
-          "concepto": "CILINDRO DSNU-25-80-PPV-A 19247 BOSSAR",
-          "monto": 178869.53
+          "concepto": "Cable mallado 2 x 0,75 mm 2PVC blindado",
+          "monto": 95270
         }
       ]
-    },
-    "gastoAbrilLabel": "Gasto Mayo",
-    "presupuestoAnualLabel": "Ene-May 2026",
-    "ocsPendientesAbrilLabel": "OCs pendientes mayo"
+    }
   }
 }
