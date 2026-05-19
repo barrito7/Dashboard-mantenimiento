@@ -1,24 +1,29 @@
 {
   "contador": {
-    "gastoAbril": 30787627,
+    "gastoAbril": 65146076,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 44,
-    "disponible": 39992373,
-    "porcentajeDisponible": 57,
-    "gastoAcumulado2026": 225246672,
+    "porcentajeGastado": 92,
+    "disponible": 5633924,
+    "porcentajeDisponible": 8,
+    "gastoAcumulado2026": 259605121,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 89.1,
+    "porcentajeAcumulado": 102.7,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 12116982,
-    "porcentajeOCs": 1.7,
-    "proyeccionTotal": 42904609,
-    "proyeccionPorcentaje": 60.6,
-    "excedente": 27875391,
+    "ocsPendientesAbril": 11466982,
+    "porcentajeOCs": 1.6,
+    "proyeccionTotal": 76613058,
+    "proyeccionPorcentaje": 108.2,
+    "excedente": -5833058,
     "top10Mes": [
       {
         "concepto": "CAMBIO DE EJE PRINCIPAL",
         "monto": 5518500,
         "fecha": "20260504"
+      },
+      {
+        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS 02-10576",
+        "monto": 4607225.85,
+        "fecha": "20260512"
       },
       {
         "concepto": "Instalación de pulmón de aire.",
@@ -36,34 +41,29 @@
         "fecha": "20260504"
       },
       {
-        "concepto": "CALIBRACION",
-        "monto": 1375000,
-        "fecha": "20260505"
+        "concepto": "INSTALACION DE VALVULAS DE ALIVIO VACIO",
+        "monto": 2201000,
+        "fecha": "20260511"
       },
       {
-        "concepto": "Alquiler de Chiller",
-        "monto": 1147635.75,
-        "fecha": "20260504"
+        "concepto": "Provisión de 4 celdas de carga",
+        "monto": 2075000,
+        "fecha": "20260512"
       },
       {
-        "concepto": "Alquiler de Chiller",
-        "monto": 1147635.75,
-        "fecha": "20260504"
+        "concepto": "SELLO MEC MONOR CS.+ORING 15 VITON 50/21",
+        "monto": 1971144,
+        "fecha": "20260508"
       },
       {
-        "concepto": "PICO INYECTOR CON RETENCION",
-        "monto": 1141160,
-        "fecha": "20260506"
+        "concepto": "MANGUERA DICAFLEX GRIS x2200mm C/ACOPLE",
+        "monto": 1948058.8,
+        "fecha": "20260512"
       },
       {
-        "concepto": "embudo cambio de formato tecmar kit",
-        "monto": 1054175,
-        "fecha": "20260504"
-      },
-      {
-        "concepto": "REPAIR KIT6AM K208",
-        "monto": 983277.6,
-        "fecha": "20260503"
+        "concepto": "acrilico Puerta pick and pleace",
+        "monto": 1879120,
+        "fecha": "20260512"
       }
     ],
     "top5OCs": [
@@ -86,10 +86,10 @@
         "montoARS": 6179439
       },
       {
-        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS 02-10576",
-        "moneda": "USD",
-        "monto": 3255.99,
-        "montoARS": 4411866
+        "concepto": "Mantenimiento Extintores 2026",
+        "moneda": "ARS",
+        "monto": 5820000,
+        "montoARS": 5820000
       },
       {
         "concepto": "Alquiler de Chiller",
@@ -102,32 +102,32 @@
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 12268771.5,
-        "porcentaje": 39.8
-      },
-      {
-        "codigo": "75000059",
-        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 8264550.89,
-        "porcentaje": 26.8
+        "total": 17314560.05,
+        "porcentaje": 26.6
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 5717159.3,
-        "porcentaje": 18.6
-      },
-      {
-        "codigo": "80100009",
-        "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 3131700,
-        "porcentaje": 10.2
+        "total": 14871349.1,
+        "porcentaje": 22.8
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 1405445,
-        "porcentaje": 4.6
+        "total": 14299098.94,
+        "porcentaje": 21.9
+      },
+      {
+        "codigo": "75000059",
+        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
+        "total": 13750058.52,
+        "porcentaje": 21.1
+      },
+      {
+        "codigo": "80100009",
+        "nombre": "MANTENIMIENTO EDIFICIOS",
+        "total": 4911009.56,
+        "porcentaje": 7.5
       }
     ],
     "ocsPorMes": [
@@ -148,33 +148,33 @@
       },
       {
         "mes": "Feb",
-        "total": 6153450,
-        "count": 5
+        "total": 6133950,
+        "count": 4
       },
       {
         "mes": "Mar",
-        "total": 13210405,
-        "count": 8
-      },
-      {
-        "mes": "Abr",
-        "total": 12116982,
-        "count": 8
-      },
-      {
-        "mes": "May",
-        "total": 53699495,
-        "count": 40
-      },
-      {
-        "mes": "Jun",
-        "total": 809166,
+        "total": 9522398,
         "count": 5
       },
       {
+        "mes": "Abr",
+        "total": 11466982,
+        "count": 7
+      },
+      {
+        "mes": "May",
+        "total": 46589081,
+        "count": 63
+      },
+      {
+        "mes": "Jun",
+        "total": 7239319,
+        "count": 28
+      },
+      {
         "mes": "Jul",
-        "total": 0,
-        "count": 0
+        "total": 474250,
+        "count": 2
       },
       {
         "mes": "Ago",
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 92855869,
+    "totalOCs": 88292350,
     "meses": [
       {
         "mes": "Enero",
@@ -227,53 +227,45 @@
       },
       {
         "mes": "Abril",
-        "gasto": 30787627,
+        "gasto": 65146076,
         "presupuesto": 70780000,
-        "porcentaje": 44,
-        "alerta": "verde"
+        "porcentaje": 92,
+        "alerta": "amarillo"
       }
     ],
-    "chatMensaje": "✅ Proyección abril: 60.6% del presupuesto. Gasto: $30.8M (44%).",
+    "chatMensaje": "⚠️ Proyección abril: 108.2% del presupuesto - EXCEDE por 5.8M. Gasto: $65.1M (92%). OCs pendientes: $11.5M.",
     "accionesRecomendadas": [
-      "Proyección abril: 60.6% del presupuesto",
-      "OCs pendientes abril: 12.1M en 8 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 12.3M (39.8%)"
+      "Proyección abril EXCEDE presupuesto por 5.8M (108.2%)",
+      "OCs pendientes abril: 11.5M en 7 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 17.3M (26.6%)"
     ],
-    "ultimaActualizacion": "07/05/2026",
+    "ultimaActualizacion": "19/05/2026",
     "top10DiaAnterior": {
-      "fecha": "06/05",
+      "fecha": "18/05",
       "items": [
         {
-          "concepto": "PICO INYECTOR CON RETENCION",
-          "monto": 1141160
+          "concepto": "REPARACION CORTINA AUTOMATICA DOCK",
+          "monto": 980000
         },
         {
-          "concepto": "CONJUNTO EJE TRIANGULO MORDAZA",
-          "monto": 601375
+          "concepto": "MANGUERA CRISTAL 32x38x25",
+          "monto": 537600
         },
         {
-          "concepto": "PACK GAVETA FB4 TRANSPARENTE x 40Unid",
-          "monto": 566750
+          "concepto": "ELECTROVALV CPE-14-M1BH-3GL-1/8 196929",
+          "monto": 145585.25
         },
         {
-          "concepto": "MANGUERA DE CRISTAL 32X38X25Mts",
-          "monto": 256000
+          "concepto": "Filtro sedimentos PS5-30",
+          "monto": 76156.23
         },
         {
-          "concepto": "CONJUNTO EJE TRIANGULO MORDAZA",
-          "monto": 247625
+          "concepto": "Filtro Sedimentos DGD-5005-20",
+          "monto": 44906.46
         },
         {
-          "concepto": "PACK DIVISORES P/ GAVETA FB4 COLOR NEGRO",
-          "monto": 164950
-        },
-        {
-          "concepto": "SENSOR APROXI SME-8-S-LED-24 150857",
-          "monto": 97612.03
-        },
-        {
-          "concepto": "Cable mallado 2 x 0,75 mm 2PVC blindado",
-          "monto": 95270
+          "concepto": "CABLE NEBV-Z4WA2L-R-E-5-N-LE2-S1 8047680",
+          "monto": 10.25
         }
       ]
     }
