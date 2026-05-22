@@ -18,32 +18,34 @@ function actualizarPanelContador() {
     const c = DASHBOARD_DATA.contador;
     if (!c) return;
 
+    const nombreMes = c.mesActual || 'Mayo';
+
     // KPIs
     const kpis = document.querySelectorAll('#panel-contador .kpi-card');
     if (kpis.length >= 4) {
-        kpis[0].querySelector('.valor').textContent = fmt(c.gastoAbril);
+        kpis[0].querySelector('.valor').textContent = fmt(c.gastoMesActual);
         kpis[0].querySelector('.agente-or').textContent = pct(c.porcentajeGastado) + ' del presupuesto';
         kpis[1].querySelector('.valor').textContent = fmt(c.disponible);
         kpis[1].querySelector('.agente-or').textContent = pct(c.porcentajeDisponible) + ' restante';
         kpis[2].querySelector('.valor').textContent = fmt(c.gastoAcumulado2026);
         kpis[2].querySelector('.agente-or').textContent = pct(c.porcentajeAcumulado) + ' del presupuesto';
         kpis[3].querySelector('.valor').textContent = fmt(c.presupuestoAnual);
-        kpis[3].querySelector('.agente-or').textContent = 'Ene-May 2026';
+        kpis[3].querySelector('.agente-or').textContent = 'Ene-' + nombreMes.substring(0,3) + ' 2026';
     }
 
     // Presupuesto bars
     const gastadoLabel = document.querySelector('[id="cnt-gastado-label"]');
     if (gastadoLabel) {
         gastadoLabel.querySelector('span:first-child').textContent = '🔴 Gastado (' + pct(c.porcentajeGastado) + ')';
-        gastadoLabel.querySelector('span:last-child').textContent = fmt(c.gastoAbril);
+        gastadoLabel.querySelector('span:last-child').textContent = fmt(c.gastoMesActual);
     }
     const gastadoBar = document.querySelector('[id="cnt-gastado-bar"]');
     if (gastadoBar) gastadoBar.style.width = pct(c.porcentajeGastado);
 
     const ocsLabel = document.querySelector('[id="cnt-ocs-label"]');
     if (ocsLabel) {
-        ocsLabel.querySelector('span:first-child').textContent = '🟡 Pendiente OCs entrega mayo (' + pct(c.porcentajeOCs) + ')';
-        ocsLabel.querySelector('span:last-child').textContent = fmt(c.ocsPendientesAbril);
+        ocsLabel.querySelector('span:first-child').textContent = '🟡 Pendiente OCs entrega ' + nombreMes.toLowerCase() + ' (' + pct(c.porcentajeOCs) + ')';
+        ocsLabel.querySelector('span:last-child').textContent = fmt(c.ocsPendientesMesActual);
     }
     const ocsBar = document.querySelector('[id="cnt-ocs-bar"]');
     if (ocsBar) ocsBar.style.width = pct(c.porcentajeOCs);
@@ -62,7 +64,7 @@ function actualizarPanelContador() {
     const proyDetalle = document.querySelector('[id="cnt-proyeccion-detalle"]');
     if (proyDetalle) {
         const excede = c.excedente < 0;
-        proyDetalle.innerHTML = 'Gasto actual ' + (c.gastoAbril/1000000).toFixed(1) + 'M + OCs pendientes mayo ' + (c.ocsPendientesAbril/1000000).toFixed(1) + 'M = <strong>' + (c.proyeccionTotal/1000000).toFixed(1) + 'M</strong><br>' +
+        proyDetalle.innerHTML = 'Gasto actual ' + (c.gastoMesActual/1000000).toFixed(1) + 'M + OCs pendientes ' + nombreMes.toLowerCase() + ' ' + (c.ocsPendientesMesActual/1000000).toFixed(1) + 'M = <strong>' + (c.proyeccionTotal/1000000).toFixed(1) + 'M</strong><br>' +
             '<span style="color: #e74c3c;">🔴 ' + (excede ? 'EXCEDE presupuesto por ' + fmt(Math.abs(c.excedente)) + ' (' + pct(c.proyeccionPorcentaje) + ')' : 'Solo ' + fmt(c.disponible) + ' de margen') + '</span>';
     }
 
@@ -110,15 +112,14 @@ function actualizarPanelContador() {
     if (cuentasList) {
         cuentasList.innerHTML = c.cuentas.map(cta =>
             '<li><strong>' + cta.codigo + ' - ' + cta.nombre + ':</strong> ' + fmt(cta.total) + ' (' + pct(cta.porcentaje) + ')</li>'
-        ).join('') + '<li style="border-top: 2px solid #27ae60; padding-top: 12px; margin-top: 8px;"><strong style="color: #f39c12;">Total: ' + fmt(c.gastoAbril) + '</strong> (' + pct(c.porcentajeGastado) + ' del presupuesto)</li>';
+        ).join('') + '<li style="border-top: 2px solid #27ae60; padding-top: 12px; margin-top: 8px;"><strong style="color: #f39c12;">Total: ' + fmt(c.gastoMesActual) + '</strong> (' + pct(c.porcentajeGastado) + ' del presupuesto)</li>';
     }
 
-    // Tabla gasto por mes vs presupuesto - use specific th headers to find the right table
+    // Tabla gasto por mes vs presupuesto
     const allTables = document.querySelectorAll('#panel-contador table');
     allTables.forEach(table => {
         const headers = table.querySelectorAll('th');
         const headerTexts = Array.from(headers).map(h => h.textContent.trim());
-        // Only update "Gasto total por mes vs Presupuesto" table
         if (headerTexts.includes('Gasto Total') && headerTexts.includes('Presupuesto')) {
             const rows = table.querySelectorAll('tbody tr');
             rows.forEach(row => {

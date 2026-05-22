@@ -1,19 +1,20 @@
 {
   "contador": {
-    "gastoAbril": 85046860,
-    "presupuestoAbril": 70780000,
+    "gastoMesActual": 85046860,
+    "presupuestoMesActual": 70780000,
     "porcentajeGastado": 120,
     "disponible": -14266860,
     "porcentajeDisponible": -20,
-    "gastoAcumulado2026": 279505905,
-    "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 110.6,
-    "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 11251944,
-    "porcentajeOCs": 1.6,
-    "proyeccionTotal": 96298804,
-    "proyeccionPorcentaje": 136.1,
-    "excedente": -25518804,
+    "gastoAcumulado2026": 353959226,
+    "presupuestoAcumulado2026": 323551000,
+    "porcentajeAcumulado": 109.4,
+    "presupuestoAnual": 323551000,
+    "ocsPendientesMesActual": 36764684,
+    "porcentajeOCs": 51.9,
+    "proyeccionTotal": 121811544,
+    "proyeccionPorcentaje": 172.1,
+    "excedente": -51031544,
+    "mesActual": "Mayo",
     "top10Mes": [
       {
         "concepto": "IMPERMEABILIZACION FRIPACK",
@@ -100,22 +101,16 @@
     ],
     "cuentas": [
       {
-        "codigo": "80200255",
-        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 25114560.05,
-        "porcentaje": 29.5
-      },
-      {
-        "codigo": "80200254",
-        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 21030712.3,
-        "porcentaje": 24.7
-      },
-      {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
         "total": 19466124.82,
         "porcentaje": 22.9
+      },
+      {
+        "codigo": "80100009",
+        "nombre": "MANTENIMIENTO EDIFICIOS",
+        "total": 4911009.56,
+        "porcentaje": 5.8
       },
       {
         "codigo": "80100010",
@@ -124,10 +119,16 @@
         "porcentaje": 17.1
       },
       {
-        "codigo": "80100009",
-        "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 4911009.56,
-        "porcentaje": 5.8
+        "codigo": "80200254",
+        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
+        "total": 21030712.3,
+        "porcentaje": 24.7
+      },
+      {
+        "codigo": "80200255",
+        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
+        "total": 25114560.05,
+        "porcentaje": 29.5
       }
     ],
     "ocsPorMes": [
@@ -208,7 +209,7 @@
         "mes": "Enero",
         "gasto": 70194413,
         "presupuesto": 57791000,
-        "porcentaje": 121.6,
+        "porcentaje": 121.5,
         "alerta": "rojo"
       },
       {
@@ -223,20 +224,27 @@
         "gasto": 55946105,
         "presupuesto": 65000000,
         "porcentaje": 86.1,
-        "alerta": "verde"
+        "alerta": "amarillo"
       },
       {
         "mes": "Abril",
+        "gasto": 74453321,
+        "presupuesto": 70780000,
+        "porcentaje": 105.2,
+        "alerta": "rojo"
+      },
+      {
+        "mes": "Mayo",
         "gasto": 85046860,
         "presupuesto": 70780000,
-        "porcentaje": 120,
+        "porcentaje": 120.2,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 136.1% del presupuesto - EXCEDE por 25.5M. Gasto: $85M (120%). OCs pendientes: $11.3M.",
+    "chatMensaje": "⚠️ Proyección Mayo: 172.1% del presupuesto - EXCEDE por 51M. Gasto: $85M (120%). OCs pendientes: $36.8M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 25.5M (136.1%)",
-      "OCs pendientes abril: 11.3M en 6 órdenes",
+      "Proyección Mayo EXCEDE presupuesto por 51M (172.1%)",
+      "OCs pendientes Mayo: 36.8M en 58 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 25.1M (29.5%)"
     ],
     "ultimaActualizacion": "22/05/2026",
