@@ -1,20 +1,25 @@
 {
   "contador": {
-    "gastoAbril": 65146076,
+    "gastoAbril": 85046860,
     "presupuestoAbril": 70780000,
-    "porcentajeGastado": 92,
-    "disponible": 5633924,
-    "porcentajeDisponible": 8,
-    "gastoAcumulado2026": 259605121,
+    "porcentajeGastado": 120,
+    "disponible": -14266860,
+    "porcentajeDisponible": -20,
+    "gastoAcumulado2026": 279505905,
     "presupuestoAcumulado2026": 252771000,
-    "porcentajeAcumulado": 102.7,
+    "porcentajeAcumulado": 110.6,
     "presupuestoAnual": 252771000,
-    "ocsPendientesAbril": 11466982,
+    "ocsPendientesAbril": 11251944,
     "porcentajeOCs": 1.6,
-    "proyeccionTotal": 76613058,
-    "proyeccionPorcentaje": 108.2,
-    "excedente": -5833058,
+    "proyeccionTotal": 96298804,
+    "proyeccionPorcentaje": 136.1,
+    "excedente": -25518804,
     "top10Mes": [
+      {
+        "concepto": "IMPERMEABILIZACION FRIPACK",
+        "monto": 7800000,
+        "fecha": "20260520"
+      },
       {
         "concepto": "CAMBIO DE EJE PRINCIPAL",
         "monto": 5518500,
@@ -59,25 +64,14 @@
         "concepto": "MANGUERA DICAFLEX GRIS x2200mm C/ACOPLE",
         "monto": 1948058.8,
         "fecha": "20260512"
-      },
-      {
-        "concepto": "acrilico Puerta pick and pleace",
-        "monto": 1879120,
-        "fecha": "20260512"
       }
     ],
     "top5OCs": [
       {
         "concepto": "Servicio de Mantenimiento de Máquinas",
         "moneda": "USD",
-        "monto": 9429.6,
-        "montoARS": 12777108
-      },
-      {
-        "concepto": "IMPERMEABILIZACION FRIPACK",
-        "moneda": "ARS",
-        "monto": 7800000,
-        "montoARS": 7800000
+        "monto": 8643.8,
+        "montoARS": 11712349
       },
       {
         "concepto": "Abono mantenimiento HVAC",
@@ -96,38 +90,44 @@
         "moneda": "USD",
         "monto": 3244.2,
         "montoARS": 4395891
+      },
+      {
+        "concepto": "Instalación de Bombas en Sala de Máquina",
+        "moneda": "USD",
+        "monto": 2750,
+        "montoARS": 3726250
       }
     ],
     "cuentas": [
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 17314560.05,
-        "porcentaje": 26.6
+        "total": 25114560.05,
+        "porcentaje": 29.5
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 14871349.1,
-        "porcentaje": 22.8
-      },
-      {
-        "codigo": "80100010",
-        "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 14299098.94,
-        "porcentaje": 21.9
+        "total": 21030712.3,
+        "porcentaje": 24.7
       },
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 13750058.52,
-        "porcentaje": 21.1
+        "total": 19466124.82,
+        "porcentaje": 22.9
+      },
+      {
+        "codigo": "80100010",
+        "nombre": "MANTENIMIENTO MAQUINARIAS",
+        "total": 14524452.94,
+        "porcentaje": 17.1
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
         "total": 4911009.56,
-        "porcentaje": 7.5
+        "porcentaje": 5.8
       }
     ],
     "ocsPorMes": [
@@ -153,23 +153,23 @@
       },
       {
         "mes": "Mar",
-        "total": 9522398,
-        "count": 5
+        "total": 7826426,
+        "count": 4
       },
       {
         "mes": "Abr",
-        "total": 11466982,
-        "count": 7
+        "total": 11251944,
+        "count": 6
       },
       {
         "mes": "May",
-        "total": 46589081,
-        "count": 63
+        "total": 36764684,
+        "count": 58
       },
       {
         "mes": "Jun",
-        "total": 7239319,
-        "count": 28
+        "total": 8226804,
+        "count": 35
       },
       {
         "mes": "Jul",
@@ -202,7 +202,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 88292350,
+    "totalOCs": 77544426,
     "meses": [
       {
         "mes": "Enero",
@@ -227,45 +227,61 @@
       },
       {
         "mes": "Abril",
-        "gasto": 65146076,
+        "gasto": 85046860,
         "presupuesto": 70780000,
-        "porcentaje": 92,
-        "alerta": "amarillo"
+        "porcentaje": 120,
+        "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección abril: 108.2% del presupuesto - EXCEDE por 5.8M. Gasto: $65.1M (92%). OCs pendientes: $11.5M.",
+    "chatMensaje": "⚠️ Proyección abril: 136.1% del presupuesto - EXCEDE por 25.5M. Gasto: $85M (120%). OCs pendientes: $11.3M.",
     "accionesRecomendadas": [
-      "Proyección abril EXCEDE presupuesto por 5.8M (108.2%)",
-      "OCs pendientes abril: 11.5M en 7 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 17.3M (26.6%)"
+      "Proyección abril EXCEDE presupuesto por 25.5M (136.1%)",
+      "OCs pendientes abril: 11.3M en 6 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 25.1M (29.5%)"
     ],
-    "ultimaActualizacion": "19/05/2026",
+    "ultimaActualizacion": "22/05/2026",
     "top10DiaAnterior": {
-      "fecha": "18/05",
+      "fecha": "21/05",
       "items": [
         {
-          "concepto": "REPARACION CORTINA AUTOMATICA DOCK",
-          "monto": 980000
+          "concepto": "CORREA TRANS PROD 13 TACOS 021.008.002",
+          "monto": 1719512.32
         },
         {
-          "concepto": "MANGUERA CRISTAL 32x38x25",
-          "monto": 537600
+          "concepto": "CORREA TRANSP PROD 15 TACOS 021.009.001A",
+          "monto": 1664584.54
         },
         {
-          "concepto": "ELECTROVALV CPE-14-M1BH-3GL-1/8 196929",
-          "monto": 145585.25
+          "concepto": "Servicio de asistencia",
+          "monto": 1402781
         },
         {
-          "concepto": "Filtro sedimentos PS5-30",
-          "monto": 76156.23
+          "concepto": "GENERADOR DE VACIO SMC ZL3H06-G BERGAMI",
+          "monto": 926463.39
         },
         {
-          "concepto": "Filtro Sedimentos DGD-5005-20",
-          "monto": 44906.46
+          "concepto": "CORREA ARRASTRE C/LINATECH ART. 00049",
+          "monto": 318147.15
         },
         {
-          "concepto": "CABLE NEBV-Z4WA2L-R-E-5-N-LE2-S1 8047680",
-          "monto": 10.25
+          "concepto": "CORREA SUP. CENTRAL 12 TACOS 021.008.001",
+          "monto": 61157.25
+        },
+        {
+          "concepto": "Rotula Macho M8 \"SKF\" SAKB8 F",
+          "monto": 28389.42
+        },
+        {
+          "concepto": "Rodamiento KH 2030 PP",
+          "monto": 28213.02
+        },
+        {
+          "concepto": "Rodamiento KR16-PP",
+          "monto": 1437.01
+        },
+        {
+          "concepto": "Rotula SALKB 8F",
+          "monto": 708.05
         }
       ]
     }
