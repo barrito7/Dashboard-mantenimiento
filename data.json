@@ -19,52 +19,62 @@
       {
         "concepto": "IMPERMEABILIZACION FRIPACK",
         "monto": 7800000,
-        "fecha": "20260520"
+        "fecha": "20260520",
+        "nDoc": "2001142"
       },
       {
         "concepto": "CAMBIO DE EJE PRINCIPAL",
         "monto": 5518500,
-        "fecha": "20260504"
+        "fecha": "20260504",
+        "nDoc": "2000663"
       },
       {
         "concepto": "BOMBA COMPLETA P200/PKPPP/WFS 02-10576",
-        "monto": 4607225.85,
-        "fecha": "20260512"
+        "monto": 4607226,
+        "fecha": "20260512",
+        "nDoc": "2000948"
+      },
+      {
+        "concepto": "acrilico Puerta pick and pleace",
+        "monto": 3598345,
+        "fecha": "20260512",
+        "nDoc": "2000944"
+      },
+      {
+        "concepto": "VENTOSA U-15 SILICONA ROJA",
+        "monto": 3505231,
+        "fecha": "20260503",
+        "nDoc": "21007154"
       },
       {
         "concepto": "Instalación de pulmón de aire.",
         "monto": 2930000,
-        "fecha": "20260504"
+        "fecha": "20260504",
+        "nDoc": "2000697"
       },
       {
         "concepto": "Modificación de 3 software de control",
         "monto": 2734000,
-        "fecha": "20260505"
+        "fecha": "20260505",
+        "nDoc": "2000739"
+      },
+      {
+        "concepto": "SELLO MEC MONOR CS.+ORING 15 VITON 50/21",
+        "monto": 2683820,
+        "fecha": "20260508",
+        "nDoc": "21009004"
       },
       {
         "concepto": "Instalación de seca manos",
         "monto": 2400000,
-        "fecha": "20260504"
+        "fecha": "20260504",
+        "nDoc": "2000684"
       },
       {
         "concepto": "INSTALACION DE VALVULAS DE ALIVIO VACIO",
         "monto": 2201000,
-        "fecha": "20260511"
-      },
-      {
-        "concepto": "Provisión de 4 celdas de carga",
-        "monto": 2075000,
-        "fecha": "20260512"
-      },
-      {
-        "concepto": "SELLO MEC MONOR CS.+ORING 15 VITON 50/21",
-        "monto": 1971144,
-        "fecha": "20260508"
-      },
-      {
-        "concepto": "MANGUERA DICAFLEX GRIS x2200mm C/ACOPLE",
-        "monto": 1948058.8,
-        "fecha": "20260512"
+        "fecha": "20260511",
+        "nDoc": "2000869"
       }
     ],
     "top5OCs": [
@@ -253,7 +263,7 @@
       "items": [
         {
           "concepto": "CORREA TRANS PROD 13 TACOS 021.008.002",
-          "monto": 1719512.32
+          "monto": 1780669.57
         },
         {
           "concepto": "CORREA TRANSP PROD 15 TACOS 021.009.001A",
@@ -272,24 +282,8 @@
           "monto": 318147.15
         },
         {
-          "concepto": "CORREA SUP. CENTRAL 12 TACOS 021.008.001",
-          "monto": 61157.25
-        },
-        {
-          "concepto": "Rotula Macho M8 \"SKF\" SAKB8 F",
-          "monto": 28389.42
-        },
-        {
-          "concepto": "Rodamiento KH 2030 PP",
-          "monto": 28213.02
-        },
-        {
-          "concepto": "Rodamiento KR16-PP",
-          "monto": 1437.01
-        },
-        {
           "concepto": "Rotula SALKB 8F",
-          "monto": 708.05
+          "monto": 59041.29
         }
       ]
     }
