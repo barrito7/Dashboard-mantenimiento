@@ -115,36 +115,49 @@ function actualizarPanelContador() {
         ).join('') + '<li style="border-top: 2px solid #27ae60; padding-top: 12px; margin-top: 8px;"><strong style="color: #f39c12;">Total: ' + fmt(c.gastoMesActual) + '</strong> (' + pct(c.porcentajeGastado) + ' del presupuesto)</li>';
     }
 
-    // Tabla gasto por mes vs presupuesto
-    const allTables = document.querySelectorAll('#panel-contador table');
-    allTables.forEach(table => {
-        const headers = table.querySelectorAll('th');
-        const headerTexts = Array.from(headers).map(h => h.textContent.trim());
-        if (headerTexts.includes('Gasto Total') && headerTexts.includes('Presupuesto')) {
-            const rows = table.querySelectorAll('tbody tr');
-            rows.forEach(row => {
-                const tds = row.querySelectorAll('td');
-                if (tds.length < 4) return;
-                const mes = tds[0].textContent.trim();
-                const data = c.meses.find(m => m.mes === mes);
-                if (data) {
-                    tds[1].textContent = fmt(data.gasto);
-                    tds[2].textContent = fmt(data.presupuesto);
-                    tds[3].textContent = pct(data.porcentaje) + (data.alerta === 'rojo' ? ' 🔴' : data.alerta === 'verde' ? ' ✅' : '');
-                    tds[3].style.color = data.alerta === 'rojo' ? '#e74c3c' : data.alerta === 'verde' ? '#27ae60' : '#f39c12';
-                }
-            });
-            // Total row
-            const totalRow = document.getElementById('total-acumulado');
-            if (totalRow) {
-                const tds = totalRow.querySelectorAll('td');
-                tds[1].textContent = fmt(c.gastoAcumulado2026);
-                tds[2].textContent = fmt(c.presupuestoAnual);
-                tds[3].textContent = pct(c.porcentajeAcumulado);
-                tds[3].style.color = c.porcentajeAcumulado > 95 ? '#e74c3c' : '#f39c12';
-            }
+    // Tabla gasto por mes vs presupuesto (usando data-mes attributes)
+    c.meses.forEach(data => {
+        const gastoTd = document.querySelector(`[data-mes="${data.mes}"]`);
+        const presTd = document.querySelector(`[data-mes-pres="${data.mes}"]`);
+        const porcTd = document.querySelector(`[data-mes-porc="${data.mes}"]`);
+        if (gastoTd) {
+            gastoTd.textContent = fmt(data.gasto);
+            gastoTd.style.color = data.alerta === 'rojo' ? '#e74c3c' : data.alerta === 'verde' ? '#27ae60' : '#f39c12';
         }
+        if (presTd) presTd.textContent = fmt(data.presupuesto);
+        if (porcTd) {
+            porcTd.textContent = pct(data.porcentaje) + (data.alerta === 'rojo' ? ' 🔴' : data.alerta === 'verde' ? ' ✅' : '');
+            porcTd.style.color = data.alerta === 'rojo' ? '#e74c3c' : data.alerta === 'verde' ? '#27ae60' : '#f39c12';
+        }
+        // Highlight current month row
+        const row = document.querySelector(`[data-mes-row="${data.mes}"]`);
+        if (row) row.style.background = data.alerta === 'rojo' ? 'rgba(231,76,60,0.1)' : data.alerta === 'verde' ? 'rgba(39,174,96,0.1)' : 'rgba(243,156,18,0.1)';
     });
+    // Total row
+    const totalGasto = document.querySelector('[data-mes="Total"]');
+    const totalPres = document.querySelector('[data-mes-pres="Total"]');
+    const totalPorc = document.querySelector('[data-mes-porc="Total"]');
+    if (totalGasto) {
+        totalGasto.textContent = fmt(c.gastoAcumulado2026);
+        totalGasto.style.color = '#e74c3c';
+    }
+    if (totalPres) totalPres.textContent = fmt(c.presupuestoAnual);
+    if (totalPorc) {
+        totalPorc.textContent = pct(c.porcentajeAcumulado);
+        totalPorc.style.color = c.porcentajeAcumulado > 95 ? '#e74c3c' : '#f39c12';
+    }
+
+    // Top 5 OCs title
+    const ocsTitle = document.querySelector('[id="cnt-ocs-title"]');
+    if (ocsTitle) ocsTitle.textContent = '🟡 Top 5 OCs pendientes de entrega (' + nombreMes.toLowerCase() + ')';
+
+    // OCs footer
+    const ocsFooter = document.querySelector('[id="cnt-ocs-footer"]');
+    if (ocsFooter) {
+        const totalOCsAll = c.totalOCs || 0;
+        const ocsMesCount = c.ocsPorMes ? c.ocsPorMes.find(m => m.mes === nombreMes.substring(0,3)) : null;
+        ocsFooter.textContent = 'Fuente: Bajadasbot.xlsx | ' + (ocsMesCount ? ocsMesCount.count : '') + ' OCs pendientes | Total: ' + fmt(totalOCsAll);
+    }
 }
 
 cargarDatos();

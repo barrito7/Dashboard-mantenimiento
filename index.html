@@ -871,15 +871,11 @@
             
             <!-- Top 5 pendientes OCs -->
             <div class="seccion seccion-full" style="background: rgba(243, 156, 18, 0.1); border-left: 4px solid #f39c12; padding: 15px; margin-top: 15px;">
-                <h3 style="color: #f39c12; margin-bottom: 12px;">🟡 Top 5 OCs pendientes de entrega (abril)</h3>
-                <ul>
-                    <li><strong>1.</strong> Alquiler de Chiller: USD 4.866,3 = $6.593.837</li>
-                    <li><strong>2.</strong> Abono mantenimiento HVAC: $6.179.439</li>
-                    <li><strong>3.</strong> CAMBIO DE EJE PRINCIPAL: USD 3.900 = $5.284.500</li>
-                    <li><strong>4.</strong> SERVICIO DE MANTENIMIENTO DE ASCENSORES: $4.320.000</li>
-                    <li><strong>5.</strong> Instalación de Bombas en Sala de Máquina: USD 2.750 = $3.726.250</li>
+                <h3 id="cnt-ocs-title" style="color: #f39c12; margin-bottom: 12px;">🟡 Top 5 OCs pendientes de entrega</h3>
+                <ul id="cnt-top5-ocs">
+                    <li>Cargando...</li>
                 </ul>
-                <p style="font-size: 11px; color: #aaa; margin-top: 8px;">Fuente: Bajadasbot.xlsx | 62 OCs pendientes | Total: $78.065.956</p>
+                <p id="cnt-ocs-footer" style="font-size: 11px; color: #aaa; margin-top: 8px;">Fuente: Bajadasbot.xlsx</p>
             </div>
             
             <!-- Chat con el agente -->
@@ -911,17 +907,8 @@
             <!-- Top 10 gastos del mes -->
             <div class="seccion">
                 <h3>📊 Top 10 gastos del mes</h3>
-                <ul>
-                    <li><strong>1.</strong> CAMBIO DE EJE PRINCIPAL: $5.518.500</li>
-                    <li><strong>2.</strong> Instalación de pulmón de aire: $2.930.000</li>
-                    <li><strong>3.</strong> Modificación de 3 software de control: $2.734.000</li>
-                    <li><strong>4.</strong> Instalación de seca manos: $2.400.000</li>
-                    <li><strong>5.</strong> CALIBRACION: $1.375.000</li>
-                    <li><strong>6.</strong> Alquiler de Chiller: $1.147.636</li>
-                    <li><strong>7.</strong> Alquiler de Chiller: $1.147.636</li>
-                    <li><strong>8.</strong> embudo cambio de formato tecmar kit: $1.054.175</li>
-                    <li><strong>9.</strong> REPAIR KIT6AM K208: $983.278</li>
-                    <li><strong>10.</strong> VENTOSA SFERICA D55X19: $655.644</li>
+                <ul id="cnt-top10-mes">
+                    <li>Cargando...</li>
                 </ul>
             </div>
             
@@ -940,39 +927,39 @@
                     <tbody>
                         <tr>
                             <td style="padding: 6px;"><strong>Enero</strong></td>
-                            <td style="text-align: right; color: #e74c3c;">$70.194.413</td>
-                            <td style="text-align: right;">$57.791.000</td>
-                            <td style="text-align: right; color: #e74c3c;">121.6% 🔴</td>
+                            <td style="text-align: right;" data-mes="Enero"></td>
+                            <td style="text-align: right;" data-mes-pres="Enero"></td>
+                            <td style="text-align: right;" data-mes-porc="Enero"></td>
                         </tr>
                         <tr>
                             <td style="padding: 6px;"><strong>Febrero</strong></td>
-                            <td style="text-align: right; color: #e74c3c;">$68.318.527</td>
-                            <td style="text-align: right;">$59.200.000</td>
-                            <td style="text-align: right; color: #e74c3c;">115.4% 🔴</td>
+                            <td style="text-align: right;" data-mes="Febrero"></td>
+                            <td style="text-align: right;" data-mes-pres="Febrero"></td>
+                            <td style="text-align: right;" data-mes-porc="Febrero"></td>
                         </tr>
                         <tr>
                             <td style="padding: 6px;"><strong>Marzo</strong></td>
-                            <td style="text-align: right;">$55.946.105</td>
-                            <td style="text-align: right;">$65.000.000</td>
-                            <td style="text-align: right; color: #27ae60;">86.1% ✅</td>
+                            <td style="text-align: right;" data-mes="Marzo"></td>
+                            <td style="text-align: right;" data-mes-pres="Marzo"></td>
+                            <td style="text-align: right;" data-mes-porc="Marzo"></td>
                         </tr>
-                        <tr style="background: rgba(243, 156, 18, 0.1);">
+                        <tr data-mes-row="Abril">
                             <td style="padding: 6px;"><strong>Abril</strong></td>
-                            <td style="text-align: right; color: #e74c3c;">$74.453.321</td>
-                            <td style="text-align: right;">$70.780.000</td>
-                            <td style="text-align: right; color: #e74c3c;">105.2% 🔴</td>
+                            <td style="text-align: right;" data-mes="Abril"></td>
+                            <td style="text-align: right;" data-mes-pres="Abril"></td>
+                            <td style="text-align: right;" data-mes-porc="Abril"></td>
                         </tr>
-                        <tr style="background: rgba(39, 174, 96, 0.1);">
+                        <tr data-mes-row="Mayo">
                             <td style="padding: 6px;"><strong>Mayo</strong></td>
-                            <td style="text-align: right;">$27.616.885</td>
-                            <td style="text-align: right;">$70.780.000</td>
-                            <td style="text-align: right; color: #27ae60;">39% ✅</td>
+                            <td style="text-align: right;" data-mes="Mayo"></td>
+                            <td style="text-align: right;" data-mes-pres="Mayo"></td>
+                            <td style="text-align: right;" data-mes-porc="Mayo"></td>
                         </tr>
                         <tr style="border-top: 2px solid #27ae60; background: rgba(39, 174, 96, 0.15);" id="total-acumulado">
                             <td style="padding: 10px 6px;"><strong>TOTAL Acumulado</strong></td>
-                            <td style="text-align: right; font-weight: bold; color: #e74c3c;">$296.529.251</td>
-                            <td style="text-align: right; font-weight: bold;">$323.551.000</td>
-                            <td style="text-align: right; font-weight: bold; color: #e74c3c;">91.6%</td>
+                            <td style="text-align: right; font-weight: bold;" data-mes="Total"></td>
+                            <td style="text-align: right; font-weight: bold;" data-mes-pres="Total"></td>
+                            <td style="text-align: right; font-weight: bold;" data-mes-porc="Total"></td>
                         </tr>
                     </tbody>
                 </table>
