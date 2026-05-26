@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoMesActual": 85046860,
+    "gastoMesActual": 93477438,
     "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 120,
-    "disponible": -14266860,
-    "porcentajeDisponible": -20,
-    "gastoAcumulado2026": 353959226,
+    "porcentajeGastado": 132,
+    "disponible": -22697438,
+    "porcentajeDisponible": -32,
+    "gastoAcumulado2026": 362389804,
     "presupuestoAcumulado2026": 323551000,
-    "porcentajeAcumulado": 109.4,
+    "porcentajeAcumulado": 112,
     "presupuestoAnual": 323551000,
-    "ocsPendientesMesActual": 36764684,
-    "porcentajeOCs": 51.9,
-    "proyeccionTotal": 121811544,
-    "proyeccionPorcentaje": 172.1,
-    "excedente": -51031544,
+    "ocsPendientesMesActual": 34323105,
+    "porcentajeOCs": 48.5,
+    "proyeccionTotal": 127800543,
+    "proyeccionPorcentaje": 180.6,
+    "excedente": -57020543,
     "mesActual": "Mayo",
     "top10Mes": [
       {
@@ -85,12 +85,6 @@
         "montoARS": 11712349
       },
       {
-        "concepto": "Abono mantenimiento HVAC",
-        "moneda": "ARS",
-        "monto": 6179439,
-        "montoARS": 6179439
-      },
-      {
         "concepto": "Mantenimiento Extintores 2026",
         "moneda": "ARS",
         "monto": 5820000,
@@ -103,6 +97,12 @@
         "montoARS": 4395891
       },
       {
+        "concepto": "Abono mantenimiento HVAC",
+        "moneda": "ARS",
+        "monto": 4119626,
+        "montoARS": 4119626
+      },
+      {
         "concepto": "Instalación de Bombas en Sala de Máquina",
         "moneda": "USD",
         "monto": 2750,
@@ -113,32 +113,32 @@
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 19466124.82,
-        "porcentaje": 22.9
+        "total": 20023800.98,
+        "porcentaje": 21.4
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 4911009.56,
-        "porcentaje": 5.8
+        "total": 7051325.98,
+        "porcentaje": 7.5
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 14524452.94,
-        "porcentaje": 17.1
+        "total": 16321425.7,
+        "porcentaje": 17.5
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 21030712.3,
-        "porcentaje": 24.7
+        "total": 21566512.3,
+        "porcentaje": 23.1
       },
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 25114560.05,
-        "porcentaje": 29.5
+        "total": 28514373.05,
+        "porcentaje": 30.5
       }
     ],
     "ocsPorMes": [
@@ -169,18 +169,18 @@
       },
       {
         "mes": "Abr",
-        "total": 11251944,
+        "total": 8677231,
         "count": 6
       },
       {
         "mes": "May",
-        "total": 36764684,
-        "count": 58
+        "total": 34323105,
+        "count": 26
       },
       {
         "mes": "Jun",
-        "total": 8226804,
-        "count": 35
+        "total": 7278588,
+        "count": 25
       },
       {
         "mes": "Jul",
@@ -213,7 +213,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 77544426,
+    "totalOCs": 71579918,
     "meses": [
       {
         "mes": "Enero",
@@ -245,45 +245,57 @@
       },
       {
         "mes": "Mayo",
-        "gasto": 85046860,
+        "gasto": 93477438,
         "presupuesto": 70780000,
-        "porcentaje": 120.2,
+        "porcentaje": 132.1,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección Mayo: 172.1% del presupuesto - EXCEDE por 51M. Gasto: $85M (120%). OCs pendientes: $36.8M.",
+    "chatMensaje": "⚠️ Proyección Mayo: 180.6% del presupuesto - EXCEDE por 57M. Gasto: $93.5M (132%). OCs pendientes: $34.3M.",
     "accionesRecomendadas": [
-      "Proyección Mayo EXCEDE presupuesto por 51M (172.1%)",
-      "OCs pendientes Mayo: 36.8M en 58 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 25.1M (29.5%)"
+      "Proyección Mayo EXCEDE presupuesto por 57M (180.6%)",
+      "OCs pendientes Mayo: 34.3M en 26 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 28.5M (30.5%)"
     ],
-    "ultimaActualizacion": "22/05/2026",
+    "ultimaActualizacion": "26/05/2026",
     "top10DiaAnterior": {
-      "fecha": "21/05",
+      "fecha": "25/05",
       "items": [
         {
-          "concepto": "CORREA TRANS PROD 13 TACOS 021.008.002",
-          "monto": 1780669.57
+          "concepto": "CASCOTE MEZCLA X BOLSA",
+          "monto": 867620
         },
         {
-          "concepto": "CORREA TRANSP PROD 15 TACOS 021.009.001A",
-          "monto": 1664584.54
+          "concepto": "VARIADOR ALLEN BRADLEY 22FA4PN103",
+          "monto": 794500
         },
         {
-          "concepto": "Servicio de asistencia",
-          "monto": 1402781
+          "concepto": "VARIADOR YASKAWA GA500 1x200/240V 9.6/8.",
+          "monto": 748296
         },
         {
-          "concepto": "GENERADOR DE VACIO SMC ZL3H06-G BERGAMI",
-          "monto": 926463.39
+          "concepto": "CAJA HERRAMIENTAS STANLEY 20-300",
+          "monto": 290030.42
         },
         {
-          "concepto": "CORREA ARRASTRE C/LINATECH ART. 00049",
-          "monto": 318147.15
+          "concepto": "CIANO CM1 20Gr",
+          "monto": 289086
         },
         {
-          "concepto": "Rotula SALKB 8F",
-          "monto": 59041.29
+          "concepto": "MANGUERA CRISTAL 32X38 (2 ROLLOS)",
+          "monto": 272175
+        },
+        {
+          "concepto": "ALPRESS x 35 Kg",
+          "monto": 246400
+        },
+        {
+          "concepto": "MALACATE MOD 410 P/275 Kg",
+          "monto": 237700
+        },
+        {
+          "concepto": "CANDADO DUBAI INCLUYE 3 LLAVES 25 MM",
+          "monto": 209480
         }
       ]
     }
