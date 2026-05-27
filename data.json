@@ -257,45 +257,21 @@
       "OCs pendientes Mayo: 34.3M en 26 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 28.5M (30.5%)"
     ],
-    "ultimaActualizacion": "26/05/2026",
+    "ultimaActualizacion": "27/05/2026",
     "top10DiaAnterior": {
-      "fecha": "25/05",
+      "fecha": "26/05",
       "items": [
         {
-          "concepto": "CASCOTE MEZCLA X BOLSA",
-          "monto": 867620
+          "concepto": "Abono mantenimiento HVAC",
+          "monto": 2059813
         },
         {
-          "concepto": "VARIADOR ALLEN BRADLEY 22FA4PN103",
-          "monto": 794500
+          "concepto": "PROVISION Y REPARACION DE CORTINAS",
+          "monto": 1340000
         },
         {
-          "concepto": "VARIADOR YASKAWA GA500 1x200/240V 9.6/8.",
-          "monto": 748296
-        },
-        {
-          "concepto": "CAJA HERRAMIENTAS STANLEY 20-300",
-          "monto": 290030.42
-        },
-        {
-          "concepto": "CIANO CM1 20Gr",
-          "monto": 289086
-        },
-        {
-          "concepto": "MANGUERA CRISTAL 32X38 (2 ROLLOS)",
-          "monto": 272175
-        },
-        {
-          "concepto": "ALPRESS x 35 Kg",
-          "monto": 246400
-        },
-        {
-          "concepto": "MALACATE MOD 410 P/275 Kg",
-          "monto": 237700
-        },
-        {
-          "concepto": "CANDADO DUBAI INCLUYE 3 LLAVES 25 MM",
-          "monto": 209480
+          "concepto": "Filtro sedimentos PS5-30",
+          "monto": 121062.69
         }
       ]
     }
