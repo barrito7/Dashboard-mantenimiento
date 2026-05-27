@@ -1,19 +1,19 @@
 {
   "contador": {
     "gastoMesActual": 93477438,
-    "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 132,
-    "disponible": -22697438,
-    "porcentajeDisponible": -32,
+    "presupuestoMesActual": 89000000,
+    "porcentajeGastado": 105,
+    "disponible": -4477438,
+    "porcentajeDisponible": -5,
     "gastoAcumulado2026": 362389804,
-    "presupuestoAcumulado2026": 323551000,
-    "porcentajeAcumulado": 112,
-    "presupuestoAnual": 323551000,
+    "presupuestoAcumulado2026": 341771000,
+    "porcentajeAcumulado": 106,
+    "presupuestoAnual": 341771000,
     "ocsPendientesMesActual": 34323105,
-    "porcentajeOCs": 48.5,
+    "porcentajeOCs": 38.6,
     "proyeccionTotal": 127800543,
-    "proyeccionPorcentaje": 180.6,
-    "excedente": -57020543,
+    "proyeccionPorcentaje": 143.6,
+    "excedente": -38800543,
     "mesActual": "Mayo",
     "top10Mes": [
       {
@@ -246,14 +246,14 @@
       {
         "mes": "Mayo",
         "gasto": 93477438,
-        "presupuesto": 70780000,
-        "porcentaje": 132.1,
+        "presupuesto": 89000000,
+        "porcentaje": 105,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección Mayo: 180.6% del presupuesto - EXCEDE por 57M. Gasto: $93.5M (132%). OCs pendientes: $34.3M.",
+    "chatMensaje": "⚠️ Proyección Mayo: 143.6% del presupuesto - EXCEDE por 38.8M. Gasto: $93.5M (105%). OCs pendientes: $34.3M.",
     "accionesRecomendadas": [
-      "Proyección Mayo EXCEDE presupuesto por 57M (180.6%)",
+      "Proyección Mayo EXCEDE presupuesto por 38.8M (143.6%)",
       "OCs pendientes Mayo: 34.3M en 26 órdenes",
       "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 28.5M (30.5%)"
     ],
