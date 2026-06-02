@@ -1,82 +1,21 @@
 {
   "contador": {
-    "gastoMesActual": 13901754,
+    "gastoMesActual": 0,
     "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 20,
-    "disponible": 56878246,
-    "porcentajeDisponible": 80,
-    "gastoAcumulado2026": 374073649,
+    "porcentajeGastado": 0,
+    "disponible": 70780000,
+    "porcentajeDisponible": 100,
+    "gastoAcumulado2026": 360171895,
     "presupuestoAcumulado2026": 412551000,
-    "porcentajeAcumulado": 90.7,
+    "porcentajeAcumulado": 87.3,
     "presupuestoAnual": 412551000,
     "ocsPendientesMesActual": 12611419,
     "porcentajeOCs": 17.8,
-    "proyeccionTotal": 26513173,
-    "proyeccionPorcentaje": 37.5,
-    "excedente": 44266827,
+    "proyeccionTotal": 12611419,
+    "proyeccionPorcentaje": 17.8,
+    "excedente": 58168581,
     "mesActual": "Junio",
-    "top10Mes": [
-      {
-        "concepto": "",
-        "monto": 2282320,
-        "fecha": "20260601",
-        "nDoc": "70011941"
-      },
-      {
-        "concepto": "CEC IN10/MA010141",
-        "monto": 1322138,
-        "fecha": "20260601",
-        "nDoc": "70011950"
-      },
-      {
-        "concepto": "CEC IN10/MA010111",
-        "monto": 1243166,
-        "fecha": "20260601",
-        "nDoc": "70011942"
-      },
-      {
-        "concepto": "",
-        "monto": 1238543,
-        "fecha": "20260601",
-        "nDoc": "70011957"
-      },
-      {
-        "concepto": "",
-        "monto": 1114688,
-        "fecha": "20260601",
-        "nDoc": "70011958"
-      },
-      {
-        "concepto": "CEC IN10/MA010125",
-        "monto": 941644,
-        "fecha": "20260601",
-        "nDoc": "70011943"
-      },
-      {
-        "concepto": "",
-        "monto": 654634,
-        "fecha": "20260601",
-        "nDoc": "70011940"
-      },
-      {
-        "concepto": "",
-        "monto": 623786,
-        "fecha": "20260601",
-        "nDoc": "70011939"
-      },
-      {
-        "concepto": "",
-        "monto": 495120,
-        "fecha": "20260601",
-        "nDoc": "70011954"
-      },
-      {
-        "concepto": "CEC IN10/MA010216",
-        "monto": 431742,
-        "fecha": "20260601",
-        "nDoc": "70011963"
-      }
-    ],
+    "top10Mes": [],
     "top5OCs": [
       {
         "concepto": "Servicio de Mantenimiento de Máquinas",
@@ -109,14 +48,7 @@
         "montoARS": 4119626
       }
     ],
-    "cuentas": [
-      {
-        "codigo": "75000059",
-        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 13901754,
-        "porcentaje": 100
-      }
-    ],
+    "cuentas": [],
     "ocsPorMes": [
       {
         "mes": "Nov 2025",
@@ -228,57 +160,21 @@
       },
       {
         "mes": "Junio",
-        "gasto": 13901754,
+        "gasto": 0,
         "presupuesto": 70780000,
-        "porcentaje": 19.6,
+        "porcentaje": 0,
         "alerta": "verde"
       }
     ],
-    "chatMensaje": "✅ Proyección Junio: 37.5% del presupuesto. Gasto: $13.9M (20%).",
+    "chatMensaje": "✅ Proyección Junio: 17.8% del presupuesto. Gasto: $0M (0%).",
     "accionesRecomendadas": [
-      "Proyección Junio: 37.5% del presupuesto",
-      "OCs pendientes Junio: 12.6M en 26 órdenes",
-      "CONSUMO ALMACENES Y REPUESTOS lidera con 13.9M (100%)"
+      "Proyección Junio: 17.8% del presupuesto",
+      "OCs pendientes Junio: 12.6M en 26 órdenes"
     ],
     "ultimaActualizacion": "02/06/2026",
     "top10DiaAnterior": {
       "fecha": "01/06",
-      "items": [
-        {
-          "monto": 2282320
-        },
-        {
-          "concepto": "CEC IN10/MA010141",
-          "monto": 1322137.98
-        },
-        {
-          "concepto": "CEC IN10/MA010111",
-          "monto": 1243166.4
-        },
-        {
-          "monto": 1238542.6
-        },
-        {
-          "monto": 1114688.36
-        },
-        {
-          "concepto": "CEC IN10/MA010125",
-          "monto": 941644.2
-        },
-        {
-          "monto": 654634.14
-        },
-        {
-          "monto": 623785.6
-        },
-        {
-          "monto": 495120.36
-        },
-        {
-          "concepto": "CEC IN10/MA010216",
-          "monto": 431741.64
-        }
-      ]
+      "items": []
     }
   }
 }
