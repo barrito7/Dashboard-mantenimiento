@@ -1,20 +1,20 @@
 {
   "contador": {
-    "gastoMesActual": 93477438,
-    "presupuestoMesActual": 89000000,
-    "porcentajeGastado": 105,
-    "disponible": -4477438,
-    "porcentajeDisponible": -5,
-    "gastoAcumulado2026": 362389804,
-    "presupuestoAcumulado2026": 341771000,
-    "porcentajeAcumulado": 106,
-    "presupuestoAnual": 341771000,
-    "ocsPendientesMesActual": 34323105,
-    "porcentajeOCs": 38.6,
-    "proyeccionTotal": 127800543,
-    "proyeccionPorcentaje": 143.6,
-    "excedente": -38800543,
-    "mesActual": "Mayo",
+    "gastoMesActual": 91259529,
+    "presupuestoMesActual": 70780000,
+    "porcentajeGastado": 129,
+    "disponible": -20479529,
+    "porcentajeDisponible": -29,
+    "gastoAcumulado2026": 451431424,
+    "presupuestoAcumulado2026": 412551000,
+    "porcentajeAcumulado": 109.4,
+    "presupuestoAnual": 412551000,
+    "ocsPendientesMesActual": 12611419,
+    "porcentajeOCs": 17.8,
+    "proyeccionTotal": 103870948,
+    "proyeccionPorcentaje": 146.8,
+    "excedente": -33090948,
+    "mesActual": "Junio",
     "top10Mes": [
       {
         "concepto": "IMPERMEABILIZACION FRIPACK",
@@ -71,10 +71,10 @@
         "nDoc": "2000684"
       },
       {
-        "concepto": "INSTALACION DE VALVULAS DE ALIVIO VACIO",
-        "monto": 2201000,
-        "fecha": "20260511",
-        "nDoc": "2000869"
+        "concepto": "SERVICIO REPRACION PUERTA ASC 2",
+        "monto": 2210000,
+        "fecha": "20260527",
+        "nDoc": "2001234"
       }
     ],
     "top5OCs": [
@@ -97,48 +97,48 @@
         "montoARS": 4395891
       },
       {
+        "concepto": "Colocacion de policarbonato",
+        "moneda": "ARS",
+        "monto": 4281750,
+        "montoARS": 4281750
+      },
+      {
         "concepto": "Abono mantenimiento HVAC",
         "moneda": "ARS",
         "monto": 4119626,
         "montoARS": 4119626
-      },
-      {
-        "concepto": "Instalación de Bombas en Sala de Máquina",
-        "moneda": "USD",
-        "monto": 2750,
-        "montoARS": 3726250
       }
     ],
     "cuentas": [
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 20023800.98,
-        "porcentaje": 21.4
+        "total": 11770977.94,
+        "porcentaje": 12.9
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 7051325.98,
-        "porcentaje": 7.5
+        "total": 8307476.03,
+        "porcentaje": 9.1
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 16321425.7,
-        "porcentaje": 17.5
+        "total": 17952392.69,
+        "porcentaje": 19.7
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 21566512.3,
-        "porcentaje": 23.1
+        "total": 22099259.5,
+        "porcentaje": 24.2
       },
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 28514373.05,
-        "porcentaje": 30.5
+        "total": 31129423.05,
+        "porcentaje": 34.1
       }
     ],
     "ocsPorMes": [
@@ -174,13 +174,13 @@
       },
       {
         "mes": "May",
-        "total": 34323105,
-        "count": 26
+        "total": 31708055,
+        "count": 22
       },
       {
         "mes": "Jun",
-        "total": 7278588,
-        "count": 25
+        "total": 12611419,
+        "count": 26
       },
       {
         "mes": "Jul",
@@ -213,7 +213,7 @@
         "count": 0
       }
     ],
-    "totalOCs": 71579918,
+    "totalOCs": 74297699,
     "meses": [
       {
         "mes": "Enero",
@@ -245,33 +245,32 @@
       },
       {
         "mes": "Mayo",
-        "gasto": 93477438,
+        "gasto": 91259529,
         "presupuesto": 89000000,
-        "porcentaje": 105,
+        "porcentaje": 102.5,
+        "alerta": "rojo"
+      },
+      {
+        "mes": "Junio",
+        "gasto": 91259529,
+        "presupuesto": 70780000,
+        "porcentaje": 128.9,
         "alerta": "rojo"
       }
     ],
-    "chatMensaje": "⚠️ Proyección Mayo: 143.6% del presupuesto - EXCEDE por 38.8M. Gasto: $93.5M (105%). OCs pendientes: $34.3M.",
+    "chatMensaje": "⚠️ Proyección Junio: 146.8% del presupuesto - EXCEDE por 33.1M. Gasto: $91.3M (129%). OCs pendientes: $12.6M.",
     "accionesRecomendadas": [
-      "Proyección Mayo EXCEDE presupuesto por 38.8M (143.6%)",
-      "OCs pendientes Mayo: 34.3M en 26 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 28.5M (30.5%)"
+      "Proyección Junio EXCEDE presupuesto por 33.1M (146.8%)",
+      "OCs pendientes Junio: 12.6M en 26 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.1M (34.1%)"
     ],
-    "ultimaActualizacion": "28/05/2026",
+    "ultimaActualizacion": "02/06/2026",
     "top10DiaAnterior": {
-      "fecha": "26/05",
+      "fecha": "29/05",
       "items": [
         {
-          "concepto": "Abono mantenimiento HVAC",
-          "monto": 2059813
-        },
-        {
-          "concepto": "PROVISION Y REPARACION DE CORTINAS",
-          "monto": 1340000
-        },
-        {
-          "concepto": "Filtro sedimentos PS5-30",
-          "monto": 121062.69
+          "concepto": "ELECTROVALVULA VMPA1-M1H-M-PI 533342",
+          "monto": 111299.87
         }
       ]
     }
