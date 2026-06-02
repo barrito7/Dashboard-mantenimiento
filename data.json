@@ -1,21 +1,82 @@
 {
   "contador": {
-    "gastoMesActual": 0,
+    "gastoMesActual": 11496311,
     "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 0,
-    "disponible": 70780000,
-    "porcentajeDisponible": 100,
-    "gastoAcumulado2026": 360171895,
+    "porcentajeGastado": 16,
+    "disponible": 59283689,
+    "porcentajeDisponible": 84,
+    "gastoAcumulado2026": 371668206,
     "presupuestoAcumulado2026": 412551000,
-    "porcentajeAcumulado": 87.3,
+    "porcentajeAcumulado": 90.1,
     "presupuestoAnual": 412551000,
     "ocsPendientesMesActual": 12611419,
     "porcentajeOCs": 17.8,
-    "proyeccionTotal": 12611419,
-    "proyeccionPorcentaje": 17.8,
-    "excedente": 58168581,
+    "proyeccionTotal": 24107730,
+    "proyeccionPorcentaje": 34.1,
+    "excedente": 46672270,
     "mesActual": "Junio",
-    "top10Mes": [],
+    "top10Mes": [
+      {
+        "concepto": "Instalación de Bombas en Sala de Máquina",
+        "monto": 3932500,
+        "fecha": "20260601",
+        "nDoc": "2001305"
+      },
+      {
+        "concepto": "Reparacion completa de bobas",
+        "monto": 2377750,
+        "fecha": "20260601",
+        "nDoc": "2001293"
+      },
+      {
+        "concepto": "CORREA TRANS PROD 13 TACOS 021.008.002",
+        "monto": 1780670,
+        "fecha": "20260601",
+        "nDoc": "21014633"
+      },
+      {
+        "concepto": "CORREA TRANSP PROD 15 TACOS 021.009.001A",
+        "monto": 1664585,
+        "fecha": "20260601",
+        "nDoc": "21014632"
+      },
+      {
+        "concepto": "Servicio apiladora eléctrica",
+        "monto": 949020,
+        "fecha": "20260601",
+        "nDoc": "2001302"
+      },
+      {
+        "concepto": "AFILADO BOSSAR I Y TECMAR",
+        "monto": 328900,
+        "fecha": "20260601",
+        "nDoc": "2001292"
+      },
+      {
+        "concepto": "EXPOXI AUTONIVELANTE P/PISOS RESINA x5 L",
+        "monto": 174555,
+        "fecha": "20260601",
+        "nDoc": "2001323"
+      },
+      {
+        "concepto": "AFILADO DE CUCHILLAS TECMAR",
+        "monto": 128700,
+        "fecha": "20260601",
+        "nDoc": "2001294"
+      },
+      {
+        "concepto": "Filtro sedimentos PS5-30",
+        "monto": 121063,
+        "fecha": "20260601",
+        "nDoc": "21014581"
+      },
+      {
+        "concepto": "SILICONA BLANCA C/FUNGICIDA",
+        "monto": 27664,
+        "fecha": "20260601",
+        "nDoc": "2001322"
+      }
+    ],
     "top5OCs": [
       {
         "concepto": "Servicio de Mantenimiento de Máquinas",
@@ -48,7 +109,32 @@
         "montoARS": 4119626
       }
     ],
-    "cuentas": [],
+    "cuentas": [
+      {
+        "codigo": "75000059",
+        "nombre": "CONSUMO ALMACENES Y REPUESTOS",
+        "total": 3577222,
+        "porcentaje": 31.1
+      },
+      {
+        "codigo": "80100009",
+        "nombre": "MANTENIMIENTO EDIFICIOS",
+        "total": 202219,
+        "porcentaje": 1.8
+      },
+      {
+        "codigo": "80200254",
+        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
+        "total": 3784370,
+        "porcentaje": 32.9
+      },
+      {
+        "codigo": "80200255",
+        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
+        "total": 3932500,
+        "porcentaje": 34.2
+      }
+    ],
     "ocsPorMes": [
       {
         "mes": "Nov 2025",
@@ -160,21 +246,63 @@
       },
       {
         "mes": "Junio",
-        "gasto": 0,
+        "gasto": 11496311,
         "presupuesto": 70780000,
-        "porcentaje": 0,
+        "porcentaje": 16.2,
         "alerta": "verde"
       }
     ],
-    "chatMensaje": "✅ Proyección Junio: 17.8% del presupuesto. Gasto: $0M (0%).",
+    "chatMensaje": "✅ Proyección Junio: 34.1% del presupuesto. Gasto: $11.5M (16%).",
     "accionesRecomendadas": [
-      "Proyección Junio: 17.8% del presupuesto",
-      "OCs pendientes Junio: 12.6M en 26 órdenes"
+      "Proyección Junio: 34.1% del presupuesto",
+      "OCs pendientes Junio: 12.6M en 26 órdenes",
+      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 3.9M (34.2%)"
     ],
     "ultimaActualizacion": "02/06/2026",
     "top10DiaAnterior": {
       "fecha": "01/06",
-      "items": []
+      "items": [
+        {
+          "concepto": "Instalación de Bombas en Sala de Máquina",
+          "monto": 3932500
+        },
+        {
+          "concepto": "Reparacion completa de bobas",
+          "monto": 2377750
+        },
+        {
+          "concepto": "CORREA TRANS PROD 13 TACOS 021.008.002",
+          "monto": 1780669.57
+        },
+        {
+          "concepto": "CORREA TRANSP PROD 15 TACOS 021.009.001A",
+          "monto": 1664584.54
+        },
+        {
+          "concepto": "Servicio apiladora eléctrica",
+          "monto": 949019.5
+        },
+        {
+          "concepto": "AFILADO BOSSAR I Y TECMAR",
+          "monto": 328900
+        },
+        {
+          "concepto": "EXPOXI AUTONIVELANTE P/PISOS RESINA x5 L",
+          "monto": 174555
+        },
+        {
+          "concepto": "AFILADO DE CUCHILLAS TECMAR",
+          "monto": 128700
+        },
+        {
+          "concepto": "Filtro sedimentos PS5-30",
+          "monto": 121062.69
+        },
+        {
+          "concepto": "SILICONA BLANCA C/FUNGICIDA",
+          "monto": 27664
+        }
+      ]
     }
   }
 }
