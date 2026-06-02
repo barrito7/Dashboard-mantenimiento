@@ -68,12 +68,14 @@ function actualizarPanelContador() {
             '<span style="color: #e74c3c;">🔴 ' + (excede ? 'EXCEDE presupuesto por ' + fmt(Math.abs(c.excedente)) + ' (' + pct(c.proyeccionPorcentaje) + ')' : 'Solo ' + fmt(c.disponible) + ' de margen') + '</span>';
     }
 
-    // Todas las OCs pendientes del mes
+    // Todas las OCs pendientes del mes (tabla completa)
     const ocsJunioList = document.querySelector('[id="cnt-top5-ocs"]');
     if (ocsJunioList) {
         const ocs = c.ocsJunio || c.top5OCs;
-        ocsJunioList.innerHTML = ocs.map((oc, i) =>
-            '<li><strong>' + (i+1) + '.</strong> ' + oc.concepto + ': ' + oc.moneda + ' ' + Number(oc.monto).toLocaleString('es-AR') + ' (~' + fmt(oc.montoARS) + ')</li>'
+        // Sort by montoARS descending
+        const sortedOcs = [...ocs].sort((a, b) => (b.montoARS || 0) - (a.montoARS || 0));
+        ocsJunioList.innerHTML = sortedOcs.map((oc, i) =>
+            '<li><strong>' + (i+1) + '.</strong> ' + (oc.docCompr ? '<span style="color:#f39c12">OC ' + oc.docCompr + '</span> - ' : '') + oc.concepto + ': ' + oc.moneda + ' ' + Number(oc.monto).toLocaleString('es-AR') + ' (~' + fmt(oc.montoARS) + ')</li>'
         ).join('');
     }
 

@@ -79,38 +79,29 @@
     ],
     "top5OCs": [
       {
-        "concepto": "Colocacion de policarbonato",
         "moneda": "ARS",
-        "monto": 4281750,
         "montoARS": 4281750
       },
       {
-        "concepto": "REPARACION PUERTA PISO SUBSUELO",
         "moneda": "ARS",
-        "monto": 1820000,
         "montoARS": 1820000
       },
       {
-        "concepto": "EMBOLO PISTON MEWES AC. INOX",
         "moneda": "USD",
-        "monto": 770,
         "montoARS": 1043350
       },
       {
-        "concepto": "POLEA DENTADA Z25 T10 6F ALUMINIO 6061",
         "moneda": "USD",
-        "monto": 660,
         "montoARS": 894300
       },
       {
-        "concepto": "REPARACION ASCENSOR 2 PERSONAS (FRENO",
         "moneda": "ARS",
-        "monto": 810000,
         "montoARS": 810000
       }
     ],
     "ocsJunio": [
       {
+        "docCompr": "4600522577",
         "concepto": "Colocacion de policarbonato",
         "fecha": "2026-06-19",
         "moneda": "ARS",
@@ -118,6 +109,7 @@
         "montoARS": 4281750
       },
       {
+        "docCompr": "4600521513",
         "concepto": "REPARACION PUERTA PISO SUBSUELO",
         "fecha": "2026-06-25",
         "moneda": "ARS",
@@ -125,6 +117,7 @@
         "montoARS": 1820000
       },
       {
+        "docCompr": "4600522581",
         "concepto": "REPARACION ASCENSOR 2 PERSONAS (FRENO",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -132,6 +125,7 @@
         "montoARS": 810000
       },
       {
+        "docCompr": "3500284608",
         "concepto": "Art 0051 Banda 90mm xMts lineal amarillo",
         "fecha": "2026-06-10",
         "moneda": "ARS",
@@ -139,6 +133,7 @@
         "montoARS": 437400
       },
       {
+        "docCompr": "3500284483",
         "concepto": "PLANCHA POLIURETANO 500x500X DUREZ 80/85",
         "fecha": "2026-06-13",
         "moneda": "ARS",
@@ -146,6 +141,7 @@
         "montoARS": 299590
       },
       {
+        "docCompr": "3500284369",
         "concepto": "BRAZO 700-55-00079/00-1",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -153,6 +149,7 @@
         "montoARS": 267961
       },
       {
+        "docCompr": "3500284369",
         "concepto": "EMPUJADOR 701-56-00301/00-1",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -160,6 +157,7 @@
         "montoARS": 176250
       },
       {
+        "docCompr": "3500284369",
         "concepto": "EJE 020-14-00025/00-1",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -167,6 +165,7 @@
         "montoARS": 165182
       },
       {
+        "docCompr": "3500284369",
         "concepto": "PLEGADOR 701-07-00156/00-1",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -174,6 +173,7 @@
         "montoARS": 117030
       },
       {
+        "docCompr": "3500283634",
         "concepto": "GASTOS DE FLETE",
         "fecha": "2026-06-03",
         "moneda": "ARS",
@@ -181,6 +181,7 @@
         "montoARS": 85000
       },
       {
+        "docCompr": "3500284369",
         "concepto": "GASTOS DE FLETE URGENTE",
         "fecha": "2026-06-16",
         "moneda": "ARS",
@@ -188,6 +189,7 @@
         "montoARS": 85000
       },
       {
+        "docCompr": "3500284607",
         "concepto": "SILICONA BLANCA C/FUNGICIDA",
         "fecha": "2026-06-10",
         "moneda": "ARS",
@@ -195,6 +197,7 @@
         "montoARS": 27664
       },
       {
+        "docCompr": "3500284355",
         "concepto": "EMBOLO PISTON MEWES AC. INOX",
         "fecha": "2026-06-16",
         "moneda": "USD",
@@ -202,6 +205,7 @@
         "montoARS": 1043350
       },
       {
+        "docCompr": "3500283950",
         "concepto": "POLEA DENTADA Z25 T10 6F ALUMINIO 6061",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -209,6 +213,7 @@
         "montoARS": 894300
       },
       {
+        "docCompr": "3500284281",
         "concepto": "FILTRO ALTO PARA BOMBAS",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -216,6 +221,7 @@
         "montoARS": 476960
       },
       {
+        "docCompr": "3500282398",
         "concepto": "HORQUILLA ACCIONAMIENTO 21.07.0.03.01.0",
         "fecha": "2026-06-05",
         "moneda": "EUR",
@@ -223,6 +229,7 @@
         "montoARS": 476012
       },
       {
+        "docCompr": "4600522576",
         "concepto": "Porta pomo de su propiedad retocado",
         "fecha": "2026-06-19",
         "moneda": "USD",
@@ -230,6 +237,7 @@
         "montoARS": 303520
       },
       {
+        "docCompr": "4600521647",
         "concepto": "AFILADO BOSSAR I Y TECMAR",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -237,6 +245,7 @@
         "montoARS": 271000
       },
       {
+        "docCompr": "3500282398",
         "concepto": "CARGO DE GESTION",
         "fecha": "2026-06-05",
         "moneda": "EUR",
@@ -244,6 +253,7 @@
         "montoARS": 101625
       },
       {
+        "docCompr": "3500284556",
         "concepto": "TERMICA TETRAPOLAR EATON 40A",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -251,6 +261,7 @@
         "montoARS": 82967
       },
       {
+        "docCompr": "3500282398",
         "concepto": "EJE @16x68 PARA SEGGER 21.07.0.03.05.0",
         "fecha": "2026-06-05",
         "moneda": "EUR",
@@ -258,6 +269,7 @@
         "montoARS": 75297
       },
       {
+        "docCompr": "3500284969",
         "concepto": "COVER SWITCH M - HITACHI PB, PX, PXR, PH",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -265,6 +277,7 @@
         "montoARS": 73875
       },
       {
+        "docCompr": "3500282398",
         "concepto": "BIELA MORDAZA TRAS 21.07.0.03.02.0",
         "fecha": "2026-06-05",
         "moneda": "EUR",
@@ -272,6 +285,7 @@
         "montoARS": 71232
       },
       {
+        "docCompr": "3500284556",
         "concepto": "TERMICA TETRAPOLAR EATON 16A",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -279,6 +293,7 @@
         "montoARS": 63902
       },
       {
+        "docCompr": "3500284556",
         "concepto": "TERMICA TETRAPOLAR EATON 25A",
         "fecha": "2026-06-10",
         "moneda": "USD",
@@ -286,6 +301,7 @@
         "montoARS": 63902
       },
       {
+        "docCompr": "4600521647",
         "concepto": "AFILADO BOSSAR I Y TECMAR",
         "fecha": "2026-06-10",
         "moneda": "USD",
