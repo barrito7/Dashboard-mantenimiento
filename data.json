@@ -1,80 +1,80 @@
 {
   "contador": {
-    "gastoMesActual": 91259529,
+    "gastoMesActual": 13901754,
     "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 129,
-    "disponible": -20479529,
-    "porcentajeDisponible": -29,
-    "gastoAcumulado2026": 451431424,
+    "porcentajeGastado": 20,
+    "disponible": 56878246,
+    "porcentajeDisponible": 80,
+    "gastoAcumulado2026": 374073649,
     "presupuestoAcumulado2026": 412551000,
-    "porcentajeAcumulado": 109.4,
+    "porcentajeAcumulado": 90.7,
     "presupuestoAnual": 412551000,
     "ocsPendientesMesActual": 12611419,
     "porcentajeOCs": 17.8,
-    "proyeccionTotal": 103870948,
-    "proyeccionPorcentaje": 146.8,
-    "excedente": -33090948,
+    "proyeccionTotal": 26513173,
+    "proyeccionPorcentaje": 37.5,
+    "excedente": 44266827,
     "mesActual": "Junio",
     "top10Mes": [
       {
-        "concepto": "IMPERMEABILIZACION FRIPACK",
-        "monto": 7800000,
-        "fecha": "20260520",
-        "nDoc": "2001142"
+        "concepto": "",
+        "monto": 2282320,
+        "fecha": "20260601",
+        "nDoc": "70011941"
       },
       {
-        "concepto": "CAMBIO DE EJE PRINCIPAL",
-        "monto": 5518500,
-        "fecha": "20260504",
-        "nDoc": "2000663"
+        "concepto": "CEC IN10/MA010141",
+        "monto": 1322138,
+        "fecha": "20260601",
+        "nDoc": "70011950"
       },
       {
-        "concepto": "BOMBA COMPLETA P200/PKPPP/WFS 02-10576",
-        "monto": 4607226,
-        "fecha": "20260512",
-        "nDoc": "2000948"
+        "concepto": "CEC IN10/MA010111",
+        "monto": 1243166,
+        "fecha": "20260601",
+        "nDoc": "70011942"
       },
       {
-        "concepto": "acrilico Puerta pick and pleace",
-        "monto": 3598345,
-        "fecha": "20260512",
-        "nDoc": "2000944"
+        "concepto": "",
+        "monto": 1238543,
+        "fecha": "20260601",
+        "nDoc": "70011957"
       },
       {
-        "concepto": "VENTOSA U-15 SILICONA ROJA",
-        "monto": 3505231,
-        "fecha": "20260503",
-        "nDoc": "21007154"
+        "concepto": "",
+        "monto": 1114688,
+        "fecha": "20260601",
+        "nDoc": "70011958"
       },
       {
-        "concepto": "Instalación de pulmón de aire.",
-        "monto": 2930000,
-        "fecha": "20260504",
-        "nDoc": "2000697"
+        "concepto": "CEC IN10/MA010125",
+        "monto": 941644,
+        "fecha": "20260601",
+        "nDoc": "70011943"
       },
       {
-        "concepto": "Modificación de 3 software de control",
-        "monto": 2734000,
-        "fecha": "20260505",
-        "nDoc": "2000739"
+        "concepto": "",
+        "monto": 654634,
+        "fecha": "20260601",
+        "nDoc": "70011940"
       },
       {
-        "concepto": "SELLO MEC MONOR CS.+ORING 15 VITON 50/21",
-        "monto": 2683820,
-        "fecha": "20260508",
-        "nDoc": "21009004"
+        "concepto": "",
+        "monto": 623786,
+        "fecha": "20260601",
+        "nDoc": "70011939"
       },
       {
-        "concepto": "Instalación de seca manos",
-        "monto": 2400000,
-        "fecha": "20260504",
-        "nDoc": "2000684"
+        "concepto": "",
+        "monto": 495120,
+        "fecha": "20260601",
+        "nDoc": "70011954"
       },
       {
-        "concepto": "SERVICIO REPRACION PUERTA ASC 2",
-        "monto": 2210000,
-        "fecha": "20260527",
-        "nDoc": "2001234"
+        "concepto": "CEC IN10/MA010216",
+        "monto": 431742,
+        "fecha": "20260601",
+        "nDoc": "70011963"
       }
     ],
     "top5OCs": [
@@ -113,32 +113,8 @@
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 11770977.94,
-        "porcentaje": 12.9
-      },
-      {
-        "codigo": "80100009",
-        "nombre": "MANTENIMIENTO EDIFICIOS",
-        "total": 8307476.03,
-        "porcentaje": 9.1
-      },
-      {
-        "codigo": "80100010",
-        "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 17952392.69,
-        "porcentaje": 19.7
-      },
-      {
-        "codigo": "80200254",
-        "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 22099259.5,
-        "porcentaje": 24.2
-      },
-      {
-        "codigo": "80200255",
-        "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 31129423.05,
-        "porcentaje": 34.1
+        "total": 13901754,
+        "porcentaje": 100
       }
     ],
     "ocsPorMes": [
@@ -252,25 +228,55 @@
       },
       {
         "mes": "Junio",
-        "gasto": 91259529,
+        "gasto": 13901754,
         "presupuesto": 70780000,
-        "porcentaje": 128.9,
-        "alerta": "rojo"
+        "porcentaje": 19.6,
+        "alerta": "verde"
       }
     ],
-    "chatMensaje": "⚠️ Proyección Junio: 146.8% del presupuesto - EXCEDE por 33.1M. Gasto: $91.3M (129%). OCs pendientes: $12.6M.",
+    "chatMensaje": "✅ Proyección Junio: 37.5% del presupuesto. Gasto: $13.9M (20%).",
     "accionesRecomendadas": [
-      "Proyección Junio EXCEDE presupuesto por 33.1M (146.8%)",
+      "Proyección Junio: 37.5% del presupuesto",
       "OCs pendientes Junio: 12.6M en 26 órdenes",
-      "SERVICIOS MANTENIMIENTO EDIFICIOS lidera con 31.1M (34.1%)"
+      "CONSUMO ALMACENES Y REPUESTOS lidera con 13.9M (100%)"
     ],
     "ultimaActualizacion": "02/06/2026",
     "top10DiaAnterior": {
-      "fecha": "29/05",
+      "fecha": "01/06",
       "items": [
         {
-          "concepto": "ELECTROVALVULA VMPA1-M1H-M-PI 533342",
-          "monto": 111299.87
+          "monto": 2282320
+        },
+        {
+          "concepto": "CEC IN10/MA010141",
+          "monto": 1322137.98
+        },
+        {
+          "concepto": "CEC IN10/MA010111",
+          "monto": 1243166.4
+        },
+        {
+          "monto": 1238542.6
+        },
+        {
+          "monto": 1114688.36
+        },
+        {
+          "concepto": "CEC IN10/MA010125",
+          "monto": 941644.2
+        },
+        {
+          "monto": 654634.14
+        },
+        {
+          "monto": 623785.6
+        },
+        {
+          "monto": 495120.36
+        },
+        {
+          "concepto": "CEC IN10/MA010216",
+          "monto": 431741.64
         }
       ]
     }
