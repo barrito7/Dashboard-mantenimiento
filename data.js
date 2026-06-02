@@ -68,11 +68,12 @@ function actualizarPanelContador() {
             '<span style="color: #e74c3c;">🔴 ' + (excede ? 'EXCEDE presupuesto por ' + fmt(Math.abs(c.excedente)) + ' (' + pct(c.proyeccionPorcentaje) + ')' : 'Solo ' + fmt(c.disponible) + ' de margen') + '</span>';
     }
 
-    // Top 5 OCs
-    const ocsList = document.querySelector('[id="cnt-top5-ocs"]');
-    if (ocsList) {
-        ocsList.innerHTML = c.top5OCs.map((oc, i) =>
-            '<li><strong>' + (i+1) + '.</strong> ' + oc.concepto + ': ' + oc.moneda + ' ' + oc.monto.toLocaleString('es-AR') + ' (~' + fmt(oc.montoARS) + ')</li>'
+    // Todas las OCs pendientes del mes
+    const ocsJunioList = document.querySelector('[id="cnt-top5-ocs"]');
+    if (ocsJunioList) {
+        const ocs = c.ocsJunio || c.top5OCs;
+        ocsJunioList.innerHTML = ocs.map((oc, i) =>
+            '<li><strong>' + (i+1) + '.</strong> ' + oc.concepto + ': ' + oc.moneda + ' ' + Number(oc.monto).toLocaleString('es-AR') + ' (~' + fmt(oc.montoARS) + ')</li>'
         ).join('');
     }
 
@@ -147,9 +148,9 @@ function actualizarPanelContador() {
         totalPorc.style.color = c.porcentajeAcumulado > 95 ? '#e74c3c' : '#f39c12';
     }
 
-    // Top 5 OCs title
+    // OCs title
     const ocsTitle = document.querySelector('[id="cnt-ocs-title"]');
-    if (ocsTitle) ocsTitle.textContent = '🟡 Top 5 OCs pendientes de entrega (' + nombreMes.toLowerCase() + ')';
+    if (ocsTitle) ocsTitle.textContent = '🟡 OCs pendientes de entrega (' + nombreMes.toLowerCase() + ') - ' + (c.ocsJunio ? c.ocsJunio.length : c.top5OCs.length) + ' órdenes';
 
     // OCs footer
     const ocsFooter = document.querySelector('[id="cnt-ocs-footer"]');

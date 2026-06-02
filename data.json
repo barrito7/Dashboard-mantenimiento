@@ -79,34 +79,218 @@
     ],
     "top5OCs": [
       {
-        "concepto": "Servicio de Mantenimiento de Máquinas",
-        "moneda": "USD",
-        "monto": 8643.8,
-        "montoARS": 11712349
-      },
-      {
-        "concepto": "Mantenimiento Extintores 2026",
-        "moneda": "ARS",
-        "monto": 5820000,
-        "montoARS": 5820000
-      },
-      {
-        "concepto": "Alquiler de Chiller",
-        "moneda": "USD",
-        "monto": 3244.2,
-        "montoARS": 4395891
-      },
-      {
         "concepto": "Colocacion de policarbonato",
         "moneda": "ARS",
         "monto": 4281750,
         "montoARS": 4281750
       },
       {
-        "concepto": "Abono mantenimiento HVAC",
+        "concepto": "REPARACION PUERTA PISO SUBSUELO",
         "moneda": "ARS",
-        "monto": 4119626,
-        "montoARS": 4119626
+        "monto": 1820000,
+        "montoARS": 1820000
+      },
+      {
+        "concepto": "EMBOLO PISTON MEWES AC. INOX",
+        "moneda": "USD",
+        "monto": 770,
+        "montoARS": 1043350
+      },
+      {
+        "concepto": "POLEA DENTADA Z25 T10 6F ALUMINIO 6061",
+        "moneda": "USD",
+        "monto": 660,
+        "montoARS": 894300
+      },
+      {
+        "concepto": "REPARACION ASCENSOR 2 PERSONAS (FRENO",
+        "moneda": "ARS",
+        "monto": 810000,
+        "montoARS": 810000
+      }
+    ],
+    "ocsJunio": [
+      {
+        "concepto": "Colocacion de policarbonato",
+        "fecha": "2026-06-19",
+        "moneda": "ARS",
+        "monto": 4281750,
+        "montoARS": 4281750
+      },
+      {
+        "concepto": "REPARACION PUERTA PISO SUBSUELO",
+        "fecha": "2026-06-25",
+        "moneda": "ARS",
+        "monto": 1820000,
+        "montoARS": 1820000
+      },
+      {
+        "concepto": "REPARACION ASCENSOR 2 PERSONAS (FRENO",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 810000,
+        "montoARS": 810000
+      },
+      {
+        "concepto": "Art 0051 Banda 90mm xMts lineal amarillo",
+        "fecha": "2026-06-10",
+        "moneda": "ARS",
+        "monto": 437400,
+        "montoARS": 437400
+      },
+      {
+        "concepto": "PLANCHA POLIURETANO 500x500X DUREZ 80/85",
+        "fecha": "2026-06-13",
+        "moneda": "ARS",
+        "monto": 299590,
+        "montoARS": 299590
+      },
+      {
+        "concepto": "BRAZO 700-55-00079/00-1",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 267961.1,
+        "montoARS": 267961
+      },
+      {
+        "concepto": "EMPUJADOR 701-56-00301/00-1",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 176250,
+        "montoARS": 176250
+      },
+      {
+        "concepto": "EJE 020-14-00025/00-1",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 165181.5,
+        "montoARS": 165182
+      },
+      {
+        "concepto": "PLEGADOR 701-07-00156/00-1",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 117030,
+        "montoARS": 117030
+      },
+      {
+        "concepto": "GASTOS DE FLETE",
+        "fecha": "2026-06-03",
+        "moneda": "ARS",
+        "monto": 85000,
+        "montoARS": 85000
+      },
+      {
+        "concepto": "GASTOS DE FLETE URGENTE",
+        "fecha": "2026-06-16",
+        "moneda": "ARS",
+        "monto": 85000,
+        "montoARS": 85000
+      },
+      {
+        "concepto": "SILICONA BLANCA C/FUNGICIDA",
+        "fecha": "2026-06-10",
+        "moneda": "ARS",
+        "monto": 27664,
+        "montoARS": 27664
+      },
+      {
+        "concepto": "EMBOLO PISTON MEWES AC. INOX",
+        "fecha": "2026-06-16",
+        "moneda": "USD",
+        "monto": 770,
+        "montoARS": 1043350
+      },
+      {
+        "concepto": "POLEA DENTADA Z25 T10 6F ALUMINIO 6061",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 660,
+        "montoARS": 894300
+      },
+      {
+        "concepto": "FILTRO ALTO PARA BOMBAS",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 352,
+        "montoARS": 476960
+      },
+      {
+        "concepto": "HORQUILLA ACCIONAMIENTO 21.07.0.03.01.0",
+        "fecha": "2026-06-05",
+        "moneda": "EUR",
+        "monto": 351.3,
+        "montoARS": 476012
+      },
+      {
+        "concepto": "Porta pomo de su propiedad retocado",
+        "fecha": "2026-06-19",
+        "moneda": "USD",
+        "monto": 224,
+        "montoARS": 303520
+      },
+      {
+        "concepto": "AFILADO BOSSAR I Y TECMAR",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 200,
+        "montoARS": 271000
+      },
+      {
+        "concepto": "CARGO DE GESTION",
+        "fecha": "2026-06-05",
+        "moneda": "EUR",
+        "monto": 75,
+        "montoARS": 101625
+      },
+      {
+        "concepto": "TERMICA TETRAPOLAR EATON 40A",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 61.23,
+        "montoARS": 82967
+      },
+      {
+        "concepto": "EJE @16x68 PARA SEGGER 21.07.0.03.05.0",
+        "fecha": "2026-06-05",
+        "moneda": "EUR",
+        "monto": 55.57,
+        "montoARS": 75297
+      },
+      {
+        "concepto": "COVER SWITCH M - HITACHI PB, PX, PXR, PH",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 54.52,
+        "montoARS": 73875
+      },
+      {
+        "concepto": "BIELA MORDAZA TRAS 21.07.0.03.02.0",
+        "fecha": "2026-06-05",
+        "moneda": "EUR",
+        "monto": 52.57,
+        "montoARS": 71232
+      },
+      {
+        "concepto": "TERMICA TETRAPOLAR EATON 16A",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 47.16,
+        "montoARS": 63902
+      },
+      {
+        "concepto": "TERMICA TETRAPOLAR EATON 25A",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 47.16,
+        "montoARS": 63902
+      },
+      {
+        "concepto": "AFILADO BOSSAR I Y TECMAR",
+        "fecha": "2026-06-10",
+        "moneda": "USD",
+        "monto": 30,
+        "montoARS": 40650
       }
     ],
     "cuentas": [
