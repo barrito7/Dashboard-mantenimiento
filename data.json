@@ -1,19 +1,19 @@
 {
   "contador": {
-    "gastoMesActual": 39695455,
+    "gastoMesActual": 32305313,
     "presupuestoMesActual": 70780000,
-    "porcentajeGastado": 56,
-    "disponible": 31084545,
-    "porcentajeDisponible": 44,
-    "gastoAcumulado2026": 569258783,
+    "porcentajeGastado": 46,
+    "disponible": 38474687,
+    "porcentajeDisponible": 54,
+    "gastoAcumulado2026": 561868641,
     "presupuestoAcumulado2026": 568331000,
-    "porcentajeAcumulado": 100.2,
+    "porcentajeAcumulado": 98.9,
     "presupuestoAnual": 568331000,
     "ocsPendientesMesActual": 0,
     "porcentajeOCs": 0,
-    "proyeccionTotal": 39695455,
-    "proyeccionPorcentaje": 56.1,
-    "excedente": 31084545,
+    "proyeccionTotal": 32305313,
+    "proyeccionPorcentaje": 45.6,
+    "excedente": 38474687,
     "mesActual": "Agosto",
     "top10Mes": [
       {
@@ -83,32 +83,32 @@
       {
         "codigo": "75000059",
         "nombre": "CONSUMO ALMACENES Y REPUESTOS",
-        "total": 11807279,
-        "porcentaje": 29.7
+        "total": 6797237,
+        "porcentaje": 21
       },
       {
         "codigo": "80100009",
         "nombre": "MANTENIMIENTO EDIFICIOS",
         "total": 281607,
-        "porcentaje": 0.7
+        "porcentaje": 0.9
       },
       {
         "codigo": "80100010",
         "nombre": "MANTENIMIENTO MAQUINARIAS",
-        "total": 1514299,
-        "porcentaje": 3.8
+        "total": 1504899,
+        "porcentaje": 4.7
       },
       {
         "codigo": "80200254",
         "nombre": "SERVICIOS MANTENIMIENTO MAQUINARIAS",
-        "total": 14566678,
-        "porcentaje": 36.7
+        "total": 13175978,
+        "porcentaje": 40.8
       },
       {
         "codigo": "80200255",
         "nombre": "SERVICIOS MANTENIMIENTO EDIFICIOS",
-        "total": 11525592,
-        "porcentaje": 29
+        "total": 10545592,
+        "porcentaje": 32.6
       }
     ],
     "ocsPorMes": [
@@ -236,17 +236,17 @@
       },
       {
         "mes": "Agosto",
-        "gasto": 39695455,
+        "gasto": 32305313,
         "presupuesto": 70780000,
-        "porcentaje": 56.1,
+        "porcentaje": 45.6,
         "alerta": "verde"
       }
     ],
-    "chatMensaje": "✅ Proyección Agosto: 56.1% del presupuesto. Gasto: $39.7M (56%).",
+    "chatMensaje": "✅ Proyección Agosto: 45.6% del presupuesto. Gasto: $32.3M (46%).",
     "accionesRecomendadas": [
-      "Proyección Agosto: 56.1% del presupuesto",
+      "Proyección Agosto: 45.6% del presupuesto",
       "OCs pendientes Agosto: 0M en 0 órdenes",
-      "SERVICIOS MANTENIMIENTO MAQUINARIAS lidera con 14.6M (36.7%)"
+      "SERVICIOS MANTENIMIENTO MAQUINARIAS lidera con 13.2M (40.8%)"
     ],
     "ultimaActualizacion": "11/08/2026",
     "top10DiaAnterior": {
